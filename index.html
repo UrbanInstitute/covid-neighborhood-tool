@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+        <title>covid neighborhood tool</title>
+        <link rel="stylesheet" type="text/css" href="css/vendor/jquery-ui.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic,900" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+
+        <div class = "tmp-container">
+            <div id = "tmp-title"></div>
+            <div id = "tmp-sub"></div>
+        </div>
+
+        <div id="urban-embed_covid-neighborhood"></div>
+
+        <script src="js/vendor/pym.min.js"></script>
+        <script>
+            var pymParent = new pym.Parent('urban-embed_covid-neighborhood', 'child.html', {});
+        </script>
+
+    </body>
+</html>
