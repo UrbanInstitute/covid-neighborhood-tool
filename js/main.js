@@ -1,5 +1,6 @@
 var US_ZOOM = 3.5;
-var US_CENTER = [-95.5795, 37.8283]
+// var US_CENTER = [-95.5795, 37.8283]
+var US_CENTER = [-77.036560,38.897957];
 
 var pymChild = new pym.Child({renderCallback: initMap });
 
@@ -26,6 +27,7 @@ function initMap(){
 	});
 
     // map.fitBounds([[-133.2421875, 16.972741], [-47.63671875, 52.696361]]);
+    var tractID = null; // track which tract is mousedover
 
     map.on('load', function() {
 
@@ -42,21 +44,11 @@ function initMap(){
             ]
         );
 
-        var hideHoverData = {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Polygon',
-                'coordinates': [[]]
-            }
-        }
+        // hover behavior adapted from: https://docs.mapbox.com/help/tutorials/create-interactive-hover-effects-with-mapbox-gl-js/
+        map.on('mousemove', 'housing-data-indexid', function(e) { // detect mousemove on the fill layer instead of stroke layer so correct tract is highlighted
 
-        map.on('mousemove', 'tract-hover-strokes', function(e) {
-
-            console.log(e.features[0].properties)
+            console.log(e.features[0].properties);
             // console.log(e.features);
-
-            var tractID = null;
-
 
             map.getCanvas().style.cursor = 'pointer';
             // Set variables equal to the current feature's magnitude, location, and time
@@ -66,17 +58,13 @@ function initMap(){
 
             // Check whether features exist
             if (e.features.length > 0) {
-                // Display the magnitude, location, and time in the sidebar
-                // magDisplay.textContent = quakeMagnitude;
-                // locDisplay.textContent = quakeLocation;
-                // dateDisplay.textContent = quakeDate;
 
                 // If tractID for the hovered feature is not null,
                 // use removeFeatureState to reset to the default behavior
                 if (tractID) {
                     map.removeFeatureState({
                         source: 'composite',
-                        sourceLayer: 'housing-data-indicators',
+                        sourceLayer: 'housing_data_indexid',
                         id: tractID
                     });
                 }
@@ -85,14 +73,18 @@ function initMap(){
 
                 // When the mouse moves over the tract-hover-strokes layer, update the
                 // feature state for the feature under the mouse
-                map.setFeatureState(
-                    { source: 'composite', sourceLayer: 'housing-data-indicators', id: tractID },
-                    { hover: true }
-                );
+                map.setFeatureState({
+                    source: 'composite',
+                    sourceLayer: 'housing_data_indexid',
+                    id: tractID
+                },
+                {
+                    hover: true
+                });
 
             }
 
-        })
+        });
     });
 
 	map.addControl(new mapboxgl.NavigationControl({"showCompass": false}), "bottom-right");
