@@ -1,8 +1,7 @@
 var US_ZOOM = 3.5;
-// var US_CENTER = [-95.5795, 37.8283]
-var US_CENTER = [-77.036560,38.897957];
+var US_CENTER = [-95.5795, 37.8283];
 
-var pymChild = new pym.Child({renderCallback: initMap });
+var pymChild = new pym.Child({renderCallback: getCoords });
 
 function IS_MOBILE(){
 	return d3.select("#isMobile").style("display") == "block"
@@ -11,20 +10,53 @@ function IS_PHONE(){
 	return d3.select("#isPhone").style("display") == "block"
 }
 
+// function init() {
+//     getCoords()
+//         .then(initMap)
+//         .catch(function handleError(error) { console.log(error); });
+// }
 
-function initMap(){
+function getCoords() {
+    var request = new XMLHttpRequest();
+    request.open("GET", "https://get.geojs.io/v1/ip/geo.json");
+    request.send();
+    request.onload = function() {
+        // console.log(request);
+        if(request.status === 200) {
+            var response = JSON.parse(request.response);
+            var lat = +response.latitude;
+            var long = +response.longitude;
+            var city = response.city;
+            var state = response.region;
+            var country = response.country;
+            var accuracy = response.accuracy;
+
+            // what if user is from outside the US? need some default coords
+            console.log(response);
+
+            initMap(lat, long);
+        }
+        else {
+            console.log("error");
+        }
+    }
+}
+
+function initMap(user_lat, user_lng){
 	// initLegend()
+
 	mapboxgl.accessToken = 'pk.eyJ1IjoidXJiYW5pbnN0aXR1dGUiLCJhIjoiTEJUbmNDcyJ9.mbuZTy4hI_PWXw3C3UFbDQ';
 
 	var map = new mapboxgl.Map({
 		attributionControl: false,
 		container: 'map',
 		style: 'mapbox://styles/urbaninstitute/ckcnh9jwm2llo1hp4yvfvy76i',
-		center: US_CENTER,
-		zoom: US_ZOOM,
+		center: [user_lng, user_lat],
+		zoom: 9,
 		maxZoom: 12,
 		minZoom: US_ZOOM
 	});
+
 
     // map.fitBounds([[-133.2421875, 16.972741], [-47.63671875, 52.696361]]);
     var tractID = null; // track which tract is mousedover
@@ -45,9 +77,10 @@ function initMap(){
         );
 
         // hover behavior adapted from: https://docs.mapbox.com/help/tutorials/create-interactive-hover-effects-with-mapbox-gl-js/
+        // also a good resource: https://blog.mapbox.com/going-live-with-electoral-maps-a-guide-to-feature-state-b520e91a22d
         map.on('mousemove', 'housing-data-indexid', function(e) { // detect mousemove on the fill layer instead of stroke layer so correct tract is highlighted
 
-            console.log(e.features[0].properties);
+            // console.log(e.features[0].properties);
             // console.log(e.features);
 
             map.getCanvas().style.cursor = 'pointer';
