@@ -1,4 +1,4 @@
-svg, body{
+svg, text, body{
 	font-family: Lato;
 }
 
@@ -62,9 +62,24 @@ body{
     margin-bottom: 4px;
 }
 .mapboxgl-ctrl-logo{
-    margin-left: 500px !important;
+    /*margin-left: 500px !important;*/
 }
 
 #isMobile, #isPhone, #mm-title, #mm-disclaimer{
     display: none;
+}
+
+
+
+/**********************************************************/
+/************************* LEGEND *************************/
+/**********************************************************/
+
+.legend {
+    max-width: 400px;
+}
+
+.legendLabel {
+    text-anchor: middle;
+    font-size: 0.8rem;
 }

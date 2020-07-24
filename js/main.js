@@ -40,6 +40,12 @@ function getCoords() {
             console.log("error");
         }
     }
+
+    initLegend();
+
+    if (pymChild) {
+        pymChild.sendHeight();
+    }
 }
 
 function initMap(user_lat, user_lng){
@@ -121,9 +127,62 @@ function initMap(user_lat, user_lng){
     });
 
 	map.addControl(new mapboxgl.NavigationControl({"showCompass": false}), "bottom-right");
-
-    if (pymChild) {
-        pymChild.sendHeight();
-    }
 }
 
+function initLegend() {
+    // clear existing svg so the legend doesn't get duplicated when the window is resized
+    $(".legend svg").remove();
+
+    var legendMargins = {top: 0, right: 18, bottom: 35, left: 15};
+    var legendBlockHeight = 20;
+    var legendWidth = d3.select(".legend").node().getBoundingClientRect().width - legendMargins.left - legendMargins.right;
+
+    // scales
+    var xScale = d3.scaleLinear()
+        .domain([0, 100])
+        .range([0, legendWidth]);
+
+    var colorScale = d3.scaleOrdinal()
+        .domain([0, 1, 2, 3, 4, 5])
+        .range(["#cfe8f3", "#73bfe2", "#46abdb", "#1696d2", "#12719e", "#0a4c6a"]);
+
+    // make legend
+    var legendSvg = d3.select(".legend")
+        .append("svg")
+        .attr("width", legendWidth + legendMargins.left + legendMargins.right)
+        .attr("height", legendBlockHeight + legendMargins.top +legendMargins.bottom)
+        .append("g")
+        .attr("transform", "translate(" + legendMargins.left + ", " + legendMargins.top + ")");
+
+    legendSvg.selectAll(".legendBlock")
+        .data([0, 50, 60, 70, 80, 90])
+        .enter()
+        .append("rect")
+        .attr("class", "legendBlock")
+        .attr("width", function(d) { return d === 0 ? xScale(50) : xScale(10); })
+        .attr("height", legendBlockHeight)
+        .attr("x", function(d) { return xScale(d); })
+        .attr("y", 0)
+        .style("fill", function(d, i) { return colorScale(i); });
+
+    legendSvg.selectAll(".legendLabel")
+        .data([0, 50, 60, 70, 80, 90, 100])
+        .enter()
+        .append("text")
+        .attr("class", "legendLabel")
+        .attr("x", function(d) { return xScale(d); })
+        .attr("y", legendBlockHeight * 1.7)
+        .text(function(d) { return d; });
+
+    legendSvg.append("text")
+        .attr("class", "legendLabel")
+        .attr("x", 0)
+        .attr("y", legendBlockHeight * 2.6)
+        .text("LOW");
+
+    legendSvg.append("text")
+        .attr("class", "legendLabel")
+        .attr("x", legendWidth)
+        .attr("y", legendBlockHeight * 2.6)
+        .text("HIGH");
+}
