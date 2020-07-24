@@ -41,32 +41,8 @@ body{
     opacity: 0;
 }
 
-#legendContainer{
-    margin-top: 10px;
-    position: absolute;
-    z-index: 1;
-    background: rgba(255,255,255,.8);
-    height: 64px;
-    bottom: 5px;
-    left: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-}
-#legendTitle{
-    display: block;
-    font-size: 13px;
-    /* font-style: italic; */
-    color: #333;
-    font-weight: bold;
-    margin-bottom: 4px;
-}
 .mapboxgl-ctrl-logo{
     /*margin-left: 500px !important;*/
-}
-
-#isMobile, #isPhone, #mm-title, #mm-disclaimer{
-    display: none;
 }
 
 
@@ -75,7 +51,7 @@ body{
 /************************* LEGEND *************************/
 /**********************************************************/
 
-.legend {
+.legendContainer {
     max-width: 400px;
 }
 

@@ -42,6 +42,7 @@ function getCoords() {
     }
 
     initLegend();
+    initSearch("county");
 
     if (pymChild) {
         pymChild.sendHeight();
@@ -129,13 +130,51 @@ function initMap(user_lat, user_lng){
 	map.addControl(new mapboxgl.NavigationControl({"showCompass": false}), "bottom-right");
 }
 
+function initSearch(geo) {
+    var placeholderText = (geo === "county") ? "Search for your county" : "Search for your continuum of care";
+    // var searchData = (geo === "county") ? countyData : cocData;
+
+    $( "#geoSearch" ).autocomplete({
+        // source: searchData,
+        // select: function( event, ui ) {
+
+        //     if(!IS_PHONE()){
+        //         d3.select("#clickedBaselineType").datum("county")
+
+        //         // var coordinates = e.features[0].geometry.coordinates[0]
+        //         bd = getCountyBoundsData()[countyData[ui.item.value]["properties"]["county_fips"]]
+        //         zoomIn("county", countyData[ui.item.value]["properties"]["county_fips"], bd.bounds)
+        //     }
+        //     d3.select("#searchicon").attr("src", "img/closeIcon.png").classed("close", true)
+
+        //     // map.getSource('hoverBaselinePolygonSource').setData(hoverData);
+
+
+        //     setActiveBaseline(countyData[ui.item.value]["properties"], "", "county", true)
+        //     $(this).val(ui.item.label)
+        //     // $(this).text(ui.item.label)
+        //     return false;
+        // },
+        create: function(event, ui){
+            $(this)
+                .val("Search for your county")
+                .on("focus", function(){
+                    $(this)
+                        .val("")
+                        .addClass("active")
+
+                })
+        }
+    });
+}
+
 function initLegend() {
     // clear existing svg so the legend doesn't get duplicated when the window is resized
-    $(".legend svg").remove();
+    $(".legendContainer svg").remove();
 
     var legendMargins = {top: 0, right: 18, bottom: 35, left: 15};
     var legendBlockHeight = 20;
-    var legendWidth = d3.select(".legend").node().getBoundingClientRect().width - legendMargins.left - legendMargins.right;
+    var legendWidth = d3.select(".legendContainer").node().getBoundingClientRect().width - legendMargins.left - legendMargins.right;
 
     // scales
     var xScale = d3.scaleLinear()
@@ -147,7 +186,7 @@ function initLegend() {
         .range(["#cfe8f3", "#73bfe2", "#46abdb", "#1696d2", "#12719e", "#0a4c6a"]);
 
     // make legend
-    var legendSvg = d3.select(".legend")
+    var legendSvg = d3.select(".legendContainer")
         .append("svg")
         .attr("width", legendWidth + legendMargins.left + legendMargins.right)
         .attr("height", legendBlockHeight + legendMargins.top +legendMargins.bottom)
@@ -186,3 +225,7 @@ function initLegend() {
         .attr("y", legendBlockHeight * 2.6)
         .text("HIGH");
 }
+
+// event handlers for the two buttons
+// when user clicks on counties, update search to populate with counties
+// when user clicks on CoC, update search to populate with continuums of care
