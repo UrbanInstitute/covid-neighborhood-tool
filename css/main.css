@@ -15,9 +15,14 @@ body{
     margin: 0 auto;
 }
 
+.fig_container {
+    position: relative;
+}
+
 #mapContainer{
-    width: 100%;
+    width: 60%;
     height: 600px;
+    display: inline-block;
 }
 
 #map{
@@ -26,6 +31,15 @@ body{
     height: 100%;
 }
 
+#percentilePanel {
+    background-color: #d2d2d2;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(100% - 576px);
+    height: 600px;
+}
 
 /**********************************************************/
 /**************************** MAP *************************/
@@ -52,7 +66,8 @@ body{
 /**********************************************************/
 
 .legendContainer {
-    max-width: 400px;
+    width: 60%;
+    display: inline-block;
 }
 
 .legendLabel {
