@@ -1,7 +1,11 @@
+var pymChild = null;
+
 var US_ZOOM = 3.5;
 var US_CENTER = [-95.5795, 37.8283];
 
-var pymChild = new pym.Child({renderCallback: getCoords });
+var map;
+var dataJson;
+// var pymChild = new pym.Child({renderCallback: getCoords });
 
 function IS_MOBILE(){
 	return d3.select("#isMobile").style("display") == "block"
@@ -39,6 +43,8 @@ function getCoords() {
         }
         else {
             console.log("error");
+            // also need to pick a default point to center the map on if the API fails to return a response
+            initMap(-95.5795, 37.8283);
         }
     }
 
@@ -55,7 +61,7 @@ function initMap(user_lat, user_lng){
 
 	mapboxgl.accessToken = 'pk.eyJ1IjoidXJiYW5pbnN0aXR1dGUiLCJhIjoiTEJUbmNDcyJ9.mbuZTy4hI_PWXw3C3UFbDQ';
 
-	var map = new mapboxgl.Map({
+	map = new mapboxgl.Map({
 		attributionControl: false,
 		container: 'map',
 		style: 'mapbox://styles/urbaninstitute/ckcnh9jwm2llo1hp4yvfvy76i',
@@ -133,37 +139,30 @@ function initMap(user_lat, user_lng){
 
 function initSearch(geo) {
     var placeholderText = (geo === "county") ? "Search for your county" : "Search for your continuum of care";
-    // var searchData = (geo === "county") ? countyData : cocData;
+
+    var countyNames = Object.entries(dataJson)
+        .map(function(o){
+            return {
+                "label" : o[1]["properties"]["county_name"] + ", " + o[1]["properties"]["state_name"],
+                "value" : o[0]
+            }
+        });
+
+    var searchData = (geo === "county") ? countyNames : cocNames;
+
+    // console.log(countyNames);
 
     $( "#geoSearch" ).autocomplete({
-        // source: searchData,
-        // select: function( event, ui ) {
+        source: searchData,
+        select: function( event, ui ) {
+            var bounds = dataJson[ui.item.value]["bounds"];
+            zoomIn(bounds);
 
-        //     if(!IS_PHONE()){
-        //         d3.select("#clickedBaselineType").datum("county")
-
-        //         // var coordinates = e.features[0].geometry.coordinates[0]
-        //         bd = getCountyBoundsData()[countyData[ui.item.value]["properties"]["county_fips"]]
-        //         zoomIn("county", countyData[ui.item.value]["properties"]["county_fips"], bd.bounds)
-        //     }
         //     d3.select("#searchicon").attr("src", "img/closeIcon.png").classed("close", true)
 
-        //     // map.getSource('hoverBaselinePolygonSource').setData(hoverData);
+            $(this).val(ui.item.label); // display county name in search box after it's been selected
 
-
-        //     setActiveBaseline(countyData[ui.item.value]["properties"], "", "county", true)
-        //     $(this).val(ui.item.label)
-        //     // $(this).text(ui.item.label)
-        //     return false;
-        // },
-        create: function(event, ui){
-            $(this)
-                .val("Search for your county")
-                .on("focus", function(){
-                    $(this)
-                        .val("")
-                        // .addClass("active")
-                })
+            return false;
         }
     });
 }
@@ -226,6 +225,25 @@ function initLegend() {
         .attr("y", legendBlockHeight * 2.6)
         .text("HIGH");
 }
+
+function zoomIn(bounds) {
+    map.fitBounds(
+        bounds,
+        {
+            "padding": 50,
+            "duration": 900,
+            "essential": true, // If true , then the animation is considered essential and will not be affected by prefers-reduced-motion .
+        }
+    );
+}
+
+// parse data and draw plots
+d3.json("data/sum_job_loss_county_reshaped.json").then(function(json) {
+
+    dataJson = json;
+
+    pymChild = new pym.Child({renderCallback: getCoords });
+});
 
 // event handlers for the two buttons
 // when user clicks on counties, update search to populate with counties
