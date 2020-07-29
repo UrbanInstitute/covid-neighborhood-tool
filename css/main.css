@@ -26,6 +26,17 @@ body{
     height: 100%;
 }
 
+button {
+    border: none;
+    background-color: #1696d2;
+    color: #fff;
+    padding: 0.5em;
+    margin-bottom: 8px;
+}
+
+button.selected {
+    background-color: #12719e;
+}
 
 /**********************************************************/
 /**************************** MAP *************************/

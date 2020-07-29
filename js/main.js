@@ -1,6 +1,13 @@
 var US_ZOOM = 3.5;
 var US_CENTER = [-95.5795, 37.8283];
 
+var xScale = d3.scaleLinear()
+    .domain([0, 100]);
+
+var colorScale = d3.scaleOrdinal()
+    .domain([0, 1, 2, 3, 4, 5])
+    .range(["#cfe8f3", "#73bfe2", "#46abdb", "#1696d2", "#12719e", "#0a4c6a"]);
+
 var pymChild = new pym.Child({renderCallback: getCoords });
 
 function IS_MOBILE(){
@@ -138,13 +145,14 @@ function initLegend() {
     var legendWidth = d3.select(".legend").node().getBoundingClientRect().width - legendMargins.left - legendMargins.right;
 
     // scales
-    var xScale = d3.scaleLinear()
-        .domain([0, 100])
-        .range([0, legendWidth]);
+    xScale.range([0, legendWidth]);
+    // var xScale = d3.scaleLinear()
+    //     .domain([0, 100])
+    //     .range([0, legendWidth]);
 
-    var colorScale = d3.scaleOrdinal()
-        .domain([0, 1, 2, 3, 4, 5])
-        .range(["#cfe8f3", "#73bfe2", "#46abdb", "#1696d2", "#12719e", "#0a4c6a"]);
+    // var colorScale = d3.scaleOrdinal()
+    //     .domain([0, 1, 2, 3, 4, 5])
+    //     .range(["#cfe8f3", "#73bfe2", "#46abdb", "#1696d2", "#12719e", "#0a4c6a"]);
 
     // make legend
     var legendSvg = d3.select(".legend")
@@ -186,3 +194,52 @@ function initLegend() {
         .attr("y", legendBlockHeight * 2.6)
         .text("HIGH");
 }
+
+function updateLegend(scale) {
+    var legendBreaks,
+        legendLabels;
+
+    if(scale == "even") {
+        legendBreaks = [0, 50, 60, 70, 80, 90];
+        legendLabels = [0, 50, 60, 70, 80, 90, 100];
+    }
+    else if(scale == "uneven") {
+        legendBreaks = [0, 50, 75, 85, 90, 95];
+        legendLabels = [0, 50, 75, 85, 90, 95, 100];
+    }
+
+    d3.selectAll(".legendBlock")
+        .data(legendBreaks)
+        .attr("width", function(d) {
+            if(scale === "even") return d === 0 ? xScale(50) : xScale(10);
+            else if(scale === "uneven") {
+                if(d === 0) return xScale(50);
+                else if(d === 50) return xScale(25);
+                else if(d === 75) return xScale(10);
+                else return xScale(5);
+            }
+        })
+        .attr("x", function(d) { return xScale(d); })
+        .style("fill", function(d, i) { return colorScale(i); });
+
+    d3.selectAll(".legendLabel")
+        .data(legendLabels)
+        .attr("x", function(d) { return xScale(d); })
+        .text(function(d) { return d; });
+}
+
+d3.select("button.even_bins_btn").on("click", function() {
+    console.log("even color bins!");
+    updateLegend("even");
+
+    d3.select(this).classed("selected", true);
+    d3.select("button.uneven_bins_btn").classed("selected", false);
+});
+
+d3.select("button.uneven_bins_btn").on("click", function() {
+    console.log('uneven color bins!');
+    updateLegend("uneven");
+
+    d3.select("button.even_bins_btn").classed("selected", false);
+    d3.select(this).classed("selected", true);
+});
