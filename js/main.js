@@ -1,5 +1,6 @@
 var US_ZOOM = 3.5;
 var US_CENTER = [-95.5795, 37.8283];
+var map;
 
 var xScale = d3.scaleLinear()
     .domain([0, 100]);
@@ -60,7 +61,7 @@ function initMap(user_lat, user_lng){
 
 	mapboxgl.accessToken = 'pk.eyJ1IjoidXJiYW5pbnN0aXR1dGUiLCJhIjoiTEJUbmNDcyJ9.mbuZTy4hI_PWXw3C3UFbDQ';
 
-	var map = new mapboxgl.Map({
+	map = new mapboxgl.Map({
 		attributionControl: false,
 		container: 'map',
 		style: 'mapbox://styles/urbaninstitute/ckcnh9jwm2llo1hp4yvfvy76i',
@@ -75,6 +76,8 @@ function initMap(user_lat, user_lng){
     var tractID = null; // track which tract is mousedover
 
     map.on('load', function() {
+
+        map.setLayoutProperty("housing-data-indexid-exponential-color", 'visibility', 'none');
 
         // make the tract outlines in the tract-hover-strokes layer transparent
         // will modify this so that the tract the user has hovered over is outlined
@@ -91,46 +94,46 @@ function initMap(user_lat, user_lng){
 
         // hover behavior adapted from: https://docs.mapbox.com/help/tutorials/create-interactive-hover-effects-with-mapbox-gl-js/
         // also a good resource: https://blog.mapbox.com/going-live-with-electoral-maps-a-guide-to-feature-state-b520e91a22d
-        map.on('mousemove', 'housing-data-indexid', function(e) { // detect mousemove on the fill layer instead of stroke layer so correct tract is highlighted
+        // map.on('mousemove', 'housing-data-indexid', function(e) { // detect mousemove on the fill layer instead of stroke layer so correct tract is highlighted
 
-            // console.log(e.features[0].properties);
-            // console.log(e.features);
+        //     console.log(e.features[0].properties.total_index_quantile);
+        //     // console.log(e.features);
 
-            map.getCanvas().style.cursor = 'pointer';
-            // Set variables equal to the current feature's magnitude, location, and time
-            // var quakeMagnitude = e.features[0].properties.mag;
-            // var quakeLocation = e.features[0].properties.place;
-            // var quakeDate = new Date(e.features[0].properties.time);
+        //     map.getCanvas().style.cursor = 'pointer';
+        //     // Set variables equal to the current feature's magnitude, location, and time
+        //     // var quakeMagnitude = e.features[0].properties.mag;
+        //     // var quakeLocation = e.features[0].properties.place;
+        //     // var quakeDate = new Date(e.features[0].properties.time);
 
-            // Check whether features exist
-            if (e.features.length > 0) {
+        //     // Check whether features exist
+        //     if (e.features.length > 0) {
 
-                // If tractID for the hovered feature is not null,
-                // use removeFeatureState to reset to the default behavior
-                if (tractID) {
-                    map.removeFeatureState({
-                        source: 'composite',
-                        sourceLayer: 'housing_data_indexid',
-                        id: tractID
-                    });
-                }
+        //         // If tractID for the hovered feature is not null,
+        //         // use removeFeatureState to reset to the default behavior
+        //         if (tractID) {
+        //             map.removeFeatureState({
+        //                 source: 'composite',
+        //                 sourceLayer: 'housing_data_indexid',
+        //                 id: tractID
+        //             });
+        //         }
 
-                tractID = e.features[0].id;
+        //         tractID = e.features[0].id;
 
-                // When the mouse moves over the tract-hover-strokes layer, update the
-                // feature state for the feature under the mouse
-                map.setFeatureState({
-                    source: 'composite',
-                    sourceLayer: 'housing_data_indexid',
-                    id: tractID
-                },
-                {
-                    hover: true
-                });
+        //         // When the mouse moves over the tract-hover-strokes layer, update the
+        //         // feature state for the feature under the mouse
+        //         map.setFeatureState({
+        //             source: 'composite',
+        //             sourceLayer: 'housing_data_indexid',
+        //             id: tractID
+        //         },
+        //         {
+        //             hover: true
+        //         });
 
-            }
+        //     }
 
-        });
+        // });
     });
 
 	map.addControl(new mapboxgl.NavigationControl({"showCompass": false}), "bottom-right");
@@ -230,6 +233,10 @@ function updateLegend(scale) {
 
 d3.select("button.even_bins_btn").on("click", function() {
     console.log("even color bins!");
+
+    map.setLayoutProperty("housing-data-indexid", 'visibility', 'visible');
+    map.setLayoutProperty("housing-data-indexid-exponential-color", 'visibility', 'none');
+
     updateLegend("even");
 
     d3.select(this).classed("selected", true);
@@ -238,6 +245,9 @@ d3.select("button.even_bins_btn").on("click", function() {
 
 d3.select("button.uneven_bins_btn").on("click", function() {
     console.log('uneven color bins!');
+
+    map.setLayoutProperty("housing-data-indexid-exponential-color", 'visibility', 'visible');
+    map.setLayoutProperty("housing-data-indexid", 'visibility', 'none');
     updateLegend("uneven");
 
     d3.select("button.even_bins_btn").classed("selected", false);
