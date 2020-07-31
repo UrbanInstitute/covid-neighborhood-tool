@@ -77,6 +77,10 @@ function initMap(user_lat, user_lng){
 
     map.on('load', function() {
 
+        // hide the color scale with even bins since we're using the other one
+        // eventually this layer will be deleted from mapbox
+        map.setLayoutProperty("housing-data-indexid", 'visibility', 'none');
+
         // make the tract outlines in the tract-hover-strokes layer transparent
         // will modify this so that the tract the user has hovered over is outlined
         map.setPaintProperty(
@@ -92,9 +96,9 @@ function initMap(user_lat, user_lng){
 
         // hover behavior adapted from: https://docs.mapbox.com/help/tutorials/create-interactive-hover-effects-with-mapbox-gl-js/
         // also a good resource: https://blog.mapbox.com/going-live-with-electoral-maps-a-guide-to-feature-state-b520e91a22d
-        map.on('mousemove', 'housing-data-indexid', function(e) { // detect mousemove on the fill layer instead of stroke layer so correct tract is highlighted
+        map.on('mousemove', 'housing-data-indexid-exponential-color', function(e) { // detect mousemove on the fill layer instead of stroke layer so correct tract is highlighted
 
-            // console.log(e.features[0].properties);
+            console.log(e.features[0].properties);
             // console.log(e.features);
 
             map.getCanvas().style.cursor = 'pointer';
@@ -129,12 +133,33 @@ function initMap(user_lat, user_lng){
                     hover: true
                 });
 
+                populateDataPanel(e.features[0].properties);
             }
 
         });
     });
 
 	map.addControl(new mapboxgl.NavigationControl({"showCompass": false}), "bottom-right");
+}
+
+function populateDataPanel(data) {
+    // populate the tract number
+    d3.select("span.tract_number").text(getTractNumber(data["GEOID"]));
+
+    // check if the tract is greyed out
+
+    // if not, populate the panel:
+    // TODO: apply ordinal formatting after we have the rounded off numbers
+    d3.select("span.total_index_pctile").text(data["total_index_quantile"]);
+    // d3.select("span.state_abbv").text(data[]);
+
+    d3.select("span.housing_index_pctile").text(data["housing_index_quantile"]);
+    d3.select("span.covid_index_pctile").text(data["covid_index_quantile"]);
+    d3.select("span.equity_index_pctile").text(data["equity_index_quantile"]);
+}
+
+function getTractNumber(geoid) {
+    return geoid.substr(5);
 }
 
 function initSearch(geo) {
@@ -194,18 +219,22 @@ function initLegend() {
         .attr("transform", "translate(" + legendMargins.left + ", " + legendMargins.top + ")");
 
     legendSvg.selectAll(".legendBlock")
-        .data([0, 50, 60, 70, 80, 90])
+        .data([0, 50, 75, 85, 90, 95])
         .enter()
         .append("rect")
         .attr("class", "legendBlock")
-        .attr("width", function(d) { return d === 0 ? xScale(50) : xScale(10); })
+        .attr("width", function(d) {
+            if(d === 0) return xScale(50);
+            else if(d === 50) return xScale(25);
+            else if(d === 75) return xScale(10);
+            else return xScale(5); })
         .attr("height", legendBlockHeight)
         .attr("x", function(d) { return xScale(d); })
         .attr("y", 0)
         .style("fill", function(d, i) { return colorScale(i); });
 
     legendSvg.selectAll(".legendLabel")
-        .data([0, 50, 60, 70, 80, 90, 100])
+        .data([0, 50, 75, 85, 90, 95, 100])
         .enter()
         .append("text")
         .attr("class", "legendLabel")
@@ -235,6 +264,23 @@ function zoomIn(bounds) {
             "essential": true, // If true , then the animation is considered essential and will not be affected by prefers-reduced-motion .
         }
     );
+}
+
+// crude way to turn numbers into ordinals
+function numberFormatter(number) {
+    var lastDigit = number % 10;
+    var lastTwoDigits = number % 100;
+    var suffix = "th";
+    if(lastDigit === 1  && lastTwoDigits !== 11) {
+        suffix = "st";
+    }
+    else if(lastDigit === 2 && lastTwoDigits !== 12) {
+        suffix = "nd";
+    }
+    else if(lastDigit === 3 && lastTwoDigits !== 13) {
+        suffix = "rd";
+    }
+    return number + suffix;
 }
 
 // parse data and draw plots

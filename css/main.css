@@ -41,6 +41,31 @@ body{
     height: 600px;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
+/**********************************************************/
+/******************** BUTTON STYLES ***********************/
+/**********************************************************/
+.search_container p {
+    text-align: center;
+}
+
+.search_btn_container {
+    width: 200px; /* TODO: change this to the actual width after buttons are styled */
+    margin: 0 auto;
+}
+
+.search_btn {
+
+}
+
+.search_btn.selected {
+
+}
+
+
 /**********************************************************/
 /**************************** MAP *************************/
 /**********************************************************/
@@ -73,4 +98,42 @@ body{
 .legendLabel {
     text-anchor: middle;
     font-size: 0.8rem;
+}
+
+
+
+/**********************************************************/
+/*********************** INFO PANEL ***********************/
+/**********************************************************/
+
+.tract_number {
+
+}
+
+.overall_index {
+
+}
+
+.total_index_label {
+
+}
+
+hr {
+
+}
+
+.subindex_info {
+    padding-left: 10%;
+}
+
+.subindex_label {
+
+}
+
+.pctile_components {
+
+}
+
+.more_details_text {
+
 }
