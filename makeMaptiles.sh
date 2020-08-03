@@ -11,6 +11,7 @@
 ### tippecanoe
 
 
+### MAKE TRACT-LEVEL MAPTILES
 # download geojson from S3
 # curl -O https://ui-lodes-job-change-public.s3.amazonaws.com/sum_job_loss_cbsa.geojson
 
@@ -33,3 +34,10 @@ ndjson-reduce \
 
 # make maptiles from geojson
 tippecanoe -f -z12 -Z3 -o data/housing_data_indicators-id.mbtiles --coalesce-densest-as-needed data/housing_data_index-id.json
+
+
+
+### MAKE CONTINUUM OF CARE MAPTILES
+
+# make maptiles from geojson
+tippecanoe -f -z12 -Z3 -o data/coc.mbtiles --coalesce-densest-as-needed data/coc_geographies.geojson
