@@ -170,7 +170,8 @@ function initSearch(geo) {
 
     var searchData = (geo === "county") ? countyNames : cocNames;
 
-    // console.log(countyNames);
+    d3.select("#geoSearch")
+        .attr("placeholder", placeholderText);
 
     $( "#geoSearch" ).autocomplete({
         source: searchData,
