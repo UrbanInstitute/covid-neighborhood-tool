@@ -101,7 +101,7 @@ function initMap(user_lat, user_lng){
         // also a good resource: https://blog.mapbox.com/going-live-with-electoral-maps-a-guide-to-feature-state-b520e91a22d
         map.on('mousemove', 'housing-data-indexid-exponential-color', function(e) { // detect mousemove on the fill layer instead of stroke layer so correct tract is highlighted
 
-            console.log(e.features[0].properties);
+            // console.log(e.features[0].properties);
             // console.log(e.features);
 
             map.getCanvas().style.cursor = 'pointer';
@@ -316,13 +316,13 @@ d3.select(".search_btn.county")
     .on("click", function() {
             initSearch("county");
             map.setLayoutProperty("county boundaries", "visibility", "visible");
-            // map.setLayoutProperty("coc-boundaries", "visibility", "none");
+            map.setLayoutProperty("coc-boundaries", "visibility", "none");
     });
 
 // when user clicks on CoC, update search to populate with continuums of care and display CoC layer on map
 d3.select(".search_btn.coc")
     .on("click", function() {
         initSearch("coc");
-        // map.setLayoutProperty("coc-boundaries", "visibility", "visible");
+        map.setLayoutProperty("coc-boundaries", "visibility", "visible");
         map.setLayoutProperty("county boundaries", "visibility", "none");
     });
