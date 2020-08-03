@@ -4,7 +4,10 @@ var US_ZOOM = 3.5;
 var US_CENTER = [-95.5795, 37.8283];
 
 var map;
-var dataJson;
+var countyJson,
+    cocJson;
+var countyNames,
+    cocNames;
 // var pymChild = new pym.Child({renderCallback: getCoords });
 
 function IS_MOBILE(){
@@ -37,7 +40,7 @@ function getCoords() {
             var accuracy = response.accuracy;
 
             // what if user is from outside the US? need some default coords
-            console.log(response);
+            // console.log(response);
 
             initMap(lat, long);
         }
@@ -165,14 +168,6 @@ function getTractNumber(geoid) {
 function initSearch(geo) {
     var placeholderText = (geo === "county") ? "Search for your county" : "Search for your continuum of care";
 
-    var countyNames = Object.entries(dataJson)
-        .map(function(o){
-            return {
-                "label" : o[1]["properties"]["county_name"] + ", " + o[1]["properties"]["state_name"],
-                "value" : o[0]
-            }
-        });
-
     var searchData = (geo === "county") ? countyNames : cocNames;
 
     // console.log(countyNames);
@@ -180,12 +175,12 @@ function initSearch(geo) {
     $( "#geoSearch" ).autocomplete({
         source: searchData,
         select: function( event, ui ) {
-            var bounds = dataJson[ui.item.value]["bounds"];
+            var bounds = (geo === "county") ? countyJson[ui.item.value]["bounds"] : cocJson[ui.item.value]["bounds"];
             zoomIn(bounds);
 
         //     d3.select("#searchicon").attr("src", "img/closeIcon.png").classed("close", true)
 
-            $(this).val(ui.item.label); // display county name in search box after it's been selected
+            $(this).val(ui.item.label); // display county or CoC name in search box after it's been selected
 
             return false;
         }
@@ -283,14 +278,50 @@ function numberFormatter(number) {
     return number + suffix;
 }
 
-// parse data and draw plots
-d3.json("data/sum_job_loss_county_reshaped.json").then(function(json) {
+Promise.all([
+    d3.json("data/sum_job_loss_county_reshaped.json"),
+    d3.json("data/coc_bboxes.json"),
+]).then(function(files) {
 
-    dataJson = json;
+    countyJson = files[0];
+    cocJson = files[1];
+
+    countyNames = Object.entries(countyJson)
+        .map(function(o){
+            return {
+                "label" : o[1]["properties"]["county_name"] + ", " + o[1]["properties"]["state_name"],
+                "value" : o[0]
+            }
+        });
+
+    cocNames = Object.entries(cocJson)
+        .map(function(o){
+            return {
+                "label" : o[1]["properties"]["coc_name"] + " (" + o[1]["properties"]["coc_num"] + ")",
+                "value" : o[0]
+            }
+        });
 
     pymChild = new pym.Child({renderCallback: getCoords });
-});
+
+}).catch(function(err) {
+    console.log(err);
+})
+
 
 // event handlers for the two buttons
-// when user clicks on counties, update search to populate with counties
-// when user clicks on CoC, update search to populate with continuums of care
+// when user clicks on counties, update search to populate with counties and display counties layer on map
+d3.select(".search_btn.county")
+    .on("click", function() {
+            initSearch("county");
+            map.setLayoutProperty("county boundaries", "visibility", "visible");
+            // map.setLayoutProperty("coc-boundaries", "visibility", "none");
+    });
+
+// when user clicks on CoC, update search to populate with continuums of care and display CoC layer on map
+d3.select(".search_btn.coc")
+    .on("click", function() {
+        initSearch("coc");
+        // map.setLayoutProperty("coc-boundaries", "visibility", "visible");
+        map.setLayoutProperty("county boundaries", "visibility", "none");
+    });
