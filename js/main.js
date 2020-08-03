@@ -311,18 +311,22 @@ Promise.all([
 
 
 // event handlers for the two buttons
-// when user clicks on counties, update search to populate with counties and display counties layer on map
+// when user clicks on counties, update search to populate with counties, clear contents of searchbox,
+// and display counties layer on map
 d3.select(".search_btn.county")
     .on("click", function() {
-            initSearch("county");
-            map.setLayoutProperty("county boundaries", "visibility", "visible");
-            map.setLayoutProperty("coc-boundaries", "visibility", "none");
+        initSearch("county");
+        map.setLayoutProperty("county boundaries", "visibility", "visible");
+        map.setLayoutProperty("coc-boundaries", "visibility", "none");
+        $( "#geoSearch" ).val("");
     });
 
-// when user clicks on CoC, update search to populate with continuums of care and display CoC layer on map
+// when user clicks on CoC, update search to populate with continuums of care, clear contents of searchbox,
+// and display CoC layer on map
 d3.select(".search_btn.coc")
     .on("click", function() {
         initSearch("coc");
         map.setLayoutProperty("coc-boundaries", "visibility", "visible");
         map.setLayoutProperty("county boundaries", "visibility", "none");
+        $( "#geoSearch" ).val("");
     });
