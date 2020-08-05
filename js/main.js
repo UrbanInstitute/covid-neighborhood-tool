@@ -319,6 +319,8 @@ d3.select(".search_btn.county")
         map.setLayoutProperty("county boundaries", "visibility", "visible");
         map.setLayoutProperty("coc-boundaries", "visibility", "none");
         $( "#geoSearch" ).val("");
+        d3.select(".search_btn.county").classed("selected", true);
+        d3.select(".search_btn.coc").classed("selected", false);
     });
 
 // when user clicks on CoC, update search to populate with continuums of care, clear contents of searchbox,
@@ -329,4 +331,6 @@ d3.select(".search_btn.coc")
         map.setLayoutProperty("coc-boundaries", "visibility", "visible");
         map.setLayoutProperty("county boundaries", "visibility", "none");
         $( "#geoSearch" ).val("");
+        d3.select(".search_btn.county").classed("selected", false);
+        d3.select(".search_btn.coc").classed("selected", true);
     });

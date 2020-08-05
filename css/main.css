@@ -5,7 +5,7 @@ svg, text, body{
 body{
     color: #353535;
     margin: 0;
-    font-size: 16px;
+    font-size: 100%;
     line-height: 1.8;
 }
 
@@ -51,23 +51,50 @@ body{
 
 
 /**********************************************************/
-/******************** BUTTON STYLES ***********************/
+/***************** SEARCH BUTTON STYLES *******************/
 /**********************************************************/
+.search_container {
+    margin-bottom: 3em;
+}
+
 .search_container p {
     text-align: center;
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin: 0.5em 0;
 }
 
 .search_btn_container {
-    width: 200px; /* TODO: change this to the actual width after buttons are styled */
+    width: 450px; /* TODO: change this to the actual width after buttons are styled */
     margin: 0 auto;
 }
 
 .search_btn {
+    box-sizing: border-box;
+    width: 200px;
+    height: 50px;
+    color: #1696d2;
+    border: 1.5px solid #1696d2;
+    font-size: 1.125rem;
+    background-color: #fff;
+    cursor: pointer;
+}
 
+.search_btn:first-of-type {
+    margin-right: 46px;
+}
+
+.search_btn:hover {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
 }
 
 .search_btn.selected {
-
+    background-color: #1696d2;
+    color: #fff;
+    cursor: auto;
+    pointer-events: none;
 }
 
 
