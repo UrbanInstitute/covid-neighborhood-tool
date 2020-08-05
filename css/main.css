@@ -10,7 +10,7 @@ body{
 }
 
 .container {
-    max-width: 960px;
+    max-width: 1020px;
     width: 100%;
     margin: 0 auto;
 }
@@ -20,8 +20,8 @@ body{
 }
 
 #mapContainer{
-    width: 700px;
-    height: 500px;
+    width: 500px;
+    height: 675px;
     display: inline-block;
 }
 
@@ -37,7 +37,7 @@ body{
     position: absolute;
     top: 0;
     right: 0;
-    width: calc(100% - 700px);
+    width: 460px;
     /*height: 800px;*/
 }
 
@@ -137,8 +137,8 @@ body{
     font-size: 0.875rem;
 }
 
-.legendContainer svg:first-of-type {
-    margin-right: 50px;
+.legendContainer svg{
+    display: block;
 }
 
 /**********************************************************/

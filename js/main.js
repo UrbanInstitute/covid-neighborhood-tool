@@ -148,21 +148,30 @@ function initMap(user_lat, user_lng){
 function populateDataPanel(data) {
     // populate the tract number
     d3.select("span.tract_number").text(getTractNumber(data["GEOID"]));
+    d3.select("span.num_eli_renters").text(data["num_ELI"]);
 
     // check if the tract is greyed out
-
+    if(data["grayed_out"] == 1) {
+        d3.select(".no_data_msg").classed("invisible", false);
+        d3.select(".data_panel").classed("invisible", true);
+    }
     // if not, populate the panel:
-    // TODO: apply ordinal formatting after we have the rounded off numbers
-    d3.select("span.total_index_pctile").text(data["total_index_quantile"]);
-    // d3.select("span.state_abbv").text(data[]);
+    else {
+        // TODO: apply ordinal formatting after we have the rounded off numbers
+        d3.select("span.total_index_pctile").text(data["total_index_quantile"]);
+        d3.select("span.state_abbv").text(data["state_name"]);
 
-    d3.select("span.housing_index_pctile").text(data["housing_index_quantile"]);
-    d3.select("span.covid_index_pctile").text(data["covid_index_quantile"]);
-    d3.select("span.equity_index_pctile").text(data["equity_index_quantile"]);
+        d3.select("span.housing_index_pctile").text(data["housing_index_quantile"]);
+        d3.select("span.covid_index_pctile").text(data["covid_index_quantile"]);
+        d3.select("span.equity_index_pctile").text(data["equity_index_quantile"]);
+
+        d3.select(".no_data_msg").classed("invisible", true);
+        d3.select(".data_panel").classed("invisible", false);
+    }
 }
 
 function getTractNumber(geoid) {
-    return geoid.substr(5);
+    return geoid.toString().substr(-6);
 }
 
 function initSearch(geo) {
