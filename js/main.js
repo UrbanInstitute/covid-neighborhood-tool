@@ -54,9 +54,9 @@ function getCoords() {
     initLegend();
     initSearch("county");
 
-    if (pymChild) {
-        pymChild.sendHeight();
-    }
+    // if (pymChild) {
+    //     pymChild.sendHeight();
+    // }
 }
 
 function initMap(user_lat, user_lng){
@@ -249,6 +249,30 @@ function initLegend() {
         .attr("x", legendWidth)
         .attr("y", legendBlockHeight * 2.6)
         .text("HIGH");
+
+    // add entry for grayed out tracts
+    var grayedOutSvg = d3.select(".legendContainer")
+        .append("svg")
+        .attr("width", xScale(10) + legendMargins.left + legendMargins.right)
+        .attr("height", legendBlockHeight + legendMargins.top +legendMargins.bottom)
+        .append("g")
+        .attr("transform", "translate(" + legendMargins.left + ", " + legendMargins.top + ")");
+
+    grayedOutSvg
+        .append("rect")
+        .attr("class", "legendBlock")
+        .attr("width", xScale(10))
+        .attr("height", legendBlockHeight)
+        .attr("x", 0)
+        .attr("y", 0)
+        .style("fill", "#d2d2d2");
+
+    grayedOutSvg
+        .append("text")
+        .attr("class", "legendLabel")
+        .attr("x", xScale(10) / 2)
+        .attr("y", legendBlockHeight * 1.7)
+        .text("n/a");
 }
 
 function zoomIn(bounds) {

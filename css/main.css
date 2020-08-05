@@ -20,8 +20,8 @@ body{
 }
 
 #mapContainer{
-    width: 60%;
-    height: 600px;
+    width: 700px;
+    height: 500px;
     display: inline-block;
 }
 
@@ -37,8 +37,8 @@ body{
     position: absolute;
     top: 0;
     right: 0;
-    width: calc(100% - 576px);
-    height: 600px;
+    width: calc(100% - 700px);
+    /*height: 800px;*/
 }
 
 .hidden {
@@ -61,7 +61,7 @@ body{
     text-align: center;
     font-size: 1.75rem;
     font-weight: 500;
-    margin: 0.5em 0;
+    margin-bottom: 0.5em;
 }
 
 .search_btn_container {
@@ -132,7 +132,14 @@ body{
     font-size: 0.8rem;
 }
 
+.legendContainer h3 {
+    font-weight: bold;
+    font-size: 0.875rem;
+}
 
+.legendContainer svg:first-of-type {
+    margin-right: 50px;
+}
 
 /**********************************************************/
 /*********************** INFO PANEL ***********************/
