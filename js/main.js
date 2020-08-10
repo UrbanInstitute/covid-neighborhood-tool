@@ -365,7 +365,7 @@ d3.select(".search_btn.county")
     .on("click", function() {
         initSearch("county");
         $( "#geoSearch" ).val("");
-        d3.select("#geoSearch").style("background", "url(../img/searchIcon.png) 96% / 15% no-repeat #f5f5f5");
+        d3.select("#geoSearch").style("background", "url(img/searchIcon.png) 96% / 15% no-repeat #f5f5f5");
         d3.select("#geoSearch").style("background-size", "24px");
 
         map.setLayoutProperty("county boundaries", "visibility", "visible");
@@ -381,7 +381,7 @@ d3.select(".search_btn.coc")
     .on("click", function() {
         initSearch("coc");
         $( "#geoSearch" ).val("");
-        d3.select("#geoSearch").style("background", "url(../img/searchIcon.png) 96% / 15% no-repeat #f5f5f5");
+        d3.select("#geoSearch").style("background", "url(img/searchIcon.png) 96% / 15% no-repeat #f5f5f5");
         d3.select("#geoSearch").style("background-size", "24px");
 
         map.setLayoutProperty("coc-boundaries", "visibility", "visible");
@@ -395,6 +395,6 @@ d3.select(".search_btn.coc")
 d3.select("#geoSearch")
     .on("click", function() {
         $( "#geoSearch" ).val("");
-        d3.select("#geoSearch").style("background", "url(../img/searchIcon.png) 96% / 15% no-repeat #f5f5f5");
+        d3.select("#geoSearch").style("background", "url(img/searchIcon.png) 96% / 15% no-repeat #f5f5f5");
         d3.select("#geoSearch").style("background-size", "24px");
     });
