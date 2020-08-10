@@ -161,6 +161,18 @@ body{
     color: #353535;
 }
 
+.ui-menu {
+    max-height: 200px;
+}
+
+.ui-autocomplete {
+    /*max-height: 300px;*/
+    overflow-y: auto;
+    overflow-x: hidden;
+    /*font-size: 16px;*/
+    /*font-style: italic;*/
+}
+
 .header_container {
     display: flex;
     justify-content: space-between;
