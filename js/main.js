@@ -376,3 +376,11 @@ d3.select(".search_btn.coc")
         d3.select(".search_btn.county").classed("selected", false);
         d3.select(".search_btn.coc").classed("selected", true);
     });
+
+// when user clicks inside search box, clear the current search terms
+d3.select("#geoSearch")
+    .on("click", function() {
+        $( "#geoSearch" ).val("");
+        d3.select("#geoSearch").style("background", "url(../img/searchIcon.png) 96% / 15% no-repeat #f5f5f5");
+        d3.select("#geoSearch").style("background-size", "24px");
+    });
