@@ -188,7 +188,8 @@ function initSearch(geo) {
             var bounds = (geo === "county") ? countyJson[ui.item.value]["bounds"] : cocJson[ui.item.value]["bounds"];
             zoomIn(bounds);
 
-        //     d3.select("#searchicon").attr("src", "img/closeIcon.png").classed("close", true)
+            d3.select("#geoSearch").style("background", "url(../img/closeIcon.png) 96% / 15% no-repeat #f5f5f5");
+            d3.select("#geoSearch").style("background-size", "20px");
 
             $(this).val(ui.item.label); // display county or CoC name in search box after it's been selected
 
@@ -349,9 +350,13 @@ Promise.all([
 d3.select(".search_btn.county")
     .on("click", function() {
         initSearch("county");
+        $( "#geoSearch" ).val("");
+        d3.select("#geoSearch").style("background", "url(../img/searchIcon.png) 96% / 15% no-repeat #f5f5f5");
+        d3.select("#geoSearch").style("background-size", "24px");
+
         map.setLayoutProperty("county boundaries", "visibility", "visible");
         map.setLayoutProperty("coc-boundaries", "visibility", "none");
-        $( "#geoSearch" ).val("");
+
         d3.select(".search_btn.county").classed("selected", true);
         d3.select(".search_btn.coc").classed("selected", false);
     });
@@ -361,9 +366,13 @@ d3.select(".search_btn.county")
 d3.select(".search_btn.coc")
     .on("click", function() {
         initSearch("coc");
+        $( "#geoSearch" ).val("");
+        d3.select("#geoSearch").style("background", "url(../img/searchIcon.png) 96% / 15% no-repeat #f5f5f5");
+        d3.select("#geoSearch").style("background-size", "24px");
+
         map.setLayoutProperty("coc-boundaries", "visibility", "visible");
         map.setLayoutProperty("county boundaries", "visibility", "none");
-        $( "#geoSearch" ).val("");
+
         d3.select(".search_btn.county").classed("selected", false);
         d3.select(".search_btn.coc").classed("selected", true);
     });
