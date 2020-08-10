@@ -200,7 +200,7 @@ function initSearch(geo) {
             var bounds = (geo === "county") ? countyJson[ui.item.value]["bounds"] : cocJson[ui.item.value]["bounds"];
             zoomIn(bounds);
 
-            d3.select("#geoSearch").style("background", "url(../img/closeIcon.png) 96% / 15% no-repeat #f5f5f5");
+            d3.select("#geoSearch").style("background", "url(img/closeIcon.png) 96% / 15% no-repeat #f5f5f5");
             d3.select("#geoSearch").style("background-size", "20px");
 
             $(this).val(ui.item.label); // display county or CoC name in search box after it's been selected
