@@ -167,12 +167,12 @@ function populateDataPanel(data) {
     // if not, populate the panel:
     else {
         // TODO: apply ordinal formatting after we have the rounded off numbers
-        d3.select("span.total_index_pctile").text(data["total_index_quantile"]);
+        d3.select("span.total_index_pctile").text(numberFormatter(data["total_index_quantile"]));
         d3.select("span.state_abbv").text(data["state_name"]);
 
-        d3.select("span.housing_index_pctile").text(data["housing_index_quantile"]);
-        d3.select("span.covid_index_pctile").text(data["covid_index_quantile"]);
-        d3.select("span.equity_index_pctile").text(data["equity_index_quantile"]);
+        d3.select("span.housing_index_pctile").text(numberFormatter(data["housing_index_quantile"]));
+        d3.select("span.covid_index_pctile").text(numberFormatter(data["covid_index_quantile"]));
+        d3.select("span.equity_index_pctile").text(numberFormatter(data["equity_index_quantile"]));
 
         d3.select(".no_data_msg").classed("invisible", true);
         d3.select(".data_panel").classed("invisible", false);
