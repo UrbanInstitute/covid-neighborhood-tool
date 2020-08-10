@@ -34,34 +34,36 @@
                 </div>
                 <div id="percentilePanel">
                     <input id="geoSearch" placeholder="Search for your county">
-                    <div class="header_container">
-                        <p class="census_tract_label">Census tract <span class="tract_number"></span></p>
-                        <p class="num_eli_renters_label">Number of ELI renters: <span class="num_eli_renters"></span></p>
-                    </div>
-                    <hr>
-                    <p class="no_data_msg invisible">Data are not available because we do not include census tracts with fewer than 50 renters.</p>
-                    <div class="data_panel">
-                        <p class="overall_index"><span class="total_index_label">Emergency Rental Assistance Priority Index:</span> <span class="total_index_pctile"></span> percentile (among <span class="state_abbv"></span> tracts)</p>
-                        <hr>
-                        <div class="subindex_info">
-                            <p><span class="subindex_label">Housing Instability Risk:</span> <span class="housing_index_pctile"></span> percentile</p>
-                            <p class="pctile_components">Includes: Share of cost-burdened households, overcrowded households, unemployed people, renters, and people living in poverty</p>
+                    <div class="percentilePanel_content hidden">
+                        <div class="header_container">
+                            <p class="census_tract_label">Census tract <span class="tract_number"></span></p>
+                            <p class="num_eli_renters_label">Number of ELI renters: <span class="num_eli_renters"></span></p>
                         </div>
                         <hr>
-                        <div class="subindex_info">
-                            <p><span class="subindex_label">Housing Instability Risk:</span> <span class="covid_index_pctile"></span> percentile</p>
-                            <p class="pctile_components">Includes: share of low-income jobs lost to COVID-19 and adults without health insurance</p>
+                        <p class="no_data_msg invisible">Data are not available because we do not include census tracts with fewer than 50 renters.</p>
+                        <div class="data_panel">
+                            <p class="overall_index"><span class="total_index_label">Emergency Rental Assistance Priority Index:</span> <span class="total_index_pctile"></span> percentile (among <span class="state_abbv"></span> tracts)</p>
+                            <hr>
+                            <div class="subindex_info">
+                                <p><span class="subindex_label">Housing Instability Risk:</span> <span class="housing_index_pctile"></span> percentile</p>
+                                <p class="pctile_components">Includes: Share of cost-burdened households, overcrowded households, unemployed people, renters, and people living in poverty</p>
+                            </div>
+                            <hr>
+                            <div class="subindex_info">
+                                <p><span class="subindex_label">Housing Instability Risk:</span> <span class="covid_index_pctile"></span> percentile</p>
+                                <p class="pctile_components">Includes: share of low-income jobs lost to COVID-19 and adults without health insurance</p>
+                            </div>
+                            <hr>
+                            <div class="subindex_info">
+                                <p><span class="subindex_label">Equity:</span> <span class="equity_index_pctile"></span> percentile</p>
+                                <p class="pctile_components">Includes: Share of people of color, people born outside the US, households receiving public assistance, and low-income households</p>
+                            </div>
                         </div>
                         <hr>
-                        <div class="subindex_info">
-                            <p><span class="subindex_label">Equity:</span> <span class="equity_index_pctile"></span> percentile</p>
-                            <p class="pctile_components">Includes: Share of people of color, people born outside the US, households receiving public assistance, and low-income households</p>
+                        <div class="percentilePanel_footer">
+                            <p>ELI renters = extremely low income renters, or those who XYZ</p>
+                            <p>These sub-indices and their underlying indicators...</p>
                         </div>
-                    </div>
-                    <hr>
-                    <div class="percentilePanel_footer">
-                        <p>ELI renters = extremely low income renters, or those who XYZ</p>
-                        <p>These sub-indices and their underlying indicators...</p>
                     </div>
                 </div>
             </div>

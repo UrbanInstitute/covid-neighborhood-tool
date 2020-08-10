@@ -177,6 +177,9 @@ function populateDataPanel(data) {
         d3.select(".no_data_msg").classed("invisible", true);
         d3.select(".data_panel").classed("invisible", false);
     }
+
+    // un-hide the panel
+    d3.select(".percentilePanel_content").classed("hidden", false);
 }
 
 function getTractNumber(geoid) {
