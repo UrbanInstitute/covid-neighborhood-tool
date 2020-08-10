@@ -137,8 +137,8 @@ body{
     font-size: 0.875rem;
 }
 
-.legendContainer svg{
-    display: block;
+.legendContainer svg:first-of-type {
+    margin-right: 0.7em;
 }
 
 /**********************************************************/
