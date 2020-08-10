@@ -8,6 +8,9 @@ var countyJson,
     cocJson;
 var countyNames,
     cocNames;
+
+var COMMAFMT = d3.format(",");
+
 // var pymChild = new pym.Child({renderCallback: getCoords });
 
 function IS_MOBILE(){
@@ -97,6 +100,12 @@ function initMap(user_lat, user_lng){
             ]
         );
 
+        // disable map rotation using right click + drag
+        map.dragRotate.disable();
+
+        // disable map rotation using touch rotation gesture
+        map.touchZoomRotate.disableRotation();
+
         // hover behavior adapted from: https://docs.mapbox.com/help/tutorials/create-interactive-hover-effects-with-mapbox-gl-js/
         // also a good resource: https://blog.mapbox.com/going-live-with-electoral-maps-a-guide-to-feature-state-b520e91a22d
         map.on('mousemove', 'housing-data-indexid-exponential-color', function(e) { // detect mousemove on the fill layer instead of stroke layer so correct tract is highlighted
@@ -148,7 +157,7 @@ function initMap(user_lat, user_lng){
 function populateDataPanel(data) {
     // populate the tract number
     d3.select("span.tract_number").text(getTractNumber(data["GEOID"]));
-    d3.select("span.num_eli_renters").text(data["num_ELI"]);
+    d3.select("span.num_eli_renters").text(COMMAFMT(data["num_ELI"]));
 
     // check if the tract is greyed out
     if(data["grayed_out"] == 1) {
