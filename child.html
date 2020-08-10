@@ -34,12 +34,14 @@
                 </div>
                 <div id="percentilePanel">
                     <input id="geoSearch" placeholder="Search for your county">
-                    <p>Census tract <span class="tract_number"></span></p>
-                    <p>Number of ELI renters: <span class="num_eli_renters"></span></p>
+                    <div class="header_container">
+                        <p class="census_tract_label">Census tract <span class="tract_number"></span></p>
+                        <p class="num_eli_renters_label">Number of ELI renters: <span class="num_eli_renters"></span></p>
+                    </div>
+                    <hr>
                     <p class="no_data_msg invisible">Data are not available because we do not include census tracts with fewer than 50 renters.</p>
                     <div class="data_panel">
-                        <hr>
-                        <p class="overall_index"><span class="total_index_label">Rental Assistance Priority Index:</span> <span class="total_index_pctile"></span> percentile among <span class="state_abbv"></span> tracts</p>
+                        <p class="overall_index"><span class="total_index_label">Emergency Rental Assistance Priority Index:</span> <span class="total_index_pctile"></span> percentile (among <span class="state_abbv"></span> tracts)</p>
                         <hr>
                         <div class="subindex_info">
                             <p><span class="subindex_label">Housing Instability Risk:</span> <span class="housing_index_pctile"></span> percentile</p>
@@ -54,7 +56,6 @@
                         <div class="subindex_info">
                             <p><span class="subindex_label">Equity:</span> <span class="equity_index_pctile"></span> percentile</p>
                             <p class="pctile_components">Includes: Share of people of color, people born outside the US, households receiving public assistance, and low-income households</p>
-                            <p class="more_details_text">To see the indicator values that make up each census tract's sub-indices totals, and for more information about how we weighted different indicators, download the data and view the technical appendix.</p>
                         </div>
                     </div>
                     <hr>
