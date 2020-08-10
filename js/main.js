@@ -326,7 +326,7 @@ function numberFormatter(number) {
 }
 
 Promise.all([
-    d3.json("data/sum_job_loss_county_reshaped.json"),
+    d3.json("data/county_bboxes.json"),
     d3.json("data/coc_bboxes.json"),
 ]).then(function(files) {
 
@@ -334,6 +334,7 @@ Promise.all([
     cocJson = files[1];
 
     countyNames = Object.entries(countyJson)
+        .sort()
         .map(function(o){
             return {
                 "label" : o[1]["properties"]["county_name"] + ", " + o[1]["properties"]["state_name"],
@@ -342,6 +343,7 @@ Promise.all([
         });
 
     cocNames = Object.entries(cocJson)
+        .sort()
         .map(function(o){
             return {
                 "label" : o[1]["properties"]["coc_name"] + " (" + o[1]["properties"]["coc_num"] + ")",
