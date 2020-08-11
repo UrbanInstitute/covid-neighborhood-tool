@@ -240,7 +240,7 @@ function initLegend() {
 
     var legendMargins = {top: 0, right: 30, bottom: 35, left: 15};
     var legendBlockHeight = 20;
-    var legendWidth = d3.select(".container").node().getBoundingClientRect().width - legendMargins.left - legendMargins.right;
+    var legendWidth = d3.select(".legendContainer").node().getBoundingClientRect().width - legendMargins.left - legendMargins.right;
     if(legendWidth > 400) legendWidth = 400;
 
     // scales
