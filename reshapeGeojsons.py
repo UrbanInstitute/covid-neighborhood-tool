@@ -14,14 +14,13 @@ def bbox(coord_list):
 
 
 
-def reshapeGeojson(geoidType):
+def reshapeGeojson(geoidType, infile, outfile):
 
-    with open("data/coc_geographies.geojson","r") as f:
+    with open("data/{file}".format(file = infile),"r") as f:
         inData = json.load(f)["features"]
 
-    # Use "county" and "coc" for filenames and logging, but need "county_fips" to grab the geoid
-    # property from the geojson
-    geoidKey = "county_fips" if geoidType == "county" else "COCNUM"
+    # unique_id is a field Ajjit generated
+    geoidKey = "unique_id"
 
     #iterate over the features in the geojson
     outData = {}
@@ -31,15 +30,16 @@ def reshapeGeojson(geoidType):
         properties = {} # only want to keep county/CoC name, state name, geoid and geo type (county or CoC)
 
         if geoidType == "county":
-            properties["county_fips"] = d["properties"]["county_fips"]
-            properties["county_name"] = d["properties"]["county_name"]
-            properties["state_name"] = d["properties"]["state_name"]
+            properties["state_fips"] = d["properties"]["statefp"]
+            properties["county_fips"] = d["properties"]["countyfp"]
+            properties["county_name"] = d["properties"]["namelsad"]
+            properties["state_abbv"] = d["properties"]["state_abbv"]
             properties["type"] = "county"
         elif geoidType == "coc":
-            properties["state_abbv"] = d["properties"]["ST"]
-            properties["state_name"] = d["properties"]["STATE_NAME"]
-            properties["coc_num"] = d["properties"]["COCNUM"]
-            properties["coc_name"] = d["properties"]["COCNAME"]
+            properties["state_abbv"] = d["properties"]["state_abbv"]
+            properties["state_name"] = d["properties"]["state_name"]
+            properties["coc_num"] = d["properties"]["coc_num"]
+            properties["coc_name"] = d["properties"]["coc_name"]
             properties["type"] = "coc"
 
         # some coordinates are multipolygons (e.g. islands in michigan or NC)
@@ -86,11 +86,9 @@ def reshapeGeojson(geoidType):
         # when user mouses out the map, with a county/cbsa selected
             outData[geoid] = {"bounds": bounds, "properties": properties}
 
-    # with open("data/sum_job_loss_cbsa_reshaped.json","w") as f:
-    #     json.dump(outData, f)
-    with open("data/coc_bboxes.json","w") as f:
+    with open("data/{file}".format(file = outfile),"w") as f:
         json.dump(outData, f)
 
-
-# reshapeGeojson("county")
-reshapeGeojson("coc")
+if __name__ == "__main__":
+    reshapeGeojson("county", "counties.geojson", "county_bboxes.json")
+    reshapeGeojson("coc", "coc_geographies_states_split.geojson", "coc_bboxes.json")
