@@ -66,6 +66,13 @@ body{
     }
 }
 
+@media screen and (max-width: 520px) {
+    #mapContainer {
+        width: 100%;
+        height: 500px;
+    }
+}
+
 /**********************************************************/
 /***************** SEARCH BUTTON STYLES *******************/
 /**********************************************************/
@@ -81,7 +88,7 @@ body{
 }
 
 .search_btn_container {
-    width: 450px; /* TODO: change this to the actual width after buttons are styled */
+    width: 450px;
     margin: 0 auto;
 }
 
@@ -114,7 +121,21 @@ body{
     pointer-events: none;
 }
 
+@media screen and (max-width: 466px) {
+    .search_btn_container {
+        width: 100%;
+        margin: 0;
+    }
 
+    .search_btn {
+        width: 49%;
+        vertical-align: top;
+    }
+
+    .search_btn:first-of-type {
+        margin-right: 0;
+    }
+}
 /**********************************************************/
 /**************************** MAP *************************/
 /**********************************************************/
