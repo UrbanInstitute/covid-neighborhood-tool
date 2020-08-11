@@ -13,6 +13,7 @@ body{
     max-width: 1020px;
     width: 100%;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .fig_container {
@@ -48,6 +49,22 @@ body{
     display: none;
 }
 
+@media screen and (max-width: 978px) {
+    .container {
+        padding: 0.5em;
+    }
+
+    .fig_container {
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    #percentilePanel {
+        position: relative;
+        margin-top: 2em;
+        width: 100%;
+    }
+}
 
 /**********************************************************/
 /***************** SEARCH BUTTON STYLES *******************/
@@ -139,6 +156,17 @@ body{
 
 .legendContainer svg:first-of-type {
     margin-right: 0.7em;
+}
+
+@media screen and (max-width: 978px) {
+    .legendContainer {
+        width: 100%;
+    }
+
+    .legendContainer svg:first-of-type {
+        margin-right: 0;
+        margin-bottom: 1.25em;
+    }
 }
 
 /**********************************************************/

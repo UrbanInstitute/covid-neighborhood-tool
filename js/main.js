@@ -106,6 +106,11 @@ function initMap(user_lat, user_lng){
         // disable map rotation using touch rotation gesture
         map.touchZoomRotate.disableRotation();
 
+        // on tablet and phone screens, disable map zoom when using scroll
+        if(d3.select(".container").node().getBoundingClientRect().width < 968) {
+            map.scrollZoom.disable();
+        }
+
         // hover behavior adapted from: https://docs.mapbox.com/help/tutorials/create-interactive-hover-effects-with-mapbox-gl-js/
         // also a good resource: https://blog.mapbox.com/going-live-with-electoral-maps-a-guide-to-feature-state-b520e91a22d
         map.on('mousemove', 'housing-data-indexid-exponential-color', function(e) { // detect mousemove on the fill layer instead of stroke layer so correct tract is highlighted
@@ -160,8 +165,9 @@ function initMap(user_lat, user_lng){
 
             tractID = null;
 
-            // hide the info panel
-            d3.select(".percentilePanel_content").classed("hidden", true);
+            // hide the info panel and update iframe height (needed on small screens)
+            d3.select(".percentilePanel_content").classed("invisible", true);
+            pymChild.sendHeight();
 
             // Reset the cursor style
             map.getCanvas().style.cursor = '';
@@ -183,7 +189,6 @@ function populateDataPanel(data) {
     }
     // if not, populate the panel:
     else {
-        // TODO: apply ordinal formatting after we have the rounded off numbers
         d3.select("span.total_index_pctile").text(numberFormatter(data["total_index_quantile"]));
         d3.select("span.state_abbv").text(data["state_name"]);
 
@@ -195,8 +200,10 @@ function populateDataPanel(data) {
         d3.select(".data_panel").classed("invisible", false);
     }
 
-    // un-hide the panel
-    d3.select(".percentilePanel_content").classed("hidden", false);
+    // un-hide the panel and update iframe height
+    d3.select(".percentilePanel_content").classed("invisible", false);
+
+    pymChild.sendHeight();
 }
 
 function getTractNumber(geoid) {
@@ -376,6 +383,7 @@ Promise.all([
 
 
 // event handlers for the two buttons
+
 // when user clicks on counties, update search to populate with counties, clear contents of searchbox,
 // and display counties layer on map
 d3.select(".search_btn.county")
