@@ -301,7 +301,7 @@ function zoomIn(bounds) {
     map.fitBounds(
         bounds,
         {
-            "padding": 50,
+            "padding": 20,
             "duration": 900,
             "essential": true, // If true , then the animation is considered essential and will not be affected by prefers-reduced-motion .
         }
