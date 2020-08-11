@@ -1,6 +1,5 @@
 var pymChild = null;
 
-var US_ZOOM = 3.5;
 var US_CENTER = [-95.5795, 37.8283];
 
 var map;
@@ -57,9 +56,9 @@ function getCoords() {
     initLegend();
     initSearch("county");
 
-    // if (pymChild) {
-    //     pymChild.sendHeight();
-    // }
+    if (pymChild) {
+        pymChild.sendHeight();
+    }
 }
 
 function initMap(user_lat, user_lng){
@@ -74,7 +73,7 @@ function initMap(user_lat, user_lng){
 		center: [user_lng, user_lat],
 		zoom: 9,
 		maxZoom: 12,
-		minZoom: US_ZOOM
+		minZoom: 3.5
 	});
 
 
@@ -358,22 +357,22 @@ Promise.all([
     cocJson = files[1];
 
     countyNames = Object.entries(countyJson)
-        .sort()
         .map(function(o){
             return {
-                "label" : o[1]["properties"]["county_name"] + ", " + o[1]["properties"]["state_name"],
+                "label" : o[1]["properties"]["county_name"] + ", " + o[1]["properties"]["state_abbv"],
                 "value" : o[0]
             }
-        });
+        })
+        .sort(function(a, b) { return d3.ascending(a.label, b.label); });
 
     cocNames = Object.entries(cocJson)
-        .sort()
         .map(function(o){
             return {
                 "label" : o[1]["properties"]["coc_name"] + " (" + o[1]["properties"]["coc_num"] + ")",
                 "value" : o[0]
             }
-        });
+        })
+        .sort(function(a, b) { return d3.ascending(a.label, b.label); });
 
     pymChild = new pym.Child({renderCallback: getCoords });
 
