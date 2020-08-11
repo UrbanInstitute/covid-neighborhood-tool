@@ -40,4 +40,4 @@ tippecanoe -f -z12 -Z3 -o data/housing_data_indicators-id.mbtiles --coalesce-den
 ### MAKE CONTINUUM OF CARE MAPTILES
 
 # make maptiles from geojson
-tippecanoe -f -z12 -Z3 -o data/coc.mbtiles --coalesce-densest-as-needed data/coc_geographies.geojson
+tippecanoe -f -z12 -Z3 -o data/coc.mbtiles --coalesce-densest-as-needed data/coc_geographies_states_split.geojson
