@@ -39,9 +39,9 @@ body{
     width: 460px;
 }
 
-.hidden {
+/*.hidden {
     visibility: hidden;
-}
+}*/
 
 .invisible {
     display: none;
@@ -65,6 +65,7 @@ body{
         position: relative;
         margin-top: 2em;
         width: 100%;
+        min-height: 250px;
     }
 }
 
@@ -78,6 +79,7 @@ body{
         height: 500px;
     }
 }
+
 
 /**********************************************************/
 /***************** SEARCH BUTTON STYLES *******************/
@@ -156,10 +158,6 @@ body{
     color: #1696d2;
     cursor: pointer;
     opacity: 0;
-}
-
-.mapboxgl-ctrl-logo{
-    /*margin-left: 500px !important;*/
 }
 
 
