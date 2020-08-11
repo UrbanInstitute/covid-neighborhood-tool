@@ -114,10 +114,6 @@ function initMap(user_lat, user_lng){
             // console.log(e.features);
 
             map.getCanvas().style.cursor = 'pointer';
-            // Set variables equal to the current feature's magnitude, location, and time
-            // var quakeMagnitude = e.features[0].properties.mag;
-            // var quakeLocation = e.features[0].properties.place;
-            // var quakeDate = new Date(e.features[0].properties.time);
 
             // Check whether features exist
             if (e.features.length > 0) {
@@ -148,6 +144,27 @@ function initMap(user_lat, user_lng){
                 populateDataPanel(e.features[0].properties);
             }
 
+        });
+
+        map.on("mouseleave", "housing-data-indexid-exponential-color", function() {
+
+            if (tractID) {
+                map.setFeatureState({
+                    source: 'composite',
+                    sourceLayer: 'housing_data_indexid',
+                    id: tractID
+                }, {
+                    hover: false
+                });
+            }
+
+            tractID = null;
+
+            // hide the info panel
+            d3.select(".percentilePanel_content").classed("hidden", true);
+
+            // Reset the cursor style
+            map.getCanvas().style.cursor = '';
         });
     });
 
