@@ -18,11 +18,12 @@ body{
 
 .fig_container {
     position: relative;
+    height: 900px;
 }
 
 #mapContainer{
     width: 500px;
-    height: 780px;
+    height: 675px;
     display: inline-block;
 }
 
