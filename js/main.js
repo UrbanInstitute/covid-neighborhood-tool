@@ -275,7 +275,7 @@ function initLegend() {
         .style("fill", function(d, i) { return colorScale(i); });
 
     legendSvg.selectAll(".legendLabel")
-        .data([0, 50, 75, 85, 90, 95, 100])
+        .data([0, 50, 75, 85, 90, 95])
         .enter()
         .append("text")
         .attr("class", "legendLabel")
