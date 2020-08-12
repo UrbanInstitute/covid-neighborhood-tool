@@ -22,7 +22,7 @@ body{
 
 #mapContainer{
     width: 500px;
-    height: 675px;
+    height: 780px;
     display: inline-block;
 }
 
@@ -299,5 +299,6 @@ hr {
 
 .percentilePanel_footer {
     font-size: 0.875rem;
+    line-height: 1rem;
     font-style: italic;
 }

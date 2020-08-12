@@ -30,7 +30,7 @@
                 	<div id="map"></div>
                 </div>
                 <div class="legendContainer">
-                    <h3>Percentile of rental assistance priority</h3>
+                    <h3>Emergency Rental Assistance Priority Index percentile</h3>
                 </div>
                 <div id="percentilePanel">
                     <input id="geoSearch" placeholder="Search for your county">
@@ -40,29 +40,30 @@
                             <p class="num_eli_renters_label">Number of ELI renters: <span class="num_eli_renters"></span></p>
                         </div>
                         <hr>
-                        <p class="no_data_msg invisible">Data are not available because we do not include census tracts with fewer than 50 renters.</p>
+                        <p class="no_data_msg invisible">Data are not displayed for census tracts that have no extremely low–income renters.</p>
                         <div class="data_panel">
                             <p class="overall_index"><span class="total_index_label">Emergency Rental Assistance Priority Index:</span> <span class="total_index_pctile"></span> percentile (among <span class="state_abbv"></span> tracts)</p>
                             <hr>
                             <div class="subindex_info">
-                                <p><span class="subindex_label">Housing Instability Risk:</span> <span class="housing_index_pctile"></span> percentile</p>
-                                <p class="pctile_components">Includes: Share of cost-burdened households, overcrowded households, unemployed people, renters, and people living in poverty</p>
+                                <p><span class="subindex_label">Housing Instability Risk Subindex:</span> <span class="housing_index_pctile"></span> percentile</p>
+                                <p class="pctile_components">Shares of: people living in poverty, renter-occupied housing units, severely cost-burdened low-income renters, severely overcrowded households, and unemployed people</p>
                             </div>
                             <hr>
                             <div class="subindex_info">
-                                <p><span class="subindex_label">Housing Instability Risk:</span> <span class="covid_index_pctile"></span> percentile</p>
-                                <p class="pctile_components">Includes: share of low-income jobs lost to COVID-19 and adults without health insurance</p>
+                                <p><span class="subindex_label">COVID-19 Impact Subindex:</span> <span class="covid_index_pctile"></span> percentile</p>
+                                <p class="pctile_components">Shares of: adults without health insurance and low-income jobs lost to COVID-19</p>
                             </div>
                             <hr>
                             <div class="subindex_info">
-                                <p><span class="subindex_label">Equity:</span> <span class="equity_index_pctile"></span> percentile</p>
-                                <p class="pctile_components">Includes: Share of people of color, people born outside the US, households receiving public assistance, and low-income households</p>
+                                <p><span class="subindex_label">Equity Subindex:</span> <span class="equity_index_pctile"></span> percentile</p>
+                                <p class="pctile_components">Shares of: people of color, extremely low–income renter households, households receiving public assistance, and people born outside the US</p>
                             </div>
                         </div>
                         <hr>
                         <div class="percentilePanel_footer">
-                            <p>ELI renters = extremely low income renters, or those who XYZ</p>
-                            <p>These sub-indices and their underlying indicators...</p>
+                            <p>ELI renters = extremely low–income renters, or renters with incomes at or below 30 percent of the area median income</p>
+                            <p>To allow local decisionmakers to compare the needs of neighborhoods in their area, our map displays each census tract based on the percentile that its index score falls into compared with all other tracts in the state. For this reason, the Emergency Rental Assistance Priority Index percentiles in this tool and the scores in the data download should not be used to compare housing instability risk in census tracts in different states.</p>
+                            <p>These subindexes and their underlying indicators have been weighted differently based on evidence that certain factors disproportionately contribute to homelessness and health risks. To see the indicator values that make up each census tract’s subindexes and for more information about how we calculated the Emergency Rental Assistance Priority Index, download the <a href="#" target="_blank">data</a> and the <a href="#" target="_blank">technical appendix</a>.</p>
                         </div>
                     </div>
                 </div>

@@ -189,7 +189,7 @@ function populateDataPanel(data) {
     // if not, populate the panel:
     else {
         d3.select("span.total_index_pctile").text(numberFormatter(data["total_index_quantile"]));
-        d3.select("span.state_abbv").text(data["state_name"]);
+        d3.select("span.state_abbv").text(data["state_abbv"]);
 
         d3.select("span.housing_index_pctile").text(numberFormatter(data["housing_index_quantile"]));
         d3.select("span.covid_index_pctile").text(numberFormatter(data["covid_index_quantile"]));
@@ -210,7 +210,7 @@ function getTractNumber(geoid) {
 }
 
 function initSearch(geo) {
-    var placeholderText = (geo === "county") ? "Search for your county" : "Search for your continuum of care";
+    var placeholderText = (geo === "county") ? "Search by County" : "Search by Continuum of Care";
 
     var searchData = (geo === "county") ? countyNames : cocNames;
 
