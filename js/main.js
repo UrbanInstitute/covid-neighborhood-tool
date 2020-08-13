@@ -8,6 +8,9 @@ var countyJson,
 var countyNames,
     cocNames;
 
+var clickedTractID = null,
+    clickedTractData;
+
 var COMMAFMT = d3.format(",");
 
 // var pymChild = new pym.Child({renderCallback: getCoords });
@@ -93,7 +96,7 @@ function initMap(user_lat, user_lng){
             'line-opacity',
             [
                 'case',
-                ['boolean', ['feature-state', 'hover'], false],
+                ['boolean', ['feature-state', 'highlight'], false],
                 1,
                 0
             ]
@@ -142,10 +145,21 @@ function initMap(user_lat, user_lng){
                     id: tractID
                 },
                 {
-                    hover: true
+                    highlight: true
                 });
 
                 populateDataPanel(e.features[0].properties);
+
+                // if a tract has been clicked on, make sure it is still highlighted
+                if(clickedTractID) {
+                    map.setFeatureState({
+                        source: 'composite',
+                        sourceLayer: 'housing_data_indexid',
+                        id: clickedTractID
+                    }, {
+                        highlight: true
+                    });
+                }
             }
 
         });
@@ -158,18 +172,61 @@ function initMap(user_lat, user_lng){
                     sourceLayer: 'housing_data_indexid',
                     id: tractID
                 }, {
-                    hover: false
+                    highlight: false
                 });
             }
 
             tractID = null;
 
-            // hide the info panel and update iframe height (needed on small screens)
-            d3.select(".percentilePanel_content").classed("invisible", true);
-            pymChild.sendHeight();
+            // if a tract has been clicked on, keep it highlighted and
+            // populate the info panel with that tract's info
+            if(clickedTractID) {
+                map.setFeatureState({
+                    source: 'composite',
+                    sourceLayer: 'housing_data_indexid',
+                    id: clickedTractID
+                }, {
+                    highlight: true
+                });
+
+                populateDataPanel(clickedTractData);
+            }
+            // otherwise, hide the info panel and update iframe height (needed on small screens)
+            else {
+                d3.select(".percentilePanel_content").classed("invisible", true);
+                pymChild.sendHeight();
+            }
 
             // Reset the cursor style
             map.getCanvas().style.cursor = '';
+        });
+
+        map.on("click", "housing-data-indexid-exponential-color", function(e) {
+
+            if(e.features.length > 0) {
+                // stop highlighting any previously clicked on tracts
+                if (clickedTractID) {
+                    map.removeFeatureState({
+                        source: 'composite',
+                        sourceLayer: 'housing_data_indexid',
+                        id: clickedTractID
+                    });
+                }
+
+                clickedTractID = e.features[0].id;
+                clickedTractData = e.features[0].properties;
+
+                map.setFeatureState({
+                    source: 'composite',
+                    sourceLayer: 'housing_data_indexid',
+                    id: clickedTractID
+                },
+                {
+                    highlight: true
+                });
+
+                populateDataPanel(e.features[0].properties);
+            }
         });
     });
 
@@ -199,7 +256,7 @@ function populateDataPanel(data) {
         d3.select(".no_data_msg").classed("invisible", true);
         d3.select(".data_panel").classed("invisible", false);
     }
-
+// console.log(data);
     // un-hide the panel and update iframe height
     d3.select(".percentilePanel_content").classed("invisible", false);
 
