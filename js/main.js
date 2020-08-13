@@ -1,4 +1,4 @@
-var pymChild = null;
+var pymChild = new pym.Child({polling: 500});
 
 var US_CENTER = [-95.5795, 37.8283];
 
@@ -14,7 +14,6 @@ var clickedTractID = null,
 
 var COMMAFMT = d3.format(",");
 
-// var pymChild = new pym.Child({renderCallback: getCoords });
 
 function IS_MOBILE(){
 	return d3.select("#isMobile").style("display") == "block"
@@ -22,12 +21,6 @@ function IS_MOBILE(){
 function IS_PHONE(){
 	return d3.select("#isPhone").style("display") == "block"
 }
-
-// function init() {
-//     getCoords()
-//         .then(initMap)
-//         .catch(function handleError(error) { console.log(error); });
-// }
 
 function getCoords() {
     // using the GeoJS API: https://www.geojs.io/docs/v1/endpoints/geo/
@@ -53,20 +46,17 @@ function getCoords() {
         else {
             console.log("error");
             // also need to pick a default point to center the map on if the API fails to return a response
-            initMap(-95.5795, 37.8283);
+            initMap(39.0828, -77.1674);
         }
     }
 
+    // initMap(39.0828, -77.1674);
     initLegend();
     initSearch("county");
 
-    if (pymChild) {
-        pymChild.sendHeight();
-    }
 }
 
 function initMap(user_lat, user_lng){
-	// initLegend()
 
 	mapboxgl.accessToken = 'pk.eyJ1IjoidXJiYW5pbnN0aXR1dGUiLCJhIjoiTEJUbmNDcyJ9.mbuZTy4hI_PWXw3C3UFbDQ';
 
@@ -195,7 +185,6 @@ function initMap(user_lat, user_lng){
             // otherwise, hide the info panel and update iframe height (needed on small screens)
             else {
                 d3.select(".percentilePanel_content").classed("invisible", true);
-                pymChild.sendHeight();
             }
 
             // Reset the cursor style
@@ -263,11 +252,9 @@ function populateDataPanel(data) {
         d3.select(".no_data_msg").classed("invisible", true);
         d3.select(".data_panel").classed("invisible", false);
     }
-// console.log(data);
+
     // un-hide the panel and update iframe height
     d3.select(".percentilePanel_content").classed("invisible", false);
-
-    pymChild.sendHeight();
 }
 
 function getTractNumber(geoid) {
@@ -446,7 +433,7 @@ Promise.all([
         })
         .sort(function(a, b) { return d3.ascending(a.label, b.label); });
 
-    pymChild = new pym.Child({renderCallback: getCoords });
+    getCoords();
 
 }).catch(function(err) {
     console.log(err);
