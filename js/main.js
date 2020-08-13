@@ -210,7 +210,7 @@ function getTractNumber(geoid) {
 }
 
 function initSearch(geo) {
-    var placeholderText = (geo === "county") ? "Search by County" : "Search by Continuum of Care";
+    var placeholderText = (geo === "county") ? "Search for your County" : "Search for your Continuum of Care";
 
     var searchData = (geo === "county") ? countyNames : cocNames;
 
