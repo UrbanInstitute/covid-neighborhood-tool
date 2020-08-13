@@ -218,7 +218,7 @@ a {
 /**********************************************************/
 
 #percentilePanel p {
-    margin: 0.8em 0;
+    margin: 1em 0;
 }
 
 #geoSearch {
@@ -249,7 +249,11 @@ a {
 .header_container {
     display: flex;
     justify-content: space-between;
-    margin: 1em 0;
+}
+
+#percentilePanel .header_container p {
+    margin-bottom: 0;
+    margin-top: 1.5em;
 }
 
 .census_tract_label {
@@ -297,11 +301,20 @@ a {
 
 hr {
     border: 1px solid #12719E;
-    margin: 1em 0;
+    margin: 1.5em 0;
 }
 
 .subindex_info {
     padding-left: 2em;
+}
+
+#percentilePanel .subindex_info p:first-child {
+    margin-top: 1.5em;
+    margin-bottom: 0.2em;
+}
+
+#percentilePanel .pctile_components {
+    margin-top: 0.2em;
 }
 
 .subindex_label {
