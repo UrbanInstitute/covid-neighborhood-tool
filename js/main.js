@@ -179,6 +179,7 @@ function initMap(user_lat, user_lng){
 function populateDataPanel(data) {
     // populate the tract number
     d3.select("span.tract_number").text(getTractNumber(data["GEOID"]));
+    d3.select("span.county_name").text(data["county_name"] + ", " + data["state_abbv"]);
     d3.select("span.num_eli_renters").text(COMMAFMT(data["num_ELI"]));
 
     // check if the tract is greyed out
