@@ -40,7 +40,7 @@ a {
 #percentilePanel {
     display: inline-block;
     position: absolute;
-    top: 0;
+    top: 55px;
     right: 0;
     width: 460px;
 }
@@ -61,6 +61,7 @@ a {
     .fig_container {
         width: 500px;
         margin: 0 auto;
+        min-height: auto;
     }
 
     #mapContainer {
@@ -71,7 +72,8 @@ a {
         position: relative;
         margin-top: 2em;
         width: 100%;
-        min-height: 250px;
+        top: auto;
+        right: auto;
     }
 }
 
@@ -84,11 +86,15 @@ a {
         width: 100%;
         height: 500px;
     }
+
+    #percentilePanel {
+        margin-top: 0;
+    }
 }
 
 
 /**********************************************************/
-/***************** SEARCH BUTTON STYLES *******************/
+/*********** SEARCH BUTTON & SEARCH BOX STYLES ************/
 /**********************************************************/
 .search_container {
     margin-bottom: 3em;
@@ -148,6 +154,44 @@ a {
 
     .search_btn:first-of-type {
         margin-right: 0;
+    }
+}
+
+
+#geoSearch {
+    width: 100%;
+    max-width: 460px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    border: none;
+    background: url("../img/searchIcon.png") 96% / 15% no-repeat #f5f5f5;
+    background-size: 24px;
+    padding: 1em;
+    font-size: 1rem;
+    font-family: Lato;
+    color: #353535;
+}
+
+.ui-menu {
+    max-height: 200px;
+}
+
+.ui-autocomplete {
+    /*max-height: 300px;*/
+    overflow-y: auto;
+    overflow-x: hidden;
+    /*font-size: 16px;*/
+    /*font-style: italic;*/
+}
+
+@media screen and (max-width: 978px) {
+    #geoSearch {
+        position: relative;
+        max-width: 500px;
+        margin-bottom: 2em;
     }
 }
 
@@ -219,31 +263,6 @@ a {
 
 #percentilePanel p {
     margin: 1em 0;
-}
-
-#geoSearch {
-    width: 100%;
-    height: 50px;
-    box-sizing: border-box;
-    border: none;
-    background: url("../img/searchIcon.png") 96% / 15% no-repeat #f5f5f5;
-    background-size: 24px;
-    padding: 1em;
-    font-size: 1rem;
-    font-family: Lato;
-    color: #353535;
-}
-
-.ui-menu {
-    max-height: 200px;
-}
-
-.ui-autocomplete {
-    /*max-height: 300px;*/
-    overflow-y: auto;
-    overflow-x: hidden;
-    /*font-size: 16px;*/
-    /*font-style: italic;*/
 }
 
 .header_container {
