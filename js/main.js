@@ -428,8 +428,6 @@ Promise.all([
         .rollup(function(v) { return v; })
         .object(geos);
 
-    console.log(geos_nested["1073005701"][0]["county_name"]);
-
     countyNames = Object.entries(countyJson)
         .map(function(o){
             return {
