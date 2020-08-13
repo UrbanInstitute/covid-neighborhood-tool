@@ -7,6 +7,7 @@ var countyJson,
     cocJson;
 var countyNames,
     cocNames;
+var geos_nested;
 
 var clickedTractID = null,
     clickedTractData;
@@ -235,8 +236,14 @@ function initMap(user_lat, user_lng){
 
 function populateDataPanel(data) {
     // populate the tract number
-    d3.select("span.tract_number").text(getTractNumber(data["GEOID"]));
-    d3.select("span.county_name").text(data["county_name"] + ", " + data["state_abbv"]);
+    var geoid = data["GEOID"],
+        tract_number = getTractNumber(geoid),
+        county_name = geos_nested[geoid][0]["county_name"],
+        state_abbv = geos_nested[geoid][0]["state_abbv"],
+        state_name = geos_nested[geoid][0]["state_name"];
+
+    d3.select("span.tract_number").text(tract_number);
+    d3.select("span.county_name").text(county_name + ", " + state_abbv);
     d3.select("span.num_eli_renters").text(COMMAFMT(data["num_ELI"]));
 
     // check if the tract is greyed out
@@ -247,7 +254,7 @@ function populateDataPanel(data) {
     // if not, populate the panel:
     else {
         d3.select("span.total_index_pctile").text(numberFormatter(data["total_index_quantile"]));
-        d3.select("span.state_abbv").text(data["state_abbv"]);
+        d3.select("span.state_name").text(state_name);
 
         d3.select("span.housing_index_pctile").text(numberFormatter(data["housing_index_quantile"]));
         d3.select("span.covid_index_pctile").text(numberFormatter(data["covid_index_quantile"]));
@@ -409,10 +416,19 @@ function numberFormatter(number) {
 Promise.all([
     d3.json("data/county_bboxes.json"),
     d3.json("data/coc_bboxes.json"),
+    d3.csv("data/geos.csv"),
 ]).then(function(files) {
 
     countyJson = files[0];
     cocJson = files[1];
+    geos = files[2];
+
+    geos_nested = d3.nest()
+        .key(function(d) { return d.GEOID; })
+        .rollup(function(v) { return v; })
+        .object(geos);
+
+    console.log(geos_nested["1073005701"][0]["county_name"]);
 
     countyNames = Object.entries(countyJson)
         .map(function(o){
