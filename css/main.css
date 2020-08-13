@@ -23,7 +23,7 @@ a {
 
 .fig_container {
     position: relative;
-    height: 920px;
+    min-height: 920px;
 }
 
 #mapContainer{
