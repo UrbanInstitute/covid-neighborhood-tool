@@ -289,7 +289,7 @@ function initLegend() {
     // clear existing svg so the legend doesn't get duplicated when the window is resized
     $(".legendContainer svg").remove();
 
-    var legendMargins = {top: 0, right: 30, bottom: 35, left: 15};
+    var legendMargins = {top: 0, right: 30, bottom: 35, left: 4};
     var legendBlockHeight = 20;
     var legendWidth = d3.select(".legendContainer").node().getBoundingClientRect().width - legendMargins.left - legendMargins.right;
     if(legendWidth > 400) legendWidth = 400;
@@ -337,15 +337,15 @@ function initLegend() {
 
     legendSvg.append("text")
         .attr("class", "legendLabel")
-        .attr("x", 0)
+        .attr("x", xScale(15))
         .attr("y", legendBlockHeight * 2.6)
-        .text("LOW");
+        .text("LOW PRIORITY");
 
     legendSvg.append("text")
         .attr("class", "legendLabel")
-        .attr("x", legendWidth)
+        .attr("x", xScale(85))
         .attr("y", legendBlockHeight * 2.6)
-        .text("HIGH");
+        .text("HIGH PRIORITY");
 
     // add entry for grayed out tracts
     var grayedOutSvg = d3.select(".legendContainer")

@@ -238,7 +238,7 @@ a {
 }
 
 .legendContainer svg:first-of-type {
-    margin-right: 0.7em;
+    margin-right: 1.3em;
 }
 
 @media screen and (max-width: 978px) {
