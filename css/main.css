@@ -128,10 +128,16 @@ a {
     margin-right: 46px;
 }
 
-.search_btn:hover {
+.search_btn:hover,
+.search_btn:focus {
     background-color: #000;
     color: #fff;
     border-color: #000;
+    outline: none;
+}
+
+.search_btn:focus {
+    border-color: #1696d2;
 }
 
 .search_btn.selected {
