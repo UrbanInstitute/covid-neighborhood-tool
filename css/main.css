@@ -287,9 +287,10 @@ a {
 
 .census_tract_label .census_tract {
     text-transform: uppercase;
-    text-decoration: underline;
-    text-decoration-color: #FCCB41;
-    text-underline-position: under;
+    /*text-decoration: underline;*/
+    /*text-decoration-color: #FCCB41;*/
+    /*text-underline-position: under;*/
+    border-bottom: 2px solid #FCCB41;
 }
 
 .census_tract_label .census_tract_label_county_state {
