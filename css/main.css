@@ -271,6 +271,12 @@ a {
     margin: 1em 0;
 }
 
+.map_instructions {
+    font-size: 1.125rem;
+    font-style: italic;
+    color: #696969;
+}
+
 .header_container {
     display: flex;
     justify-content: space-between;

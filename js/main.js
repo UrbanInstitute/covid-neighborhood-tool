@@ -185,6 +185,7 @@ function initMap(user_lat, user_lng){
             // otherwise, hide the info panel and update iframe height (needed on small screens)
             else {
                 d3.select(".percentilePanel_content").classed("invisible", true);
+                d3.select(".map_instructions").classed("invisible", false);
             }
 
             // Reset the cursor style
@@ -253,8 +254,9 @@ function populateDataPanel(data) {
         d3.select(".data_panel").classed("invisible", false);
     }
 
-    // un-hide the panel and update iframe height
+    // un-hide the panel
     d3.select(".percentilePanel_content").classed("invisible", false);
+    d3.select(".map_instructions").classed("invisible", true);
 }
 
 function getTractNumber(geoid) {
