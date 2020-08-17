@@ -243,6 +243,7 @@ function populateDataPanel(data) {
     }
     // if not, populate the panel:
     else {
+        highlightTotalIndex(data["total_index_quantile"]);
         d3.select("span.total_index_pctile").text(numberFormatter(data["total_index_quantile"]));
         d3.select("span.state_name").text(state_name);
 
@@ -257,6 +258,32 @@ function populateDataPanel(data) {
     // un-hide the panel
     d3.select(".percentilePanel_content").classed("invisible", false);
     d3.select(".map_instructions").classed("invisible", true);
+}
+
+function highlightTotalIndex(total_index_value) {
+    highlight = d3.select(".percentile_highlight");
+
+    // clear any percentile-related classes first by just assigning the original overall_index class
+    highlight.attr("class", "percentile_highlight");
+
+    if(total_index_value < 50) {
+        highlight.classed("lowest", true);
+    }
+    else if(total_index_value >= 50 && total_index_value < 75) {
+        highlight.classed("second_lowest", true);
+    }
+    else if(total_index_value >= 75 & total_index_value < 85) {
+        highlight.classed("medium_low", true);
+    }
+    else if(total_index_value >= 85 & total_index_value < 90) {
+        highlight.classed("medium_high", true);
+    }
+    else if(total_index_value >= 90 & total_index_value < 95) {
+        highlight.classed("second_highest", true);
+    }
+    else if(total_index_value >= 95) {
+        highlight.classed("highest", true);
+    }
 }
 
 function getTractNumber(geoid) {

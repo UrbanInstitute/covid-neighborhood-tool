@@ -324,13 +324,46 @@ a {
 
 .overall_index {
     font-size: 1.125rem;
-    font-weight: bold;
-    color: #12719E;
     line-height: 1.6rem;
+}
+
+.percentile_highlight {
+    padding: 1px;
+}
+
+.percentile_highlight.lowest {
+    background-color: #cfe8f3;
+    color: #353535;
+}
+
+.percentile_highlight.second_lowest {
+    background-color: #73bfe2;
+    color: #353535;
+}
+
+.percentile_highlight.medium_low {
+    background-color: #48abdb;
+    color: #fff;
+}
+
+.percentile_highlight.medium_high {
+    background-color: #1695d2;
+    color: #fff;
+}
+
+.percentile_highlight.second_highest {
+    background-color: #12719e;
+    color: #fff;
+}
+
+.percentile_highlight.highest {
+    background-color: #0a4c6b;
+    color: #fff;
 }
 
 .total_index_label {
     color: #353535;
+    font-weight: bold;
 }
 
 hr {
