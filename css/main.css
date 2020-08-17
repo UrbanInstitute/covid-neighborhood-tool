@@ -290,13 +290,15 @@ a {
     /*text-decoration: underline;*/
     /*text-decoration-color: #FCCB41;*/
     /*text-underline-position: under;*/
-    border-bottom: 2px solid #FCCB41;
+    border-bottom: 3px solid #FCCB41;
 }
 
 .census_tract_label .census_tract_label_county_state {
     text-decoration: none;
     font-style: italic;
     text-transform: none;
+    display: inline-block;
+    margin-top: 2px;
 }
 
 .num_eli_renters_label {
