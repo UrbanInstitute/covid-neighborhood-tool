@@ -28,7 +28,6 @@ function getCoords() {
     request.open("GET", "https://get.geojs.io/v1/ip/geo.json");
     request.send();
     request.onload = function() {
-        // console.log(request);
         if(request.status === 200) {
             var response = JSON.parse(request.response);
             var lat = +response.latitude;
@@ -39,21 +38,34 @@ function getCoords() {
             var accuracy = response.accuracy;
 
             // what if user is from outside the US? need some default coords
-            // console.log(response);
+            if(country != "United States") {
+                // initMap();
+            }
 
             initMap(lat, long);
         }
         else {
             console.log("error");
             // also need to pick a default point to center the map on if the API fails to return a response
-            initMap(39.0828, -77.1674);
+            initMap(41.307802, -72.930804);
         }
     }
 
-    // initMap(39.0828, -77.1674);
+    initMap(41.307802, -72.930804); // on Firefox, if the user has an adblocker, the API request gets blocked due to
+                                    // CORS but it doesn't throw an error that I can handle. To work around this and
+                                    // make sure a map is displayed, I have a second call to initialize the map here.
+                                    // On other browsers where the API call was successful, this will generate a second
+                                    // map which will thankfully be hidden behind the map from the first initMap() call.
+
+    // this doesn't seem to do anything
+    // if(d3.selectAll("#map .mapboxgl-canvas-container").nodes.length > 1) {
+    //     d3.select('#map .mapboxgl-canvas-container').remove();
+    //     d3.select('#map .mapboxgl-canary').remove();
+    //     d3.select('#map .mapboxgl-control-container').remove();
+    // }
+
     initLegend();
     initSearch("county");
-
 }
 
 function initMap(user_lat, user_lng){
@@ -69,7 +81,6 @@ function initMap(user_lat, user_lng){
 		maxZoom: 12,
 		minZoom: 3.5
 	});
-
 
     // map.fitBounds([[-133.2421875, 16.972741], [-47.63671875, 52.696361]]);
     var tractID = null; // track which tract is mousedover
