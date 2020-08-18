@@ -396,3 +396,9 @@ hr {
     line-height: 1rem;
     font-style: italic;
 }
+
+@media screen and (max-width: 978px) {
+    .map_instructions {
+        display: none;
+    }
+}
