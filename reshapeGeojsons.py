@@ -90,5 +90,5 @@ def reshapeGeojson(geoidType, infile, outfile):
         json.dump(outData, f)
 
 if __name__ == "__main__":
-    reshapeGeojson("county", "counties.geojson", "county_bboxes.json")
+    reshapeGeojson("county", "counties-final.geojson", "county_bboxes.json")
     reshapeGeojson("coc", "coc_geographies_states_split.geojson", "coc_bboxes.json")

@@ -29676,11 +29676,11 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 23009965200,Hancock County,23009,Maine,23,ME
 23009965400,Hancock County,23009,Maine,23,ME
 23009966300,Hancock County,23009,Maine,23,ME
-24510110200,Baltimore city,24510,Maryland,24,MD
-24510020300,Baltimore city,24510,Maryland,24,MD
-24510150400,Baltimore city,24510,Maryland,24,MD
-24510010200,Baltimore city,24510,Maryland,24,MD
-24510060400,Baltimore city,24510,Maryland,24,MD
+24510110200,Baltimore City,24510,Maryland,24,MD
+24510020300,Baltimore City,24510,Maryland,24,MD
+24510150400,Baltimore City,24510,Maryland,24,MD
+24510010200,Baltimore City,24510,Maryland,24,MD
+24510060400,Baltimore City,24510,Maryland,24,MD
 24039980400,Somerset County,24039,Maryland,24,MD
 24041960600,Talbot County,24041,Maryland,24,MD
 24041960700,Talbot County,24041,Maryland,24,MD
@@ -29719,27 +29719,27 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 24033801904,Prince George's County,24033,Maryland,24,MD
 24033802201,Prince George's County,24033,Maryland,24,MD
 24033802804,Prince George's County,24033,Maryland,24,MD
-24510160400,Baltimore city,24510,Maryland,24,MD
-24510160700,Baltimore city,24510,Maryland,24,MD
-24510170200,Baltimore city,24510,Maryland,24,MD
-24510180100,Baltimore city,24510,Maryland,24,MD
-24510180300,Baltimore city,24510,Maryland,24,MD
-24510200100,Baltimore city,24510,Maryland,24,MD
-24510160300,Baltimore city,24510,Maryland,24,MD
-24510120700,Baltimore city,24510,Maryland,24,MD
-24510130400,Baltimore city,24510,Maryland,24,MD
-24510130700,Baltimore city,24510,Maryland,24,MD
-24510140300,Baltimore city,24510,Maryland,24,MD
-24510170100,Baltimore city,24510,Maryland,24,MD
-24510180200,Baltimore city,24510,Maryland,24,MD
-24510190300,Baltimore city,24510,Maryland,24,MD
-24510250102,Baltimore city,24510,Maryland,24,MD
-24510250301,Baltimore city,24510,Maryland,24,MD
-24510250401,Baltimore city,24510,Maryland,24,MD
-24510080700,Baltimore city,24510,Maryland,24,MD
-24510130805,Baltimore city,24510,Maryland,24,MD
-24510210100,Baltimore city,24510,Maryland,24,MD
-24510270701,Baltimore city,24510,Maryland,24,MD
+24510160400,Baltimore City,24510,Maryland,24,MD
+24510160700,Baltimore City,24510,Maryland,24,MD
+24510170200,Baltimore City,24510,Maryland,24,MD
+24510180100,Baltimore City,24510,Maryland,24,MD
+24510180300,Baltimore City,24510,Maryland,24,MD
+24510200100,Baltimore City,24510,Maryland,24,MD
+24510160300,Baltimore City,24510,Maryland,24,MD
+24510120700,Baltimore City,24510,Maryland,24,MD
+24510130400,Baltimore City,24510,Maryland,24,MD
+24510130700,Baltimore City,24510,Maryland,24,MD
+24510140300,Baltimore City,24510,Maryland,24,MD
+24510170100,Baltimore City,24510,Maryland,24,MD
+24510180200,Baltimore City,24510,Maryland,24,MD
+24510190300,Baltimore City,24510,Maryland,24,MD
+24510250102,Baltimore City,24510,Maryland,24,MD
+24510250301,Baltimore City,24510,Maryland,24,MD
+24510250401,Baltimore City,24510,Maryland,24,MD
+24510080700,Baltimore City,24510,Maryland,24,MD
+24510130805,Baltimore City,24510,Maryland,24,MD
+24510210100,Baltimore City,24510,Maryland,24,MD
+24510270701,Baltimore City,24510,Maryland,24,MD
 24033803607,Prince George's County,24033,Maryland,24,MD
 24033802103,Prince George's County,24033,Maryland,24,MD
 24033802805,Prince George's County,24033,Maryland,24,MD
@@ -29948,27 +29948,27 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 24031701202,Montgomery County,24031,Maryland,24,MD
 24031701206,Montgomery County,24031,Maryland,24,MD
 24031701212,Montgomery County,24031,Maryland,24,MD
-24510270200,Baltimore city,24510,Maryland,24,MD
+24510270200,Baltimore City,24510,Maryland,24,MD
 24031702000,Montgomery County,24031,Maryland,24,MD
 24031701213,Montgomery County,24031,Maryland,24,MD
-24510260604,Baltimore city,24510,Maryland,24,MD
-24510040100,Baltimore city,24510,Maryland,24,MD
-24510040200,Baltimore city,24510,Maryland,24,MD
-24510060200,Baltimore city,24510,Maryland,24,MD
-24510090500,Baltimore city,24510,Maryland,24,MD
-24510090800,Baltimore city,24510,Maryland,24,MD
-24510120100,Baltimore city,24510,Maryland,24,MD
-24510150701,Baltimore city,24510,Maryland,24,MD
-24510150300,Baltimore city,24510,Maryland,24,MD
-24510150702,Baltimore city,24510,Maryland,24,MD
-24510151100,Baltimore city,24510,Maryland,24,MD
-24510151300,Baltimore city,24510,Maryland,24,MD
-24510190100,Baltimore city,24510,Maryland,24,MD
-24510190200,Baltimore city,24510,Maryland,24,MD
-24510220100,Baltimore city,24510,Maryland,24,MD
-24510230300,Baltimore city,24510,Maryland,24,MD
-24510250207,Baltimore city,24510,Maryland,24,MD
-24510250303,Baltimore city,24510,Maryland,24,MD
+24510260604,Baltimore City,24510,Maryland,24,MD
+24510040100,Baltimore City,24510,Maryland,24,MD
+24510040200,Baltimore City,24510,Maryland,24,MD
+24510060200,Baltimore City,24510,Maryland,24,MD
+24510090500,Baltimore City,24510,Maryland,24,MD
+24510090800,Baltimore City,24510,Maryland,24,MD
+24510120100,Baltimore City,24510,Maryland,24,MD
+24510150701,Baltimore City,24510,Maryland,24,MD
+24510150300,Baltimore City,24510,Maryland,24,MD
+24510150702,Baltimore City,24510,Maryland,24,MD
+24510151100,Baltimore City,24510,Maryland,24,MD
+24510151300,Baltimore City,24510,Maryland,24,MD
+24510190100,Baltimore City,24510,Maryland,24,MD
+24510190200,Baltimore City,24510,Maryland,24,MD
+24510220100,Baltimore City,24510,Maryland,24,MD
+24510230300,Baltimore City,24510,Maryland,24,MD
+24510250207,Baltimore City,24510,Maryland,24,MD
+24510250303,Baltimore City,24510,Maryland,24,MD
 24033803608,Prince George's County,24033,Maryland,24,MD
 24033803613,Prince George's County,24033,Maryland,24,MD
 24031701601,Montgomery County,24031,Maryland,24,MD
@@ -30004,9 +30004,9 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 24013504202,Carroll County,24013,Maryland,24,MD
 24013507500,Carroll County,24013,Maryland,24,MD
 24013504201,Carroll County,24013,Maryland,24,MD
-24510270703,Baltimore city,24510,Maryland,24,MD
-24510271001,Baltimore city,24510,Maryland,24,MD
-24510020100,Baltimore city,24510,Maryland,24,MD
+24510270703,Baltimore City,24510,Maryland,24,MD
+24510271001,Baltimore City,24510,Maryland,24,MD
+24510020100,Baltimore City,24510,Maryland,24,MD
 24027602303,Howard County,24027,Maryland,24,MD
 24027602800,Howard County,24027,Maryland,24,MD
 24027604001,Howard County,24027,Maryland,24,MD
@@ -30047,16 +30047,16 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 24033803519,Prince George's County,24033,Maryland,24,MD
 24033803601,Prince George's County,24033,Maryland,24,MD
 24033804300,Prince George's County,24033,Maryland,24,MD
-24510260202,Baltimore city,24510,Maryland,24,MD
-24510260302,Baltimore city,24510,Maryland,24,MD
-24510260700,Baltimore city,24510,Maryland,24,MD
-24510260900,Baltimore city,24510,Maryland,24,MD
-24510261000,Baltimore city,24510,Maryland,24,MD
-24510270101,Baltimore city,24510,Maryland,24,MD
-24510271900,Baltimore city,24510,Maryland,24,MD
-24510272003,Baltimore city,24510,Maryland,24,MD
-24510010300,Baltimore city,24510,Maryland,24,MD
-24510080301,Baltimore city,24510,Maryland,24,MD
+24510260202,Baltimore City,24510,Maryland,24,MD
+24510260302,Baltimore City,24510,Maryland,24,MD
+24510260700,Baltimore City,24510,Maryland,24,MD
+24510260900,Baltimore City,24510,Maryland,24,MD
+24510261000,Baltimore City,24510,Maryland,24,MD
+24510270101,Baltimore City,24510,Maryland,24,MD
+24510271900,Baltimore City,24510,Maryland,24,MD
+24510272003,Baltimore City,24510,Maryland,24,MD
+24510010300,Baltimore City,24510,Maryland,24,MD
+24510080301,Baltimore City,24510,Maryland,24,MD
 24027602600,Howard County,24027,Maryland,24,MD
 24027602302,Howard County,24027,Maryland,24,MD
 24027605503,Howard County,24027,Maryland,24,MD
@@ -30089,21 +30089,21 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 24027606803,Howard County,24027,Maryland,24,MD
 24001001503,Allegany County,24001,Maryland,24,MD
 24027605601,Howard County,24027,Maryland,24,MD
-24510260403,Baltimore city,24510,Maryland,24,MD
-24510230200,Baltimore city,24510,Maryland,24,MD
-24510260102,Baltimore city,24510,Maryland,24,MD
-24510260303,Baltimore city,24510,Maryland,24,MD
-24510260800,Baltimore city,24510,Maryland,24,MD
-24510270401,Baltimore city,24510,Maryland,24,MD
-24510280401,Baltimore city,24510,Maryland,24,MD
-24510270302,Baltimore city,24510,Maryland,24,MD
-24510270702,Baltimore city,24510,Maryland,24,MD
-24510270903,Baltimore city,24510,Maryland,24,MD
-24510271101,Baltimore city,24510,Maryland,24,MD
-24510271801,Baltimore city,24510,Maryland,24,MD
-24510110100,Baltimore city,24510,Maryland,24,MD
-24510090300,Baltimore city,24510,Maryland,24,MD
-24510100300,Baltimore city,24510,Maryland,24,MD
+24510260403,Baltimore City,24510,Maryland,24,MD
+24510230200,Baltimore City,24510,Maryland,24,MD
+24510260102,Baltimore City,24510,Maryland,24,MD
+24510260303,Baltimore City,24510,Maryland,24,MD
+24510260800,Baltimore City,24510,Maryland,24,MD
+24510270401,Baltimore City,24510,Maryland,24,MD
+24510280401,Baltimore City,24510,Maryland,24,MD
+24510270302,Baltimore City,24510,Maryland,24,MD
+24510270702,Baltimore City,24510,Maryland,24,MD
+24510270903,Baltimore City,24510,Maryland,24,MD
+24510271101,Baltimore City,24510,Maryland,24,MD
+24510271801,Baltimore City,24510,Maryland,24,MD
+24510110100,Baltimore City,24510,Maryland,24,MD
+24510090300,Baltimore City,24510,Maryland,24,MD
+24510100300,Baltimore City,24510,Maryland,24,MD
 24025304201,Harford County,24025,Maryland,24,MD
 24025301601,Harford County,24025,Maryland,24,MD
 24025303300,Harford County,24025,Maryland,24,MD
@@ -30145,41 +30145,41 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 24031705902,Montgomery County,24031,Maryland,24,MD
 24031706007,Montgomery County,24031,Maryland,24,MD
 24031706009,Montgomery County,24031,Maryland,24,MD
-24510260201,Baltimore city,24510,Maryland,24,MD
-24510260401,Baltimore city,24510,Maryland,24,MD
-24510270301,Baltimore city,24510,Maryland,24,MD
-24510270802,Baltimore city,24510,Maryland,24,MD
-24510270804,Baltimore city,24510,Maryland,24,MD
-24510270805,Baltimore city,24510,Maryland,24,MD
-24510271102,Baltimore city,24510,Maryland,24,MD
-24510271802,Baltimore city,24510,Maryland,24,MD
-24510280101,Baltimore city,24510,Maryland,24,MD
-24510280402,Baltimore city,24510,Maryland,24,MD
-24510280403,Baltimore city,24510,Maryland,24,MD
-24510271300,Baltimore city,24510,Maryland,24,MD
-24510250103,Baltimore city,24510,Maryland,24,MD
-24510280102,Baltimore city,24510,Maryland,24,MD
-24510200800,Baltimore city,24510,Maryland,24,MD
-24510240200,Baltimore city,24510,Maryland,24,MD
-24510250204,Baltimore city,24510,Maryland,24,MD
-24510250206,Baltimore city,24510,Maryland,24,MD
-24510250500,Baltimore city,24510,Maryland,24,MD
-24510260101,Baltimore city,24510,Maryland,24,MD
-24510260301,Baltimore city,24510,Maryland,24,MD
-24510270600,Baltimore city,24510,Maryland,24,MD
-24510010100,Baltimore city,24510,Maryland,24,MD
-24510070400,Baltimore city,24510,Maryland,24,MD
-24510010500,Baltimore city,24510,Maryland,24,MD
-24510070200,Baltimore city,24510,Maryland,24,MD
-24510070300,Baltimore city,24510,Maryland,24,MD
-24510080400,Baltimore city,24510,Maryland,24,MD
-24510130100,Baltimore city,24510,Maryland,24,MD
-24510130200,Baltimore city,24510,Maryland,24,MD
-24510130806,Baltimore city,24510,Maryland,24,MD
-24510200200,Baltimore city,24510,Maryland,24,MD
-24510200600,Baltimore city,24510,Maryland,24,MD
-24510200701,Baltimore city,24510,Maryland,24,MD
-24510270803,Baltimore city,24510,Maryland,24,MD
+24510260201,Baltimore City,24510,Maryland,24,MD
+24510260401,Baltimore City,24510,Maryland,24,MD
+24510270301,Baltimore City,24510,Maryland,24,MD
+24510270802,Baltimore City,24510,Maryland,24,MD
+24510270804,Baltimore City,24510,Maryland,24,MD
+24510270805,Baltimore City,24510,Maryland,24,MD
+24510271102,Baltimore City,24510,Maryland,24,MD
+24510271802,Baltimore City,24510,Maryland,24,MD
+24510280101,Baltimore City,24510,Maryland,24,MD
+24510280402,Baltimore City,24510,Maryland,24,MD
+24510280403,Baltimore City,24510,Maryland,24,MD
+24510271300,Baltimore City,24510,Maryland,24,MD
+24510250103,Baltimore City,24510,Maryland,24,MD
+24510280102,Baltimore City,24510,Maryland,24,MD
+24510200800,Baltimore City,24510,Maryland,24,MD
+24510240200,Baltimore City,24510,Maryland,24,MD
+24510250204,Baltimore City,24510,Maryland,24,MD
+24510250206,Baltimore City,24510,Maryland,24,MD
+24510250500,Baltimore City,24510,Maryland,24,MD
+24510260101,Baltimore City,24510,Maryland,24,MD
+24510260301,Baltimore City,24510,Maryland,24,MD
+24510270600,Baltimore City,24510,Maryland,24,MD
+24510010100,Baltimore City,24510,Maryland,24,MD
+24510070400,Baltimore City,24510,Maryland,24,MD
+24510010500,Baltimore City,24510,Maryland,24,MD
+24510070200,Baltimore City,24510,Maryland,24,MD
+24510070300,Baltimore City,24510,Maryland,24,MD
+24510080400,Baltimore City,24510,Maryland,24,MD
+24510130100,Baltimore City,24510,Maryland,24,MD
+24510130200,Baltimore City,24510,Maryland,24,MD
+24510130806,Baltimore City,24510,Maryland,24,MD
+24510200200,Baltimore City,24510,Maryland,24,MD
+24510200600,Baltimore City,24510,Maryland,24,MD
+24510200701,Baltimore City,24510,Maryland,24,MD
+24510270803,Baltimore City,24510,Maryland,24,MD
 24027606603,Howard County,24027,Maryland,24,MD
 24027606804,Howard County,24027,Maryland,24,MD
 24027606901,Howard County,24027,Maryland,24,MD
@@ -30317,22 +30317,22 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 24005402503,Baltimore County,24005,Maryland,24,MD
 24005403500,Baltimore County,24005,Maryland,24,MD
 24005408200,Baltimore County,24005,Maryland,24,MD
-24510120400,Baltimore city,24510,Maryland,24,MD
-24510130600,Baltimore city,24510,Maryland,24,MD
-24510130804,Baltimore city,24510,Maryland,24,MD
-24510160200,Baltimore city,24510,Maryland,24,MD
-24510270901,Baltimore city,24510,Maryland,24,MD
-24510271400,Baltimore city,24510,Maryland,24,MD
-24510271600,Baltimore city,24510,Maryland,24,MD
-24510280302,Baltimore city,24510,Maryland,24,MD
-24510200702,Baltimore city,24510,Maryland,24,MD
-24510230100,Baltimore city,24510,Maryland,24,MD
-24510250205,Baltimore city,24510,Maryland,24,MD
-24510270402,Baltimore city,24510,Maryland,24,MD
-24510250402,Baltimore city,24510,Maryland,24,MD
-24510260501,Baltimore city,24510,Maryland,24,MD
-24510261100,Baltimore city,24510,Maryland,24,MD
-24510270502,Baltimore city,24510,Maryland,24,MD
+24510120400,Baltimore City,24510,Maryland,24,MD
+24510130600,Baltimore City,24510,Maryland,24,MD
+24510130804,Baltimore City,24510,Maryland,24,MD
+24510160200,Baltimore City,24510,Maryland,24,MD
+24510270901,Baltimore City,24510,Maryland,24,MD
+24510271400,Baltimore City,24510,Maryland,24,MD
+24510271600,Baltimore City,24510,Maryland,24,MD
+24510280302,Baltimore City,24510,Maryland,24,MD
+24510200702,Baltimore City,24510,Maryland,24,MD
+24510230100,Baltimore City,24510,Maryland,24,MD
+24510250205,Baltimore City,24510,Maryland,24,MD
+24510270402,Baltimore City,24510,Maryland,24,MD
+24510250402,Baltimore City,24510,Maryland,24,MD
+24510260501,Baltimore City,24510,Maryland,24,MD
+24510261100,Baltimore City,24510,Maryland,24,MD
+24510270502,Baltimore City,24510,Maryland,24,MD
 24033801207,Prince George's County,24033,Maryland,24,MD
 24033801702,Prince George's County,24033,Maryland,24,MD
 24033807301,Prince George's County,24033,Maryland,24,MD
@@ -30347,24 +30347,24 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 24033805802,Prince George's County,24033,Maryland,24,MD
 24033801404,Prince George's County,24033,Maryland,24,MD
 24033802502,Prince George's County,24033,Maryland,24,MD
-24510260605,Baltimore city,24510,Maryland,24,MD
+24510260605,Baltimore City,24510,Maryland,24,MD
 24003701101,Anne Arundel County,24003,Maryland,24,MD
-24510160600,Baltimore city,24510,Maryland,24,MD
-24510240100,Baltimore city,24510,Maryland,24,MD
-24510271503,Baltimore city,24510,Maryland,24,MD
-24510100200,Baltimore city,24510,Maryland,24,MD
-24510150800,Baltimore city,24510,Maryland,24,MD
-24510170300,Baltimore city,24510,Maryland,24,MD
-24510240400,Baltimore city,24510,Maryland,24,MD
-24510270902,Baltimore city,24510,Maryland,24,MD
-24510271002,Baltimore city,24510,Maryland,24,MD
-24510260402,Baltimore city,24510,Maryland,24,MD
-24510271200,Baltimore city,24510,Maryland,24,MD
-24510280404,Baltimore city,24510,Maryland,24,MD
-24510090100,Baltimore city,24510,Maryland,24,MD
-24510200300,Baltimore city,24510,Maryland,24,MD
-24510271501,Baltimore city,24510,Maryland,24,MD
-24510250203,Baltimore city,24510,Maryland,24,MD
+24510160600,Baltimore City,24510,Maryland,24,MD
+24510240100,Baltimore City,24510,Maryland,24,MD
+24510271503,Baltimore City,24510,Maryland,24,MD
+24510100200,Baltimore City,24510,Maryland,24,MD
+24510150800,Baltimore City,24510,Maryland,24,MD
+24510170300,Baltimore City,24510,Maryland,24,MD
+24510240400,Baltimore City,24510,Maryland,24,MD
+24510270902,Baltimore City,24510,Maryland,24,MD
+24510271002,Baltimore City,24510,Maryland,24,MD
+24510260402,Baltimore City,24510,Maryland,24,MD
+24510271200,Baltimore City,24510,Maryland,24,MD
+24510280404,Baltimore City,24510,Maryland,24,MD
+24510090100,Baltimore City,24510,Maryland,24,MD
+24510200300,Baltimore City,24510,Maryland,24,MD
+24510271501,Baltimore City,24510,Maryland,24,MD
+24510250203,Baltimore City,24510,Maryland,24,MD
 24029950100,Kent County,24029,Maryland,24,MD
 24031701800,Montgomery County,24031,Maryland,24,MD
 24031702900,Montgomery County,24031,Maryland,24,MD
@@ -30439,7 +30439,7 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 24031701503,Montgomery County,24031,Maryland,24,MD
 24031702402,Montgomery County,24031,Maryland,24,MD
 24031703215,Montgomery County,24031,Maryland,24,MD
-24510280500,Baltimore city,24510,Maryland,24,MD
+24510280500,Baltimore City,24510,Maryland,24,MD
 24021750503,Frederick County,24021,Maryland,24,MD
 24021750504,Frederick County,24021,Maryland,24,MD
 24021750505,Frederick County,24021,Maryland,24,MD
@@ -30784,45 +30784,45 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 24031701407,Montgomery County,24031,Maryland,24,MD
 24031702101,Montgomery County,24031,Maryland,24,MD
 24027606601,Howard County,24027,Maryland,24,MD
-24510090900,Baltimore city,24510,Maryland,24,MD
-24510060100,Baltimore city,24510,Maryland,24,MD
-24510090200,Baltimore city,24510,Maryland,24,MD
-24510090600,Baltimore city,24510,Maryland,24,MD
-24510100100,Baltimore city,24510,Maryland,24,MD
-24510150100,Baltimore city,24510,Maryland,24,MD
-24510150900,Baltimore city,24510,Maryland,24,MD
-24510200400,Baltimore city,24510,Maryland,24,MD
-24510200500,Baltimore city,24510,Maryland,24,MD
-24510250101,Baltimore city,24510,Maryland,24,MD
-24510250600,Baltimore city,24510,Maryland,24,MD
-24510260404,Baltimore city,24510,Maryland,24,MD
-24510270102,Baltimore city,24510,Maryland,24,MD
-24510270501,Baltimore city,24510,Maryland,24,MD
-24510270801,Baltimore city,24510,Maryland,24,MD
-24510271700,Baltimore city,24510,Maryland,24,MD
-24510280200,Baltimore city,24510,Maryland,24,MD
+24510090900,Baltimore City,24510,Maryland,24,MD
+24510060100,Baltimore City,24510,Maryland,24,MD
+24510090200,Baltimore City,24510,Maryland,24,MD
+24510090600,Baltimore City,24510,Maryland,24,MD
+24510100100,Baltimore City,24510,Maryland,24,MD
+24510150100,Baltimore City,24510,Maryland,24,MD
+24510150900,Baltimore City,24510,Maryland,24,MD
+24510200400,Baltimore City,24510,Maryland,24,MD
+24510200500,Baltimore City,24510,Maryland,24,MD
+24510250101,Baltimore City,24510,Maryland,24,MD
+24510250600,Baltimore City,24510,Maryland,24,MD
+24510260404,Baltimore City,24510,Maryland,24,MD
+24510270102,Baltimore City,24510,Maryland,24,MD
+24510270501,Baltimore City,24510,Maryland,24,MD
+24510270801,Baltimore City,24510,Maryland,24,MD
+24510271700,Baltimore City,24510,Maryland,24,MD
+24510280200,Baltimore City,24510,Maryland,24,MD
 24031700304,Montgomery County,24031,Maryland,24,MD
 24031700704,Montgomery County,24031,Maryland,24,MD
-24510280301,Baltimore city,24510,Maryland,24,MD
-24510160801,Baltimore city,24510,Maryland,24,MD
-24510160802,Baltimore city,24510,Maryland,24,MD
-24510060300,Baltimore city,24510,Maryland,24,MD
-24510080101,Baltimore city,24510,Maryland,24,MD
-24510080302,Baltimore city,24510,Maryland,24,MD
-24510080500,Baltimore city,24510,Maryland,24,MD
-24510120500,Baltimore city,24510,Maryland,24,MD
-24510130300,Baltimore city,24510,Maryland,24,MD
-24510130803,Baltimore city,24510,Maryland,24,MD
-24510140100,Baltimore city,24510,Maryland,24,MD
-24510150500,Baltimore city,24510,Maryland,24,MD
-24510010400,Baltimore city,24510,Maryland,24,MD
-24510020200,Baltimore city,24510,Maryland,24,MD
-24510030100,Baltimore city,24510,Maryland,24,MD
-24510030200,Baltimore city,24510,Maryland,24,MD
-24510070100,Baltimore city,24510,Maryland,24,MD
-24510080800,Baltimore city,24510,Maryland,24,MD
-24510080102,Baltimore city,24510,Maryland,24,MD
-24510080200,Baltimore city,24510,Maryland,24,MD
+24510280301,Baltimore City,24510,Maryland,24,MD
+24510160801,Baltimore City,24510,Maryland,24,MD
+24510160802,Baltimore City,24510,Maryland,24,MD
+24510060300,Baltimore City,24510,Maryland,24,MD
+24510080101,Baltimore City,24510,Maryland,24,MD
+24510080302,Baltimore City,24510,Maryland,24,MD
+24510080500,Baltimore City,24510,Maryland,24,MD
+24510120500,Baltimore City,24510,Maryland,24,MD
+24510130300,Baltimore City,24510,Maryland,24,MD
+24510130803,Baltimore City,24510,Maryland,24,MD
+24510140100,Baltimore City,24510,Maryland,24,MD
+24510150500,Baltimore City,24510,Maryland,24,MD
+24510010400,Baltimore City,24510,Maryland,24,MD
+24510020200,Baltimore City,24510,Maryland,24,MD
+24510030100,Baltimore City,24510,Maryland,24,MD
+24510030200,Baltimore City,24510,Maryland,24,MD
+24510070100,Baltimore City,24510,Maryland,24,MD
+24510080800,Baltimore City,24510,Maryland,24,MD
+24510080102,Baltimore City,24510,Maryland,24,MD
+24510080200,Baltimore City,24510,Maryland,24,MD
 24033806501,Prince George's County,24033,Maryland,24,MD
 24033806710,Prince George's County,24033,Maryland,24,MD
 24033806712,Prince George's County,24033,Maryland,24,MD
@@ -30848,21 +30848,21 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 24033802405,Prince George's County,24033,Maryland,24,MD
 24033802600,Prince George's County,24033,Maryland,24,MD
 24033803402,Prince George's County,24033,Maryland,24,MD
-24510080600,Baltimore city,24510,Maryland,24,MD
-24510090400,Baltimore city,24510,Maryland,24,MD
-24510090700,Baltimore city,24510,Maryland,24,MD
-24510120300,Baltimore city,24510,Maryland,24,MD
-24510120600,Baltimore city,24510,Maryland,24,MD
-24510140200,Baltimore city,24510,Maryland,24,MD
-24510150200,Baltimore city,24510,Maryland,24,MD
-24510150600,Baltimore city,24510,Maryland,24,MD
-24510160500,Baltimore city,24510,Maryland,24,MD
-24510151000,Baltimore city,24510,Maryland,24,MD
-24510151200,Baltimore city,24510,Maryland,24,MD
-24510160100,Baltimore city,24510,Maryland,24,MD
-24510210200,Baltimore city,24510,Maryland,24,MD
-24510240300,Baltimore city,24510,Maryland,24,MD
-24510260203,Baltimore city,24510,Maryland,24,MD
+24510080600,Baltimore City,24510,Maryland,24,MD
+24510090400,Baltimore City,24510,Maryland,24,MD
+24510090700,Baltimore City,24510,Maryland,24,MD
+24510120300,Baltimore City,24510,Maryland,24,MD
+24510120600,Baltimore City,24510,Maryland,24,MD
+24510140200,Baltimore City,24510,Maryland,24,MD
+24510150200,Baltimore City,24510,Maryland,24,MD
+24510150600,Baltimore City,24510,Maryland,24,MD
+24510160500,Baltimore City,24510,Maryland,24,MD
+24510151000,Baltimore City,24510,Maryland,24,MD
+24510151200,Baltimore City,24510,Maryland,24,MD
+24510160100,Baltimore City,24510,Maryland,24,MD
+24510210200,Baltimore City,24510,Maryland,24,MD
+24510240300,Baltimore City,24510,Maryland,24,MD
+24510260203,Baltimore City,24510,Maryland,24,MD
 24005408601,Baltimore County,24005,Maryland,24,MD
 24005491000,Baltimore County,24005,Maryland,24,MD
 24005451000,Baltimore County,24005,Maryland,24,MD
@@ -31064,12 +31064,12 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 24047951500,Worcester County,24047,Maryland,24,MD
 24047951700,Worcester County,24047,Maryland,24,MD
 24047980000,Worcester County,24047,Maryland,24,MD
-24510120201,Baltimore city,24510,Maryland,24,MD
-24510120202,Baltimore city,24510,Maryland,24,MD
-24510272004,Baltimore city,24510,Maryland,24,MD
-24510272005,Baltimore city,24510,Maryland,24,MD
-24510272006,Baltimore city,24510,Maryland,24,MD
-24510272007,Baltimore city,24510,Maryland,24,MD
+24510120201,Baltimore City,24510,Maryland,24,MD
+24510120202,Baltimore City,24510,Maryland,24,MD
+24510272004,Baltimore City,24510,Maryland,24,MD
+24510272005,Baltimore City,24510,Maryland,24,MD
+24510272006,Baltimore City,24510,Maryland,24,MD
+24510272007,Baltimore City,24510,Maryland,24,MD
 25025060501,Suffolk County,25025,Massachusetts,25,MA
 25025061101,Suffolk County,25025,Massachusetts,25,MA
 25025070101,Suffolk County,25025,Massachusetts,25,MA
@@ -37428,15 +37428,15 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 29187950700,St. Francois County,29187,Missouri,29,MO
 29187950600,St. Francois County,29187,Missouri,29,MO
 29187951100,St. Francois County,29187,Missouri,29,MO
-29510102200,St. Louis city,29510,Missouri,29,MO
-29510102300,St. Louis city,29510,Missouri,29,MO
-29510103600,St. Louis city,29510,Missouri,29,MO
-29510103700,St. Louis city,29510,Missouri,29,MO
-29510105198,St. Louis city,29510,Missouri,29,MO
-29510107400,St. Louis city,29510,Missouri,29,MO
-29510111300,St. Louis city,29510,Missouri,29,MO
-29510119200,St. Louis city,29510,Missouri,29,MO
-29510123300,St. Louis city,29510,Missouri,29,MO
+29510102200,St. Louis City,29510,Missouri,29,MO
+29510102300,St. Louis City,29510,Missouri,29,MO
+29510103600,St. Louis City,29510,Missouri,29,MO
+29510103700,St. Louis City,29510,Missouri,29,MO
+29510105198,St. Louis City,29510,Missouri,29,MO
+29510107400,St. Louis City,29510,Missouri,29,MO
+29510111300,St. Louis City,29510,Missouri,29,MO
+29510119200,St. Louis City,29510,Missouri,29,MO
+29510123300,St. Louis City,29510,Missouri,29,MO
 29071800100,Franklin County,29071,Missouri,29,MO
 29071800800,Franklin County,29071,Missouri,29,MO
 29071800201,Franklin County,29071,Missouri,29,MO
@@ -37490,88 +37490,88 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 29095007200,Jackson County,29095,Missouri,29,MO
 29095007400,Jackson County,29095,Missouri,29,MO
 29009960600,Barry County,29009,Missouri,29,MO
-29510126600,St. Louis city,29510,Missouri,29,MO
-29510116100,St. Louis city,29510,Missouri,29,MO
-29510114200,St. Louis city,29510,Missouri,29,MO
-29510115300,St. Louis city,29510,Missouri,29,MO
-29510115600,St. Louis city,29510,Missouri,29,MO
-29510117400,St. Louis city,29510,Missouri,29,MO
-29510118100,St. Louis city,29510,Missouri,29,MO
-29510121200,St. Louis city,29510,Missouri,29,MO
-29510124200,St. Louis city,29510,Missouri,29,MO
-29510124300,St. Louis city,29510,Missouri,29,MO
-29510125500,St. Louis city,29510,Missouri,29,MO
-29510102100,St. Louis city,29510,Missouri,29,MO
-29510102400,St. Louis city,29510,Missouri,29,MO
-29510103800,St. Louis city,29510,Missouri,29,MO
-29510104200,St. Louis city,29510,Missouri,29,MO
-29510105500,St. Louis city,29510,Missouri,29,MO
-29510106500,St. Louis city,29510,Missouri,29,MO
-29510107500,St. Louis city,29510,Missouri,29,MO
-29510108300,St. Louis city,29510,Missouri,29,MO
-29510111100,St. Louis city,29510,Missouri,29,MO
-29510111500,St. Louis city,29510,Missouri,29,MO
-29510112100,St. Louis city,29510,Missouri,29,MO
-29510114300,St. Louis city,29510,Missouri,29,MO
-29510115500,St. Louis city,29510,Missouri,29,MO
-29510123100,St. Louis city,29510,Missouri,29,MO
-29510101500,St. Louis city,29510,Missouri,29,MO
-29510105300,St. Louis city,29510,Missouri,29,MO
-29510107600,St. Louis city,29510,Missouri,29,MO
-29510108100,St. Louis city,29510,Missouri,29,MO
-29510109700,St. Louis city,29510,Missouri,29,MO
-29510110200,St. Louis city,29510,Missouri,29,MO
-29510112200,St. Louis city,29510,Missouri,29,MO
-29510110300,St. Louis city,29510,Missouri,29,MO
-29510101400,St. Louis city,29510,Missouri,29,MO
-29510103100,St. Louis city,29510,Missouri,29,MO
-29510110500,St. Louis city,29510,Missouri,29,MO
-29510120200,St. Louis city,29510,Missouri,29,MO
-29510112300,St. Louis city,29510,Missouri,29,MO
-29510117200,St. Louis city,29510,Missouri,29,MO
-29510116400,St. Louis city,29510,Missouri,29,MO
-29510125600,St. Louis city,29510,Missouri,29,MO
-29510125700,St. Louis city,29510,Missouri,29,MO
-29510115700,St. Louis city,29510,Missouri,29,MO
-29510116500,St. Louis city,29510,Missouri,29,MO
-29510118400,St. Louis city,29510,Missouri,29,MO
-29510124100,St. Louis city,29510,Missouri,29,MO
-29510124600,St. Louis city,29510,Missouri,29,MO
-29510102500,St. Louis city,29510,Missouri,29,MO
-29510110100,St. Louis city,29510,Missouri,29,MO
-29510115100,St. Louis city,29510,Missouri,29,MO
-29510115400,St. Louis city,29510,Missouri,29,MO
-29510117100,St. Louis city,29510,Missouri,29,MO
-29510119300,St. Louis city,29510,Missouri,29,MO
-29510101100,St. Louis city,29510,Missouri,29,MO
-29510101300,St. Louis city,29510,Missouri,29,MO
-29510103400,St. Louis city,29510,Missouri,29,MO
-29510105400,St. Louis city,29510,Missouri,29,MO
-29510106400,St. Louis city,29510,Missouri,29,MO
-29510101200,St. Louis city,29510,Missouri,29,MO
-29510101800,St. Louis city,29510,Missouri,29,MO
-29510104500,St. Louis city,29510,Missouri,29,MO
-29510105200,St. Louis city,29510,Missouri,29,MO
-29510106200,St. Louis city,29510,Missouri,29,MO
-29510106700,St. Louis city,29510,Missouri,29,MO
-29510107200,St. Louis city,29510,Missouri,29,MO
-29510107300,St. Louis city,29510,Missouri,29,MO
-29510108200,St. Louis city,29510,Missouri,29,MO
-29510109600,St. Louis city,29510,Missouri,29,MO
-29510111400,St. Louis city,29510,Missouri,29,MO
-29510112400,St. Louis city,29510,Missouri,29,MO
-29510115200,St. Louis city,29510,Missouri,29,MO
-29510116200,St. Louis city,29510,Missouri,29,MO
-29510118600,St. Louis city,29510,Missouri,29,MO
-29510123200,St. Louis city,29510,Missouri,29,MO
-29510106300,St. Louis city,29510,Missouri,29,MO
-29510106600,St. Louis city,29510,Missouri,29,MO
-29510111200,St. Louis city,29510,Missouri,29,MO
-29510110400,St. Louis city,29510,Missouri,29,MO
-29510121100,St. Louis city,29510,Missouri,29,MO
-29510113500,St. Louis city,29510,Missouri,29,MO
-29510126700,St. Louis city,29510,Missouri,29,MO
-29510106100,St. Louis city,29510,Missouri,29,MO
+29510126600,St. Louis City,29510,Missouri,29,MO
+29510116100,St. Louis City,29510,Missouri,29,MO
+29510114200,St. Louis City,29510,Missouri,29,MO
+29510115300,St. Louis City,29510,Missouri,29,MO
+29510115600,St. Louis City,29510,Missouri,29,MO
+29510117400,St. Louis City,29510,Missouri,29,MO
+29510118100,St. Louis City,29510,Missouri,29,MO
+29510121200,St. Louis City,29510,Missouri,29,MO
+29510124200,St. Louis City,29510,Missouri,29,MO
+29510124300,St. Louis City,29510,Missouri,29,MO
+29510125500,St. Louis City,29510,Missouri,29,MO
+29510102100,St. Louis City,29510,Missouri,29,MO
+29510102400,St. Louis City,29510,Missouri,29,MO
+29510103800,St. Louis City,29510,Missouri,29,MO
+29510104200,St. Louis City,29510,Missouri,29,MO
+29510105500,St. Louis City,29510,Missouri,29,MO
+29510106500,St. Louis City,29510,Missouri,29,MO
+29510107500,St. Louis City,29510,Missouri,29,MO
+29510108300,St. Louis City,29510,Missouri,29,MO
+29510111100,St. Louis City,29510,Missouri,29,MO
+29510111500,St. Louis City,29510,Missouri,29,MO
+29510112100,St. Louis City,29510,Missouri,29,MO
+29510114300,St. Louis City,29510,Missouri,29,MO
+29510115500,St. Louis City,29510,Missouri,29,MO
+29510123100,St. Louis City,29510,Missouri,29,MO
+29510101500,St. Louis City,29510,Missouri,29,MO
+29510105300,St. Louis City,29510,Missouri,29,MO
+29510107600,St. Louis City,29510,Missouri,29,MO
+29510108100,St. Louis City,29510,Missouri,29,MO
+29510109700,St. Louis City,29510,Missouri,29,MO
+29510110200,St. Louis City,29510,Missouri,29,MO
+29510112200,St. Louis City,29510,Missouri,29,MO
+29510110300,St. Louis City,29510,Missouri,29,MO
+29510101400,St. Louis City,29510,Missouri,29,MO
+29510103100,St. Louis City,29510,Missouri,29,MO
+29510110500,St. Louis City,29510,Missouri,29,MO
+29510120200,St. Louis City,29510,Missouri,29,MO
+29510112300,St. Louis City,29510,Missouri,29,MO
+29510117200,St. Louis City,29510,Missouri,29,MO
+29510116400,St. Louis City,29510,Missouri,29,MO
+29510125600,St. Louis City,29510,Missouri,29,MO
+29510125700,St. Louis City,29510,Missouri,29,MO
+29510115700,St. Louis City,29510,Missouri,29,MO
+29510116500,St. Louis City,29510,Missouri,29,MO
+29510118400,St. Louis City,29510,Missouri,29,MO
+29510124100,St. Louis City,29510,Missouri,29,MO
+29510124600,St. Louis City,29510,Missouri,29,MO
+29510102500,St. Louis City,29510,Missouri,29,MO
+29510110100,St. Louis City,29510,Missouri,29,MO
+29510115100,St. Louis City,29510,Missouri,29,MO
+29510115400,St. Louis City,29510,Missouri,29,MO
+29510117100,St. Louis City,29510,Missouri,29,MO
+29510119300,St. Louis City,29510,Missouri,29,MO
+29510101100,St. Louis City,29510,Missouri,29,MO
+29510101300,St. Louis City,29510,Missouri,29,MO
+29510103400,St. Louis City,29510,Missouri,29,MO
+29510105400,St. Louis City,29510,Missouri,29,MO
+29510106400,St. Louis City,29510,Missouri,29,MO
+29510101200,St. Louis City,29510,Missouri,29,MO
+29510101800,St. Louis City,29510,Missouri,29,MO
+29510104500,St. Louis City,29510,Missouri,29,MO
+29510105200,St. Louis City,29510,Missouri,29,MO
+29510106200,St. Louis City,29510,Missouri,29,MO
+29510106700,St. Louis City,29510,Missouri,29,MO
+29510107200,St. Louis City,29510,Missouri,29,MO
+29510107300,St. Louis City,29510,Missouri,29,MO
+29510108200,St. Louis City,29510,Missouri,29,MO
+29510109600,St. Louis City,29510,Missouri,29,MO
+29510111400,St. Louis City,29510,Missouri,29,MO
+29510112400,St. Louis City,29510,Missouri,29,MO
+29510115200,St. Louis City,29510,Missouri,29,MO
+29510116200,St. Louis City,29510,Missouri,29,MO
+29510118600,St. Louis City,29510,Missouri,29,MO
+29510123200,St. Louis City,29510,Missouri,29,MO
+29510106300,St. Louis City,29510,Missouri,29,MO
+29510106600,St. Louis City,29510,Missouri,29,MO
+29510111200,St. Louis City,29510,Missouri,29,MO
+29510110400,St. Louis City,29510,Missouri,29,MO
+29510121100,St. Louis City,29510,Missouri,29,MO
+29510113500,St. Louis City,29510,Missouri,29,MO
+29510126700,St. Louis City,29510,Missouri,29,MO
+29510106100,St. Louis City,29510,Missouri,29,MO
 29003010200,Andrew County,29003,Missouri,29,MO
 29003010300,Andrew County,29003,Missouri,29,MO
 29101960200,Johnson County,29101,Missouri,29,MO
@@ -37762,21 +37762,21 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 29229490200,Wright County,29229,Missouri,29,MO
 29229490300,Wright County,29229,Missouri,29,MO
 29229490400,Wright County,29229,Missouri,29,MO
-29510114101,St. Louis city,29510,Missouri,29,MO
-29510114102,St. Louis city,29510,Missouri,29,MO
-29510116301,St. Louis city,29510,Missouri,29,MO
-29510116302,St. Louis city,29510,Missouri,29,MO
-29510119101,St. Louis city,29510,Missouri,29,MO
-29510119102,St. Louis city,29510,Missouri,29,MO
-29510126800,St. Louis city,29510,Missouri,29,MO
-29510126900,St. Louis city,29510,Missouri,29,MO
-29510127000,St. Louis city,29510,Missouri,29,MO
-29510127100,St. Louis city,29510,Missouri,29,MO
-29510127200,St. Louis city,29510,Missouri,29,MO
-29510127300,St. Louis city,29510,Missouri,29,MO
-29510127400,St. Louis city,29510,Missouri,29,MO
-29510127500,St. Louis city,29510,Missouri,29,MO
-29510127600,St. Louis city,29510,Missouri,29,MO
+29510114101,St. Louis City,29510,Missouri,29,MO
+29510114102,St. Louis City,29510,Missouri,29,MO
+29510116301,St. Louis City,29510,Missouri,29,MO
+29510116302,St. Louis City,29510,Missouri,29,MO
+29510119101,St. Louis City,29510,Missouri,29,MO
+29510119102,St. Louis City,29510,Missouri,29,MO
+29510126800,St. Louis City,29510,Missouri,29,MO
+29510126900,St. Louis City,29510,Missouri,29,MO
+29510127000,St. Louis City,29510,Missouri,29,MO
+29510127100,St. Louis City,29510,Missouri,29,MO
+29510127200,St. Louis City,29510,Missouri,29,MO
+29510127300,St. Louis City,29510,Missouri,29,MO
+29510127400,St. Louis City,29510,Missouri,29,MO
+29510127500,St. Louis City,29510,Missouri,29,MO
+29510127600,St. Louis City,29510,Missouri,29,MO
 29183310501,St. Charles County,29183,Missouri,29,MO
 29183310502,St. Charles County,29183,Missouri,29,MO
 29183310601,St. Charles County,29183,Missouri,29,MO
@@ -67441,26 +67441,26 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51015070500,Augusta County,51015,Virginia,51,VA
 51015070600,Augusta County,51015,Virginia,51,VA
 51085320602,Hanover County,51085,Virginia,51,VA
-51595890200,Emporia city,51595,Virginia,51,VA
-51595890100,Emporia city,51595,Virginia,51,VA
+51595890200,Emporia City,51595,Virginia,51,VA
+51595890100,Emporia City,51595,Virginia,51,VA
 51015070300,Augusta County,51015,Virginia,51,VA
-51550020100,Chesapeake city,51550,Virginia,51,VA
-51550020300,Chesapeake city,51550,Virginia,51,VA
-51550020903,Chesapeake city,51550,Virginia,51,VA
-51550021009,Chesapeake city,51550,Virginia,51,VA
-51550020805,Chesapeake city,51550,Virginia,51,VA
-51550020806,Chesapeake city,51550,Virginia,51,VA
-51550020807,Chesapeake city,51550,Virginia,51,VA
-51550021005,Chesapeake city,51550,Virginia,51,VA
-51550021200,Chesapeake city,51550,Virginia,51,VA
-51550020700,Chesapeake city,51550,Virginia,51,VA
-51550021102,Chesapeake city,51550,Virginia,51,VA
-51550021006,Chesapeake city,51550,Virginia,51,VA
-51550021101,Chesapeake city,51550,Virginia,51,VA
-51550021401,Chesapeake city,51550,Virginia,51,VA
-51550021301,Chesapeake city,51550,Virginia,51,VA
-51550021302,Chesapeake city,51550,Virginia,51,VA
-51550020001,Chesapeake city,51550,Virginia,51,VA
+51550020100,Chesapeake City,51550,Virginia,51,VA
+51550020300,Chesapeake City,51550,Virginia,51,VA
+51550020903,Chesapeake City,51550,Virginia,51,VA
+51550021009,Chesapeake City,51550,Virginia,51,VA
+51550020805,Chesapeake City,51550,Virginia,51,VA
+51550020806,Chesapeake City,51550,Virginia,51,VA
+51550020807,Chesapeake City,51550,Virginia,51,VA
+51550021005,Chesapeake City,51550,Virginia,51,VA
+51550021200,Chesapeake City,51550,Virginia,51,VA
+51550020700,Chesapeake City,51550,Virginia,51,VA
+51550021102,Chesapeake City,51550,Virginia,51,VA
+51550021006,Chesapeake City,51550,Virginia,51,VA
+51550021101,Chesapeake City,51550,Virginia,51,VA
+51550021401,Chesapeake City,51550,Virginia,51,VA
+51550021301,Chesapeake City,51550,Virginia,51,VA
+51550021302,Chesapeake City,51550,Virginia,51,VA
+51550020001,Chesapeake City,51550,Virginia,51,VA
 51015070900,Augusta County,51015,Virginia,51,VA
 51015070400,Augusta County,51015,Virginia,51,VA
 51015071200,Augusta County,51015,Virginia,51,VA
@@ -67475,27 +67475,27 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51107611204,Loudoun County,51107,Virginia,51,VA
 51107611005,Loudoun County,51107,Virginia,51,VA
 51107611400,Loudoun County,51107,Virginia,51,VA
-51550020002,Chesapeake city,51550,Virginia,51,VA
-51550021403,Chesapeake city,51550,Virginia,51,VA
-51550021404,Chesapeake city,51550,Virginia,51,VA
-51550020400,Chesapeake city,51550,Virginia,51,VA
-51550020200,Chesapeake city,51550,Virginia,51,VA
-51550020804,Chesapeake city,51550,Virginia,51,VA
-51550021502,Chesapeake city,51550,Virginia,51,VA
-51550020600,Chesapeake city,51550,Virginia,51,VA
-51550021004,Chesapeake city,51550,Virginia,51,VA
-51550021402,Chesapeake city,51550,Virginia,51,VA
-51550021501,Chesapeake city,51550,Virginia,51,VA
-51550021602,Chesapeake city,51550,Virginia,51,VA
-51550020904,Chesapeake city,51550,Virginia,51,VA
-51550020003,Chesapeake city,51550,Virginia,51,VA
-51550021601,Chesapeake city,51550,Virginia,51,VA
-51570830400,Colonial Heights city,51570,Virginia,51,VA
-51570830100,Colonial Heights city,51570,Virginia,51,VA
-51570830200,Colonial Heights city,51570,Virginia,51,VA
-51570830500,Colonial Heights city,51570,Virginia,51,VA
-51570830300,Colonial Heights city,51570,Virginia,51,VA
-51660000203,Harrisonburg city,51660,Virginia,51,VA
+51550020002,Chesapeake City,51550,Virginia,51,VA
+51550021403,Chesapeake City,51550,Virginia,51,VA
+51550021404,Chesapeake City,51550,Virginia,51,VA
+51550020400,Chesapeake City,51550,Virginia,51,VA
+51550020200,Chesapeake City,51550,Virginia,51,VA
+51550020804,Chesapeake City,51550,Virginia,51,VA
+51550021502,Chesapeake City,51550,Virginia,51,VA
+51550020600,Chesapeake City,51550,Virginia,51,VA
+51550021004,Chesapeake City,51550,Virginia,51,VA
+51550021402,Chesapeake City,51550,Virginia,51,VA
+51550021501,Chesapeake City,51550,Virginia,51,VA
+51550021602,Chesapeake City,51550,Virginia,51,VA
+51550020904,Chesapeake City,51550,Virginia,51,VA
+51550020003,Chesapeake City,51550,Virginia,51,VA
+51550021601,Chesapeake City,51550,Virginia,51,VA
+51570830400,Colonial Heights City,51570,Virginia,51,VA
+51570830100,Colonial Heights City,51570,Virginia,51,VA
+51570830200,Colonial Heights City,51570,Virginia,51,VA
+51570830500,Colonial Heights City,51570,Virginia,51,VA
+51570830300,Colonial Heights City,51570,Virginia,51,VA
+51660000203,Harrisonburg City,51660,Virginia,51,VA
 51003010700,Albemarle County,51003,Virginia,51,VA
 51003011400,Albemarle County,51003,Virginia,51,VA
 51003010903,Albemarle County,51003,Virginia,51,VA
@@ -67601,18 +67601,18 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51119951200,Middlesex County,51119,Virginia,51,VA
 51149850100,Prince George County,51149,Virginia,51,VA
 51149850200,Prince George County,51149,Virginia,51,VA
-51710006100,Norfolk city,51710,Virginia,51,VA
-51710006607,Norfolk city,51710,Virginia,51,VA
-51710002600,Norfolk city,51710,Virginia,51,VA
-51710003600,Norfolk city,51710,Virginia,51,VA
-51710004001,Norfolk city,51710,Virginia,51,VA
-51710004002,Norfolk city,51710,Virginia,51,VA
-51710004100,Norfolk city,51710,Virginia,51,VA
-51710004400,Norfolk city,51710,Virginia,51,VA
-51710004700,Norfolk city,51710,Virginia,51,VA
-51710004800,Norfolk city,51710,Virginia,51,VA
-51710005901,Norfolk city,51710,Virginia,51,VA
-51710006200,Norfolk city,51710,Virginia,51,VA
+51710006100,Norfolk City,51710,Virginia,51,VA
+51710006607,Norfolk City,51710,Virginia,51,VA
+51710002600,Norfolk City,51710,Virginia,51,VA
+51710003600,Norfolk City,51710,Virginia,51,VA
+51710004001,Norfolk City,51710,Virginia,51,VA
+51710004002,Norfolk City,51710,Virginia,51,VA
+51710004100,Norfolk City,51710,Virginia,51,VA
+51710004400,Norfolk City,51710,Virginia,51,VA
+51710004700,Norfolk City,51710,Virginia,51,VA
+51710004800,Norfolk City,51710,Virginia,51,VA
+51710005901,Norfolk City,51710,Virginia,51,VA
+51710006200,Norfolk City,51710,Virginia,51,VA
 51153901416,Prince William County,51153,Virginia,51,VA
 51153901413,Prince William County,51153,Virginia,51,VA
 51153901414,Prince William County,51153,Virginia,51,VA
@@ -67657,14 +67657,14 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51165010100,Rockingham County,51165,Virginia,51,VA
 51165010200,Rockingham County,51165,Virginia,51,VA
 51165011000,Rockingham County,51165,Virginia,51,VA
-51710007001,Norfolk city,51710,Virginia,51,VA
+51710007001,Norfolk City,51710,Virginia,51,VA
 51165011100,Rockingham County,51165,Virginia,51,VA
-51710000300,Norfolk city,51710,Virginia,51,VA
-51710006902,Norfolk city,51710,Virginia,51,VA
-51710006800,Norfolk city,51710,Virginia,51,VA
-51710006901,Norfolk city,51710,Virginia,51,VA
-51710000100,Norfolk city,51710,Virginia,51,VA
-51710000201,Norfolk city,51710,Virginia,51,VA
+51710000300,Norfolk City,51710,Virginia,51,VA
+51710006902,Norfolk City,51710,Virginia,51,VA
+51710006800,Norfolk City,51710,Virginia,51,VA
+51710006901,Norfolk City,51710,Virginia,51,VA
+51710000100,Norfolk City,51710,Virginia,51,VA
+51710000201,Norfolk City,51710,Virginia,51,VA
 51059432300,Fairfax County,51059,Virginia,51,VA
 51059440300,Fairfax County,51059,Virginia,51,VA
 51059420700,Fairfax County,51059,Virginia,51,VA
@@ -67745,29 +67745,29 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51153901008,Prince William County,51153,Virginia,51,VA
 51153901211,Prince William County,51153,Virginia,51,VA
 51153901223,Prince William County,51153,Virginia,51,VA
-51520020400,Bristol city,51520,Virginia,51,VA
-51580060100,Covington city,51580,Virginia,51,VA
-51520020200,Bristol city,51520,Virginia,51,VA
-51520020100,Bristol city,51520,Virginia,51,VA
-51520020300,Bristol city,51520,Virginia,51,VA
-51580060200,Covington city,51580,Virginia,51,VA
-51740211700,Portsmouth city,51740,Virginia,51,VA
-51740211800,Portsmouth city,51740,Virginia,51,VA
-51740212600,Portsmouth city,51740,Virginia,51,VA
-51740213103,Portsmouth city,51740,Virginia,51,VA
-51740211400,Portsmouth city,51740,Virginia,51,VA
-51740210200,Portsmouth city,51740,Virginia,51,VA
-51740211600,Portsmouth city,51740,Virginia,51,VA
-51740212300,Portsmouth city,51740,Virginia,51,VA
-51740212500,Portsmouth city,51740,Virginia,51,VA
-51740212900,Portsmouth city,51740,Virginia,51,VA
-51740210600,Portsmouth city,51740,Virginia,51,VA
-51740212000,Portsmouth city,51740,Virginia,51,VA
-51740213002,Portsmouth city,51740,Virginia,51,VA
-51740210400,Portsmouth city,51740,Virginia,51,VA
-51740210500,Portsmouth city,51740,Virginia,51,VA
-51740212702,Portsmouth city,51740,Virginia,51,VA
-51740212701,Portsmouth city,51740,Virginia,51,VA
+51520020400,Bristol City,51520,Virginia,51,VA
+51580060100,Covington City,51580,Virginia,51,VA
+51520020200,Bristol City,51520,Virginia,51,VA
+51520020100,Bristol City,51520,Virginia,51,VA
+51520020300,Bristol City,51520,Virginia,51,VA
+51580060200,Covington City,51580,Virginia,51,VA
+51740211700,Portsmouth City,51740,Virginia,51,VA
+51740211800,Portsmouth City,51740,Virginia,51,VA
+51740212600,Portsmouth City,51740,Virginia,51,VA
+51740213103,Portsmouth City,51740,Virginia,51,VA
+51740211400,Portsmouth City,51740,Virginia,51,VA
+51740210200,Portsmouth City,51740,Virginia,51,VA
+51740211600,Portsmouth City,51740,Virginia,51,VA
+51740212300,Portsmouth City,51740,Virginia,51,VA
+51740212500,Portsmouth City,51740,Virginia,51,VA
+51740212900,Portsmouth City,51740,Virginia,51,VA
+51740210600,Portsmouth City,51740,Virginia,51,VA
+51740212000,Portsmouth City,51740,Virginia,51,VA
+51740213002,Portsmouth City,51740,Virginia,51,VA
+51740210400,Portsmouth City,51740,Virginia,51,VA
+51740210500,Portsmouth City,51740,Virginia,51,VA
+51740212702,Portsmouth City,51740,Virginia,51,VA
+51740212701,Portsmouth City,51740,Virginia,51,VA
 51153901005,Prince William County,51153,Virginia,51,VA
 51019030601,Bedford County,51019,Virginia,51,VA
 51153901100,Prince William County,51153,Virginia,51,VA
@@ -67834,43 +67834,43 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51153901900,Prince William County,51153,Virginia,51,VA
 51161030205,Roanoke County,51161,Virginia,51,VA
 51161030801,Roanoke County,51161,Virginia,51,VA
-51810043200,Virginia Beach city,51810,Virginia,51,VA
-51810045405,Virginia Beach city,51810,Virginia,51,VA
-51810043800,Virginia Beach city,51810,Virginia,51,VA
-51810044001,Virginia Beach city,51810,Virginia,51,VA
-51810044600,Virginia Beach city,51810,Virginia,51,VA
-51810045412,Virginia Beach city,51810,Virginia,51,VA
-51810045420,Virginia Beach city,51810,Virginia,51,VA
-51810045806,Virginia Beach city,51810,Virginia,51,VA
-51810046012,Virginia Beach city,51810,Virginia,51,VA
-51810040000,Virginia Beach city,51810,Virginia,51,VA
-51810040200,Virginia Beach city,51810,Virginia,51,VA
-51810040600,Virginia Beach city,51810,Virginia,51,VA
-51810041802,Virginia Beach city,51810,Virginia,51,VA
-51810044807,Virginia Beach city,51810,Virginia,51,VA
-51810044808,Virginia Beach city,51810,Virginia,51,VA
-51810045807,Virginia Beach city,51810,Virginia,51,VA
-51810046011,Virginia Beach city,51810,Virginia,51,VA
-51810046216,Virginia Beach city,51810,Virginia,51,VA
-51810046219,Virginia Beach city,51810,Virginia,51,VA
-51810046400,Virginia Beach city,51810,Virginia,51,VA
-51810041002,Virginia Beach city,51810,Virginia,51,VA
-51810041200,Virginia Beach city,51810,Virginia,51,VA
-51810041400,Virginia Beach city,51810,Virginia,51,VA
-51810042400,Virginia Beach city,51810,Virginia,51,VA
-51810043600,Virginia Beach city,51810,Virginia,51,VA
-51810045417,Virginia Beach city,51810,Virginia,51,VA
-51810045805,Virginia Beach city,51810,Virginia,51,VA
-51810045809,Virginia Beach city,51810,Virginia,51,VA
-51810046005,Virginia Beach city,51810,Virginia,51,VA
-51810045803,Virginia Beach city,51810,Virginia,51,VA
+51810043200,Virginia Beach City,51810,Virginia,51,VA
+51810045405,Virginia Beach City,51810,Virginia,51,VA
+51810043800,Virginia Beach City,51810,Virginia,51,VA
+51810044001,Virginia Beach City,51810,Virginia,51,VA
+51810044600,Virginia Beach City,51810,Virginia,51,VA
+51810045412,Virginia Beach City,51810,Virginia,51,VA
+51810045420,Virginia Beach City,51810,Virginia,51,VA
+51810045806,Virginia Beach City,51810,Virginia,51,VA
+51810046012,Virginia Beach City,51810,Virginia,51,VA
+51810040000,Virginia Beach City,51810,Virginia,51,VA
+51810040200,Virginia Beach City,51810,Virginia,51,VA
+51810040600,Virginia Beach City,51810,Virginia,51,VA
+51810041802,Virginia Beach City,51810,Virginia,51,VA
+51810044807,Virginia Beach City,51810,Virginia,51,VA
+51810044808,Virginia Beach City,51810,Virginia,51,VA
+51810045807,Virginia Beach City,51810,Virginia,51,VA
+51810046011,Virginia Beach City,51810,Virginia,51,VA
+51810046216,Virginia Beach City,51810,Virginia,51,VA
+51810046219,Virginia Beach City,51810,Virginia,51,VA
+51810046400,Virginia Beach City,51810,Virginia,51,VA
+51810041002,Virginia Beach City,51810,Virginia,51,VA
+51810041200,Virginia Beach City,51810,Virginia,51,VA
+51810041400,Virginia Beach City,51810,Virginia,51,VA
+51810042400,Virginia Beach City,51810,Virginia,51,VA
+51810043600,Virginia Beach City,51810,Virginia,51,VA
+51810045417,Virginia Beach City,51810,Virginia,51,VA
+51810045805,Virginia Beach City,51810,Virginia,51,VA
+51810045809,Virginia Beach City,51810,Virginia,51,VA
+51810046005,Virginia Beach City,51810,Virginia,51,VA
+51810045803,Virginia Beach City,51810,Virginia,51,VA
 51087201102,Henrico County,51087,Virginia,51,VA
-51700032300,Newport News city,51700,Virginia,51,VA
-51700030300,Newport News city,51700,Virginia,51,VA
-51700032005,Newport News city,51700,Virginia,51,VA
-51700031602,Newport News city,51700,Virginia,51,VA
-51700030500,Newport News city,51700,Virginia,51,VA
-51700032001,Newport News city,51700,Virginia,51,VA
+51700032300,Newport News City,51700,Virginia,51,VA
+51700030300,Newport News City,51700,Virginia,51,VA
+51700032005,Newport News City,51700,Virginia,51,VA
+51700031602,Newport News City,51700,Virginia,51,VA
+51700030500,Newport News City,51700,Virginia,51,VA
+51700032001,Newport News City,51700,Virginia,51,VA
 51069050200,Frederick County,51069,Virginia,51,VA
 51069050300,Frederick County,51069,Virginia,51,VA
 51069050400,Frederick County,51069,Virginia,51,VA
@@ -67899,15 +67899,15 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51179010502,Stafford County,51179,Virginia,51,VA
 51179010103,Stafford County,51179,Virginia,51,VA
 51179010207,Stafford County,51179,Virginia,51,VA
-51680000600,Lynchburg city,51680,Virginia,51,VA
-51680000203,Lynchburg city,51680,Virginia,51,VA
+51680000600,Lynchburg City,51680,Virginia,51,VA
+51680000203,Lynchburg City,51680,Virginia,51,VA
 51019030101,Bedford County,51019,Virginia,51,VA
 51019030300,Bedford County,51019,Virginia,51,VA
 51019030402,Bedford County,51019,Virginia,51,VA
 51019030401,Bedford County,51019,Virginia,51,VA
 51023040100,Botetourt County,51023,Virginia,51,VA
 51023040200,Botetourt County,51023,Virginia,51,VA
-51810045801,Virginia Beach city,51810,Virginia,51,VA
+51810045801,Virginia Beach City,51810,Virginia,51,VA
 51161030201,Roanoke County,51161,Virginia,51,VA
 51161030204,Roanoke County,51161,Virginia,51,VA
 51161030802,Roanoke County,51161,Virginia,51,VA
@@ -67942,16 +67942,16 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51019030201,Bedford County,51019,Virginia,51,VA
 51095080101,James City County,51095,Virginia,51,VA
 51095080401,James City County,51095,Virginia,51,VA
-51710001200,Norfolk city,51710,Virginia,51,VA
-51710003200,Norfolk city,51710,Virginia,51,VA
-51710003300,Norfolk city,51710,Virginia,51,VA
-51710004200,Norfolk city,51710,Virginia,51,VA
-51710005800,Norfolk city,51710,Virginia,51,VA
+51710001200,Norfolk City,51710,Virginia,51,VA
+51710003200,Norfolk City,51710,Virginia,51,VA
+51710003300,Norfolk City,51710,Virginia,51,VA
+51710004200,Norfolk City,51710,Virginia,51,VA
+51710005800,Norfolk City,51710,Virginia,51,VA
 51003010500,Albemarle County,51003,Virginia,51,VA
 51003010800,Albemarle County,51003,Virginia,51,VA
 51003010901,Albemarle County,51003,Virginia,51,VA
 51003011100,Albemarle County,51003,Virginia,51,VA
-51710000400,Norfolk city,51710,Virginia,51,VA
+51710000400,Norfolk City,51710,Virginia,51,VA
 51141030100,Patrick County,51141,Virginia,51,VA
 51141030200,Patrick County,51141,Virginia,51,VA
 51145500101,Powhatan County,51145,Virginia,51,VA
@@ -67963,82 +67963,82 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51171040300,Shenandoah County,51171,Virginia,51,VA
 51171040700,Shenandoah County,51171,Virginia,51,VA
 51171040800,Shenandoah County,51171,Virginia,51,VA
-51740211100,Portsmouth city,51740,Virginia,51,VA
-51740211500,Portsmouth city,51740,Virginia,51,VA
-51740213001,Portsmouth city,51740,Virginia,51,VA
-51740211900,Portsmouth city,51740,Virginia,51,VA
-51740212400,Portsmouth city,51740,Virginia,51,VA
-51740212100,Portsmouth city,51740,Virginia,51,VA
-51740213104,Portsmouth city,51740,Virginia,51,VA
-51740210900,Portsmouth city,51740,Virginia,51,VA
-51830370300,Williamsburg city,51830,Virginia,51,VA
-51830370100,Williamsburg city,51830,Virginia,51,VA
-51830370200,Williamsburg city,51830,Virginia,51,VA
-51810041801,Virginia Beach city,51810,Virginia,51,VA
-51810043002,Virginia Beach city,51810,Virginia,51,VA
-51810043400,Virginia Beach city,51810,Virginia,51,VA
-51810044200,Virginia Beach city,51810,Virginia,51,VA
-51810040402,Virginia Beach city,51810,Virginia,51,VA
-51810042600,Virginia Beach city,51810,Virginia,51,VA
-51810044402,Virginia Beach city,51810,Virginia,51,VA
-51810045406,Virginia Beach city,51810,Virginia,51,VA
-51810045407,Virginia Beach city,51810,Virginia,51,VA
-51810045415,Virginia Beach city,51810,Virginia,51,VA
-51810045808,Virginia Beach city,51810,Virginia,51,VA
-51810046207,Virginia Beach city,51810,Virginia,51,VA
-51810046211,Virginia Beach city,51810,Virginia,51,VA
-51810046217,Virginia Beach city,51810,Virginia,51,VA
-51810041004,Virginia Beach city,51810,Virginia,51,VA
-51810042201,Virginia Beach city,51810,Virginia,51,VA
-51810042802,Virginia Beach city,51810,Virginia,51,VA
-51810045200,Virginia Beach city,51810,Virginia,51,VA
-51810045408,Virginia Beach city,51810,Virginia,51,VA
-51810040802,Virginia Beach city,51810,Virginia,51,VA
-51810041600,Virginia Beach city,51810,Virginia,51,VA
-51810042000,Virginia Beach city,51810,Virginia,51,VA
-51710000800,Norfolk city,51710,Virginia,51,VA
-51710002400,Norfolk city,51710,Virginia,51,VA
-51710004500,Norfolk city,51710,Virginia,51,VA
-51710005500,Norfolk city,51710,Virginia,51,VA
-51710005602,Norfolk city,51710,Virginia,51,VA
-51710000600,Norfolk city,51710,Virginia,51,VA
-51710001600,Norfolk city,51710,Virginia,51,VA
-51710002000,Norfolk city,51710,Virginia,51,VA
-51710002800,Norfolk city,51710,Virginia,51,VA
-51710003400,Norfolk city,51710,Virginia,51,VA
-51710005902,Norfolk city,51710,Virginia,51,VA
-51710005903,Norfolk city,51710,Virginia,51,VA
-51710006601,Norfolk city,51710,Virginia,51,VA
-51710006604,Norfolk city,51710,Virginia,51,VA
-51710003501,Norfolk city,51710,Virginia,51,VA
-51710003700,Norfolk city,51710,Virginia,51,VA
-51540000201,Charlottesville city,51540,Virginia,51,VA
-51620090100,Franklin city,51620,Virginia,51,VA
-51620090200,Franklin city,51620,Virginia,51,VA
-51540000502,Charlottesville city,51540,Virginia,51,VA
-51540000202,Charlottesville city,51540,Virginia,51,VA
-51540000402,Charlottesville city,51540,Virginia,51,VA
-51540000302,Charlottesville city,51540,Virginia,51,VA
-51540000401,Charlottesville city,51540,Virginia,51,VA
-51540000900,Charlottesville city,51540,Virginia,51,VA
-51540000600,Charlottesville city,51540,Virginia,51,VA
-51540000800,Charlottesville city,51540,Virginia,51,VA
-51540000501,Charlottesville city,51540,Virginia,51,VA
-51540000700,Charlottesville city,51540,Virginia,51,VA
+51740211100,Portsmouth City,51740,Virginia,51,VA
+51740211500,Portsmouth City,51740,Virginia,51,VA
+51740213001,Portsmouth City,51740,Virginia,51,VA
+51740211900,Portsmouth City,51740,Virginia,51,VA
+51740212400,Portsmouth City,51740,Virginia,51,VA
+51740212100,Portsmouth City,51740,Virginia,51,VA
+51740213104,Portsmouth City,51740,Virginia,51,VA
+51740210900,Portsmouth City,51740,Virginia,51,VA
+51830370300,Williamsburg City,51830,Virginia,51,VA
+51830370100,Williamsburg City,51830,Virginia,51,VA
+51830370200,Williamsburg City,51830,Virginia,51,VA
+51810041801,Virginia Beach City,51810,Virginia,51,VA
+51810043002,Virginia Beach City,51810,Virginia,51,VA
+51810043400,Virginia Beach City,51810,Virginia,51,VA
+51810044200,Virginia Beach City,51810,Virginia,51,VA
+51810040402,Virginia Beach City,51810,Virginia,51,VA
+51810042600,Virginia Beach City,51810,Virginia,51,VA
+51810044402,Virginia Beach City,51810,Virginia,51,VA
+51810045406,Virginia Beach City,51810,Virginia,51,VA
+51810045407,Virginia Beach City,51810,Virginia,51,VA
+51810045415,Virginia Beach City,51810,Virginia,51,VA
+51810045808,Virginia Beach City,51810,Virginia,51,VA
+51810046207,Virginia Beach City,51810,Virginia,51,VA
+51810046211,Virginia Beach City,51810,Virginia,51,VA
+51810046217,Virginia Beach City,51810,Virginia,51,VA
+51810041004,Virginia Beach City,51810,Virginia,51,VA
+51810042201,Virginia Beach City,51810,Virginia,51,VA
+51810042802,Virginia Beach City,51810,Virginia,51,VA
+51810045200,Virginia Beach City,51810,Virginia,51,VA
+51810045408,Virginia Beach City,51810,Virginia,51,VA
+51810040802,Virginia Beach City,51810,Virginia,51,VA
+51810041600,Virginia Beach City,51810,Virginia,51,VA
+51810042000,Virginia Beach City,51810,Virginia,51,VA
+51710000800,Norfolk City,51710,Virginia,51,VA
+51710002400,Norfolk City,51710,Virginia,51,VA
+51710004500,Norfolk City,51710,Virginia,51,VA
+51710005500,Norfolk City,51710,Virginia,51,VA
+51710005602,Norfolk City,51710,Virginia,51,VA
+51710000600,Norfolk City,51710,Virginia,51,VA
+51710001600,Norfolk City,51710,Virginia,51,VA
+51710002000,Norfolk City,51710,Virginia,51,VA
+51710002800,Norfolk City,51710,Virginia,51,VA
+51710003400,Norfolk City,51710,Virginia,51,VA
+51710005902,Norfolk City,51710,Virginia,51,VA
+51710005903,Norfolk City,51710,Virginia,51,VA
+51710006601,Norfolk City,51710,Virginia,51,VA
+51710006604,Norfolk City,51710,Virginia,51,VA
+51710003501,Norfolk City,51710,Virginia,51,VA
+51710003700,Norfolk City,51710,Virginia,51,VA
+51540000201,Charlottesville City,51540,Virginia,51,VA
+51620090100,Franklin City,51620,Virginia,51,VA
+51620090200,Franklin City,51620,Virginia,51,VA
+51540000502,Charlottesville City,51540,Virginia,51,VA
+51540000202,Charlottesville City,51540,Virginia,51,VA
+51540000402,Charlottesville City,51540,Virginia,51,VA
+51540000302,Charlottesville City,51540,Virginia,51,VA
+51540000401,Charlottesville City,51540,Virginia,51,VA
+51540000900,Charlottesville City,51540,Virginia,51,VA
+51540000600,Charlottesville City,51540,Virginia,51,VA
+51540000800,Charlottesville City,51540,Virginia,51,VA
+51540000501,Charlottesville City,51540,Virginia,51,VA
+51540000700,Charlottesville City,51540,Virginia,51,VA
 51031020500,Campbell County,51031,Virginia,51,VA
-51710004600,Norfolk city,51710,Virginia,51,VA
-51710005702,Norfolk city,51710,Virginia,51,VA
-51710006000,Norfolk city,51710,Virginia,51,VA
-51710006502,Norfolk city,51710,Virginia,51,VA
-51710002200,Norfolk city,51710,Virginia,51,VA
-51710002500,Norfolk city,51710,Virginia,51,VA
-51710002700,Norfolk city,51710,Virginia,51,VA
-51710002900,Norfolk city,51710,Virginia,51,VA
-51710003000,Norfolk city,51710,Virginia,51,VA
-51710006400,Norfolk city,51710,Virginia,51,VA
-51710006605,Norfolk city,51710,Virginia,51,VA
-51710000202,Norfolk city,51710,Virginia,51,VA
-51710004300,Norfolk city,51710,Virginia,51,VA
+51710004600,Norfolk City,51710,Virginia,51,VA
+51710005702,Norfolk City,51710,Virginia,51,VA
+51710006000,Norfolk City,51710,Virginia,51,VA
+51710006502,Norfolk City,51710,Virginia,51,VA
+51710002200,Norfolk City,51710,Virginia,51,VA
+51710002500,Norfolk City,51710,Virginia,51,VA
+51710002700,Norfolk City,51710,Virginia,51,VA
+51710002900,Norfolk City,51710,Virginia,51,VA
+51710003000,Norfolk City,51710,Virginia,51,VA
+51710006400,Norfolk City,51710,Virginia,51,VA
+51710006605,Norfolk City,51710,Virginia,51,VA
+51710000202,Norfolk City,51710,Virginia,51,VA
+51710004300,Norfolk City,51710,Virginia,51,VA
 51041100205,Chesterfield County,51041,Virginia,51,VA
 51041100702,Chesterfield County,51041,Virginia,51,VA
 51036600100,Charles City County,51036,Virginia,51,VA
@@ -68065,9 +68065,9 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51085321100,Hanover County,51085,Virginia,51,VA
 51085320801,Hanover County,51085,Virginia,51,VA
 51085320200,Hanover County,51085,Virginia,51,VA
-51610500300,Falls Church city,51610,Virginia,51,VA
-51610500100,Falls Church city,51610,Virginia,51,VA
-51610500200,Falls Church city,51610,Virginia,51,VA
+51610500300,Falls Church City,51610,Virginia,51,VA
+51610500100,Falls Church City,51610,Virginia,51,VA
+51610500200,Falls Church City,51610,Virginia,51,VA
 51059430600,Fairfax County,51059,Virginia,51,VA
 51059431500,Fairfax County,51059,Virginia,51,VA
 51059431600,Fairfax County,51059,Virginia,51,VA
@@ -68113,47 +68113,47 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51087200106,Henrico County,51087,Virginia,51,VA
 51087200107,Henrico County,51087,Virginia,51,VA
 51087200126,Henrico County,51087,Virginia,51,VA
-51700030400,Newport News city,51700,Virginia,51,VA
-51700030900,Newport News city,51700,Virginia,51,VA
-51700031300,Newport News city,51700,Virginia,51,VA
-51700031500,Newport News city,51700,Virginia,51,VA
-51700032113,Newport News city,51700,Virginia,51,VA
-51700032123,Newport News city,51700,Virginia,51,VA
-51700030100,Newport News city,51700,Virginia,51,VA
-51700030800,Newport News city,51700,Virginia,51,VA
-51700032124,Newport News city,51700,Virginia,51,VA
-51700031400,Newport News city,51700,Virginia,51,VA
-51700031601,Newport News city,51700,Virginia,51,VA
-51700032002,Newport News city,51700,Virginia,51,VA
-51700032114,Newport News city,51700,Virginia,51,VA
-51700032211,Newport News city,51700,Virginia,51,VA
-51700030600,Newport News city,51700,Virginia,51,VA
-51700031200,Newport News city,51700,Virginia,51,VA
-51700031800,Newport News city,51700,Virginia,51,VA
+51700030400,Newport News City,51700,Virginia,51,VA
+51700030900,Newport News City,51700,Virginia,51,VA
+51700031300,Newport News City,51700,Virginia,51,VA
+51700031500,Newport News City,51700,Virginia,51,VA
+51700032113,Newport News City,51700,Virginia,51,VA
+51700032123,Newport News City,51700,Virginia,51,VA
+51700030100,Newport News City,51700,Virginia,51,VA
+51700030800,Newport News City,51700,Virginia,51,VA
+51700032124,Newport News City,51700,Virginia,51,VA
+51700031400,Newport News City,51700,Virginia,51,VA
+51700031601,Newport News City,51700,Virginia,51,VA
+51700032002,Newport News City,51700,Virginia,51,VA
+51700032114,Newport News City,51700,Virginia,51,VA
+51700032211,Newport News City,51700,Virginia,51,VA
+51700030600,Newport News City,51700,Virginia,51,VA
+51700031200,Newport News City,51700,Virginia,51,VA
+51700031800,Newport News City,51700,Virginia,51,VA
 51059421800,Fairfax County,51059,Virginia,51,VA
 51059430500,Fairfax County,51059,Virginia,51,VA
-51810043004,Virginia Beach city,51810,Virginia,51,VA
-51810044003,Virginia Beach city,51810,Virginia,51,VA
-51810044004,Virginia Beach city,51810,Virginia,51,VA
-51810045421,Virginia Beach city,51810,Virginia,51,VA
-51810045422,Virginia Beach city,51810,Virginia,51,VA
-51810045423,Virginia Beach city,51810,Virginia,51,VA
-51810045424,Virginia Beach city,51810,Virginia,51,VA
-51810045425,Virginia Beach city,51810,Virginia,51,VA
-51810045426,Virginia Beach city,51810,Virginia,51,VA
-51810045427,Virginia Beach city,51810,Virginia,51,VA
-51810045428,Virginia Beach city,51810,Virginia,51,VA
-51810045603,Virginia Beach city,51810,Virginia,51,VA
-51810046016,Virginia Beach city,51810,Virginia,51,VA
-51810045604,Virginia Beach city,51810,Virginia,51,VA
-51810046014,Virginia Beach city,51810,Virginia,51,VA
-51810046015,Virginia Beach city,51810,Virginia,51,VA
-51810046220,Virginia Beach city,51810,Virginia,51,VA
-51810046221,Virginia Beach city,51810,Virginia,51,VA
-51810046222,Virginia Beach city,51810,Virginia,51,VA
-51810046223,Virginia Beach city,51810,Virginia,51,VA
-51810046224,Virginia Beach city,51810,Virginia,51,VA
-51810046225,Virginia Beach city,51810,Virginia,51,VA
+51810043004,Virginia Beach City,51810,Virginia,51,VA
+51810044003,Virginia Beach City,51810,Virginia,51,VA
+51810044004,Virginia Beach City,51810,Virginia,51,VA
+51810045421,Virginia Beach City,51810,Virginia,51,VA
+51810045422,Virginia Beach City,51810,Virginia,51,VA
+51810045423,Virginia Beach City,51810,Virginia,51,VA
+51810045424,Virginia Beach City,51810,Virginia,51,VA
+51810045425,Virginia Beach City,51810,Virginia,51,VA
+51810045426,Virginia Beach City,51810,Virginia,51,VA
+51810045427,Virginia Beach City,51810,Virginia,51,VA
+51810045428,Virginia Beach City,51810,Virginia,51,VA
+51810045603,Virginia Beach City,51810,Virginia,51,VA
+51810046016,Virginia Beach City,51810,Virginia,51,VA
+51810045604,Virginia Beach City,51810,Virginia,51,VA
+51810046014,Virginia Beach City,51810,Virginia,51,VA
+51810046015,Virginia Beach City,51810,Virginia,51,VA
+51810046220,Virginia Beach City,51810,Virginia,51,VA
+51810046221,Virginia Beach City,51810,Virginia,51,VA
+51810046222,Virginia Beach City,51810,Virginia,51,VA
+51810046223,Virginia Beach City,51810,Virginia,51,VA
+51810046224,Virginia Beach City,51810,Virginia,51,VA
+51810046225,Virginia Beach City,51810,Virginia,51,VA
 51153901412,Prince William County,51153,Virginia,51,VA
 51021040200,Bland County,51021,Virginia,51,VA
 51023040301,Botetourt County,51023,Virginia,51,VA
@@ -68163,20 +68163,20 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51171040500,Shenandoah County,51171,Virginia,51,VA
 51171040400,Shenandoah County,51171,Virginia,51,VA
 51171040100,Shenandoah County,51171,Virginia,51,VA
-51740213101,Portsmouth city,51740,Virginia,51,VA
-51740210300,Portsmouth city,51740,Virginia,51,VA
+51740213101,Portsmouth City,51740,Virginia,51,VA
+51740210300,Portsmouth City,51740,Virginia,51,VA
 51059431900,Fairfax County,51059,Virginia,51,VA
 51059432500,Fairfax County,51059,Virginia,51,VA
 51059491000,Fairfax County,51059,Virginia,51,VA
 51059470500,Fairfax County,51059,Virginia,51,VA
 51059460900,Fairfax County,51059,Virginia,51,VA
-51685920100,Manassas Park city,51685,Virginia,51,VA
-51685920200,Manassas Park city,51685,Virginia,51,VA
-51730810600,Petersburg city,51730,Virginia,51,VA
-51700032117,Newport News city,51700,Virginia,51,VA
-51700032212,Newport News city,51700,Virginia,51,VA
-51700032400,Newport News city,51700,Virginia,51,VA
-51700031100,Newport News city,51700,Virginia,51,VA
+51685920100,Manassas Park City,51685,Virginia,51,VA
+51685920200,Manassas Park City,51685,Virginia,51,VA
+51730810600,Petersburg City,51730,Virginia,51,VA
+51700032117,Newport News City,51700,Virginia,51,VA
+51700032212,Newport News City,51700,Virginia,51,VA
+51700032400,Newport News City,51700,Virginia,51,VA
+51700031100,Newport News City,51700,Virginia,51,VA
 51005070100,Alleghany County,51005,Virginia,51,VA
 51153900410,Prince William County,51153,Virginia,51,VA
 51153900501,Prince William County,51153,Virginia,51,VA
@@ -68214,20 +68214,20 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51153901409,Prince William County,51153,Virginia,51,VA
 51153901410,Prince William County,51153,Virginia,51,VA
 51153901411,Prince William County,51153,Virginia,51,VA
-51800075803,Suffolk city,51800,Virginia,51,VA
-51810043003,Virginia Beach city,51810,Virginia,51,VA
-51730810500,Petersburg city,51730,Virginia,51,VA
-51730810900,Petersburg city,51730,Virginia,51,VA
-51730810700,Petersburg city,51730,Virginia,51,VA
-51730810300,Petersburg city,51730,Virginia,51,VA
-51730810400,Petersburg city,51730,Virginia,51,VA
-51730811000,Petersburg city,51730,Virginia,51,VA
-51730811100,Petersburg city,51730,Virginia,51,VA
-51730810100,Petersburg city,51730,Virginia,51,VA
-51730811200,Petersburg city,51730,Virginia,51,VA
-51735340100,Poquoson city,51735,Virginia,51,VA
-51735340200,Poquoson city,51735,Virginia,51,VA
-51735340300,Poquoson city,51735,Virginia,51,VA
+51800075803,Suffolk City,51800,Virginia,51,VA
+51810043003,Virginia Beach City,51810,Virginia,51,VA
+51730810500,Petersburg City,51730,Virginia,51,VA
+51730810900,Petersburg City,51730,Virginia,51,VA
+51730810700,Petersburg City,51730,Virginia,51,VA
+51730810300,Petersburg City,51730,Virginia,51,VA
+51730810400,Petersburg City,51730,Virginia,51,VA
+51730811000,Petersburg City,51730,Virginia,51,VA
+51730811100,Petersburg City,51730,Virginia,51,VA
+51730810100,Petersburg City,51730,Virginia,51,VA
+51730811200,Petersburg City,51730,Virginia,51,VA
+51735340100,Poquoson City,51735,Virginia,51,VA
+51735340200,Poquoson City,51735,Virginia,51,VA
+51735340300,Poquoson City,51735,Virginia,51,VA
 51101950102,King William County,51101,Virginia,51,VA
 51195930800,Wise County,51195,Virginia,51,VA
 51103030100,Lancaster County,51103,Virginia,51,VA
@@ -68253,13 +68253,13 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51199050900,York County,51199,Virginia,51,VA
 51199051000,York County,51199,Virginia,51,VA
 51199051100,York County,51199,Virginia,51,VA
-51510200106,Alexandria city,51510,Virginia,51,VA
-51510200107,Alexandria city,51510,Virginia,51,VA
-51510200403,Alexandria city,51510,Virginia,51,VA
-51510200404,Alexandria city,51510,Virginia,51,VA
-51510200405,Alexandria city,51510,Virginia,51,VA
-51510200406,Alexandria city,51510,Virginia,51,VA
-51510200407,Alexandria city,51510,Virginia,51,VA
+51510200106,Alexandria City,51510,Virginia,51,VA
+51510200107,Alexandria City,51510,Virginia,51,VA
+51510200403,Alexandria City,51510,Virginia,51,VA
+51510200404,Alexandria City,51510,Virginia,51,VA
+51510200405,Alexandria City,51510,Virginia,51,VA
+51510200406,Alexandria City,51510,Virginia,51,VA
+51510200407,Alexandria City,51510,Virginia,51,VA
 51107980100,Loudoun County,51107,Virginia,51,VA
 51109950201,Louisa County,51109,Virginia,51,VA
 51109950202,Louisa County,51109,Virginia,51,VA
@@ -68302,12 +68302,12 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51047930102,Culpeper County,51047,Virginia,51,VA
 51047930201,Culpeper County,51047,Virginia,51,VA
 51047930202,Culpeper County,51047,Virginia,51,VA
-51510200701,Alexandria city,51510,Virginia,51,VA
-51510200702,Alexandria city,51510,Virginia,51,VA
-51510200703,Alexandria city,51510,Virginia,51,VA
-51530930600,Buena Vista city,51530,Virginia,51,VA
-51540001000,Charlottesville city,51540,Virginia,51,VA
-51550020500,Chesapeake city,51550,Virginia,51,VA
+51510200701,Alexandria City,51510,Virginia,51,VA
+51510200702,Alexandria City,51510,Virginia,51,VA
+51510200703,Alexandria City,51510,Virginia,51,VA
+51530930600,Buena Vista City,51530,Virginia,51,VA
+51540001000,Charlottesville City,51540,Virginia,51,VA
+51550020500,Chesapeake City,51550,Virginia,51,VA
 51103030200,Lancaster County,51103,Virginia,51,VA
 51103030300,Lancaster County,51103,Virginia,51,VA
 51105950100,Lee County,51105,Virginia,51,VA
@@ -68345,7 +68345,7 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51107611021,Loudoun County,51107,Virginia,51,VA
 51107611022,Loudoun County,51107,Virginia,51,VA
 51107611023,Loudoun County,51107,Virginia,51,VA
-51550020808,Chesapeake city,51550,Virginia,51,VA
+51550020808,Chesapeake City,51550,Virginia,51,VA
 51047930300,Culpeper County,51047,Virginia,51,VA
 51047930400,Culpeper County,51047,Virginia,51,VA
 51047930501,Culpeper County,51047,Virginia,51,VA
@@ -68390,48 +68390,48 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51059430802,Fairfax County,51059,Virginia,51,VA
 51059430901,Fairfax County,51059,Virginia,51,VA
 51059430902,Fairfax County,51059,Virginia,51,VA
-51550020809,Chesapeake city,51550,Virginia,51,VA
-51550020905,Chesapeake city,51550,Virginia,51,VA
-51550020906,Chesapeake city,51550,Virginia,51,VA
-51550021010,Chesapeake city,51550,Virginia,51,VA
-51550021011,Chesapeake city,51550,Virginia,51,VA
-51550021012,Chesapeake city,51550,Virginia,51,VA
-51550021013,Chesapeake city,51550,Virginia,51,VA
-51590001301,Danville city,51590,Virginia,51,VA
-51590001302,Danville city,51590,Virginia,51,VA
-51590980100,Danville city,51590,Virginia,51,VA
-51630000301,Fredericksburg city,51630,Virginia,51,VA
-51630000302,Fredericksburg city,51630,Virginia,51,VA
-51640070101,Galax city,51640,Virginia,51,VA
-51640070102,Galax city,51640,Virginia,51,VA
-51650010311,Hampton city,51650,Virginia,51,VA
-51650010312,Hampton city,51650,Virginia,51,VA
-51650010313,Hampton city,51650,Virginia,51,VA
-51660000101,Harrisonburg city,51660,Virginia,51,VA
-51650010314,Hampton city,51650,Virginia,51,VA
-51650012100,Hampton city,51650,Virginia,51,VA
-51660000102,Harrisonburg city,51660,Virginia,51,VA
-51660000204,Harrisonburg city,51660,Virginia,51,VA
-51660000205,Harrisonburg city,51660,Virginia,51,VA
-51660000206,Harrisonburg city,51660,Virginia,51,VA
-51660000207,Harrisonburg city,51660,Virginia,51,VA
-51660000301,Harrisonburg city,51660,Virginia,51,VA
-51660000302,Harrisonburg city,51660,Virginia,51,VA
-51660000401,Harrisonburg city,51660,Virginia,51,VA
-51660000402,Harrisonburg city,51660,Virginia,51,VA
-51670980100,Hopewell city,51670,Virginia,51,VA
+51550020809,Chesapeake City,51550,Virginia,51,VA
+51550020905,Chesapeake City,51550,Virginia,51,VA
+51550020906,Chesapeake City,51550,Virginia,51,VA
+51550021010,Chesapeake City,51550,Virginia,51,VA
+51550021011,Chesapeake City,51550,Virginia,51,VA
+51550021012,Chesapeake City,51550,Virginia,51,VA
+51550021013,Chesapeake City,51550,Virginia,51,VA
+51590001301,Danville City,51590,Virginia,51,VA
+51590001302,Danville City,51590,Virginia,51,VA
+51590980100,Danville City,51590,Virginia,51,VA
+51630000301,Fredericksburg City,51630,Virginia,51,VA
+51630000302,Fredericksburg City,51630,Virginia,51,VA
+51640070101,Galax City,51640,Virginia,51,VA
+51640070102,Galax City,51640,Virginia,51,VA
+51650010311,Hampton City,51650,Virginia,51,VA
+51650010312,Hampton City,51650,Virginia,51,VA
+51650010313,Hampton City,51650,Virginia,51,VA
+51660000101,Harrisonburg City,51660,Virginia,51,VA
+51650010314,Hampton City,51650,Virginia,51,VA
+51650012100,Hampton City,51650,Virginia,51,VA
+51660000102,Harrisonburg City,51660,Virginia,51,VA
+51660000204,Harrisonburg City,51660,Virginia,51,VA
+51660000205,Harrisonburg City,51660,Virginia,51,VA
+51660000206,Harrisonburg City,51660,Virginia,51,VA
+51660000207,Harrisonburg City,51660,Virginia,51,VA
+51660000301,Harrisonburg City,51660,Virginia,51,VA
+51660000302,Harrisonburg City,51660,Virginia,51,VA
+51660000401,Harrisonburg City,51660,Virginia,51,VA
+51660000402,Harrisonburg City,51660,Virginia,51,VA
+51670980100,Hopewell City,51670,Virginia,51,VA
 51121020201,Montgomery County,51121,Virginia,51,VA
-51683910302,Manassas city,51683,Virginia,51,VA
-51683910401,Manassas city,51683,Virginia,51,VA
-51683910402,Manassas city,51683,Virginia,51,VA
-51700031701,Newport News city,51700,Virginia,51,VA
-51700031702,Newport News city,51700,Virginia,51,VA
-51700031901,Newport News city,51700,Virginia,51,VA
-51700031902,Newport News city,51700,Virginia,51,VA
-51700032006,Newport News city,51700,Virginia,51,VA
-51700032007,Newport News city,51700,Virginia,51,VA
-51700032126,Newport News city,51700,Virginia,51,VA
-51700032127,Newport News city,51700,Virginia,51,VA
+51683910302,Manassas City,51683,Virginia,51,VA
+51683910401,Manassas City,51683,Virginia,51,VA
+51683910402,Manassas City,51683,Virginia,51,VA
+51700031701,Newport News City,51700,Virginia,51,VA
+51700031702,Newport News City,51700,Virginia,51,VA
+51700031901,Newport News City,51700,Virginia,51,VA
+51700031902,Newport News City,51700,Virginia,51,VA
+51700032006,Newport News City,51700,Virginia,51,VA
+51700032007,Newport News City,51700,Virginia,51,VA
+51700032126,Newport News City,51700,Virginia,51,VA
+51700032127,Newport News City,51700,Virginia,51,VA
 51059431001,Fairfax County,51059,Virginia,51,VA
 51059431002,Fairfax County,51059,Virginia,51,VA
 51059431801,Fairfax County,51059,Virginia,51,VA
@@ -68474,32 +68474,32 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51059461602,Fairfax County,51059,Virginia,51,VA
 51059461801,Fairfax County,51059,Virginia,51,VA
 51059461802,Fairfax County,51059,Virginia,51,VA
-51760050600,Richmond city,51760,Virginia,51,VA
-51760060600,Richmond city,51760,Virginia,51,VA
-51700032128,Newport News city,51700,Virginia,51,VA
-51700032129,Newport News city,51700,Virginia,51,VA
-51700032130,Newport News city,51700,Virginia,51,VA
-51700032131,Newport News city,51700,Virginia,51,VA
-51700032132,Newport News city,51700,Virginia,51,VA
-51700032223,Newport News city,51700,Virginia,51,VA
-51700032224,Newport News city,51700,Virginia,51,VA
-51700032225,Newport News city,51700,Virginia,51,VA
-51700032226,Newport News city,51700,Virginia,51,VA
-51710000901,Norfolk city,51710,Virginia,51,VA
-51710000902,Norfolk city,51710,Virginia,51,VA
-51710980100,Norfolk city,51710,Virginia,51,VA
-51710980200,Norfolk city,51710,Virginia,51,VA
-51710980300,Norfolk city,51710,Virginia,51,VA
-51720960100,Norton city,51720,Virginia,51,VA
-51730811300,Petersburg city,51730,Virginia,51,VA
-51740212801,Portsmouth city,51740,Virginia,51,VA
-51750010101,Radford city,51750,Virginia,51,VA
-51740212802,Portsmouth city,51740,Virginia,51,VA
-51740213200,Portsmouth city,51740,Virginia,51,VA
-51740980100,Portsmouth city,51740,Virginia,51,VA
-51750010102,Radford city,51750,Virginia,51,VA
-51760010401,Richmond city,51760,Virginia,51,VA
-51760010402,Richmond city,51760,Virginia,51,VA
+51760050600,Richmond City,51760,Virginia,51,VA
+51760060600,Richmond City,51760,Virginia,51,VA
+51700032128,Newport News City,51700,Virginia,51,VA
+51700032129,Newport News City,51700,Virginia,51,VA
+51700032130,Newport News City,51700,Virginia,51,VA
+51700032131,Newport News City,51700,Virginia,51,VA
+51700032132,Newport News City,51700,Virginia,51,VA
+51700032223,Newport News City,51700,Virginia,51,VA
+51700032224,Newport News City,51700,Virginia,51,VA
+51700032225,Newport News City,51700,Virginia,51,VA
+51700032226,Newport News City,51700,Virginia,51,VA
+51710000901,Norfolk City,51710,Virginia,51,VA
+51710000902,Norfolk City,51710,Virginia,51,VA
+51710980100,Norfolk City,51710,Virginia,51,VA
+51710980200,Norfolk City,51710,Virginia,51,VA
+51710980300,Norfolk City,51710,Virginia,51,VA
+51720960100,Norton City,51720,Virginia,51,VA
+51730811300,Petersburg City,51730,Virginia,51,VA
+51740212801,Portsmouth City,51740,Virginia,51,VA
+51750010101,Radford City,51750,Virginia,51,VA
+51740212802,Portsmouth City,51740,Virginia,51,VA
+51740213200,Portsmouth City,51740,Virginia,51,VA
+51740980100,Portsmouth City,51740,Virginia,51,VA
+51750010102,Radford City,51750,Virginia,51,VA
+51760010401,Richmond City,51760,Virginia,51,VA
+51760010402,Richmond City,51760,Virginia,51,VA
 51121020202,Montgomery County,51121,Virginia,51,VA
 51131930100,Northampton County,51131,Virginia,51,VA
 51131930200,Northampton County,51131,Virginia,51,VA
@@ -68518,8 +68518,8 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51025930100,Brunswick County,51025,Virginia,51,VA
 51025930201,Brunswick County,51025,Virginia,51,VA
 51025930202,Brunswick County,51025,Virginia,51,VA
-51760020800,Richmond city,51760,Virginia,51,VA
-51760021100,Richmond city,51760,Virginia,51,VA
+51760020800,Richmond City,51760,Virginia,51,VA
+51760021100,Richmond City,51760,Virginia,51,VA
 51191010700,Washington County,51191,Virginia,51,VA
 51191010100,Washington County,51191,Virginia,51,VA
 51191010300,Washington County,51191,Virginia,51,VA
@@ -68548,20 +68548,20 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51059431300,Fairfax County,51059,Virginia,51,VA
 51059440100,Fairfax County,51059,Virginia,51,VA
 51059450300,Fairfax County,51059,Virginia,51,VA
-51683910100,Manassas city,51683,Virginia,51,VA
-51770001100,Roanoke city,51770,Virginia,51,VA
-51770001800,Roanoke city,51770,Virginia,51,VA
-51770000300,Roanoke city,51770,Virginia,51,VA
-51770000400,Roanoke city,51770,Virginia,51,VA
-51770001900,Roanoke city,51770,Virginia,51,VA
-51770001000,Roanoke city,51770,Virginia,51,VA
-51770000100,Roanoke city,51770,Virginia,51,VA
-51770001200,Roanoke city,51770,Virginia,51,VA
-51770002200,Roanoke city,51770,Virginia,51,VA
-51770000500,Roanoke city,51770,Virginia,51,VA
-51770000900,Roanoke city,51770,Virginia,51,VA
-51770002100,Roanoke city,51770,Virginia,51,VA
-51770002300,Roanoke city,51770,Virginia,51,VA
+51683910100,Manassas City,51683,Virginia,51,VA
+51770001100,Roanoke City,51770,Virginia,51,VA
+51770001800,Roanoke City,51770,Virginia,51,VA
+51770000300,Roanoke City,51770,Virginia,51,VA
+51770000400,Roanoke City,51770,Virginia,51,VA
+51770001900,Roanoke City,51770,Virginia,51,VA
+51770001000,Roanoke City,51770,Virginia,51,VA
+51770000100,Roanoke City,51770,Virginia,51,VA
+51770001200,Roanoke City,51770,Virginia,51,VA
+51770002200,Roanoke City,51770,Virginia,51,VA
+51770000500,Roanoke City,51770,Virginia,51,VA
+51770000900,Roanoke City,51770,Virginia,51,VA
+51770002100,Roanoke City,51770,Virginia,51,VA
+51770002300,Roanoke City,51770,Virginia,51,VA
 51025930203,Brunswick County,51025,Virginia,51,VA
 51025930300,Brunswick County,51025,Virginia,51,VA
 51027010100,Buchanan County,51027,Virginia,51,VA
@@ -68599,19 +68599,19 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51037930300,Charlotte County,51037,Virginia,51,VA
 51041100209,Chesterfield County,51041,Virginia,51,VA
 51041100210,Chesterfield County,51041,Virginia,51,VA
-51680000400,Lynchburg city,51680,Virginia,51,VA
-51680001400,Lynchburg city,51680,Virginia,51,VA
-51680000201,Lynchburg city,51680,Virginia,51,VA
-51680001100,Lynchburg city,51680,Virginia,51,VA
-51680000900,Lynchburg city,51680,Virginia,51,VA
-51680000100,Lynchburg city,51680,Virginia,51,VA
-51680000802,Lynchburg city,51680,Virginia,51,VA
-51680001700,Lynchburg city,51680,Virginia,51,VA
-51775010100,Salem city,51775,Virginia,51,VA
-51775010200,Salem city,51775,Virginia,51,VA
-51775010300,Salem city,51775,Virginia,51,VA
-51800065500,Suffolk city,51800,Virginia,51,VA
-51800065300,Suffolk city,51800,Virginia,51,VA
+51680000400,Lynchburg City,51680,Virginia,51,VA
+51680001400,Lynchburg City,51680,Virginia,51,VA
+51680000201,Lynchburg City,51680,Virginia,51,VA
+51680001100,Lynchburg City,51680,Virginia,51,VA
+51680000900,Lynchburg City,51680,Virginia,51,VA
+51680000100,Lynchburg City,51680,Virginia,51,VA
+51680000802,Lynchburg City,51680,Virginia,51,VA
+51680001700,Lynchburg City,51680,Virginia,51,VA
+51775010100,Salem City,51775,Virginia,51,VA
+51775010200,Salem City,51775,Virginia,51,VA
+51775010300,Salem City,51775,Virginia,51,VA
+51800065500,Suffolk City,51800,Virginia,51,VA
+51800065300,Suffolk City,51800,Virginia,51,VA
 51059452200,Fairfax County,51059,Virginia,51,VA
 51059452700,Fairfax County,51059,Virginia,51,VA
 51059460800,Fairfax County,51059,Virginia,51,VA
@@ -68636,30 +68636,30 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51059451100,Fairfax County,51059,Virginia,51,VA
 51059492000,Fairfax County,51059,Virginia,51,VA
 51059492100,Fairfax County,51059,Virginia,51,VA
-51800065200,Suffolk city,51800,Virginia,51,VA
-51800065100,Suffolk city,51800,Virginia,51,VA
-51800065400,Suffolk city,51800,Virginia,51,VA
-51710001500,Norfolk city,51710,Virginia,51,VA
-51710000700,Norfolk city,51710,Virginia,51,VA
-51710001100,Norfolk city,51710,Virginia,51,VA
-51710001400,Norfolk city,51710,Virginia,51,VA
-51710003100,Norfolk city,51710,Virginia,51,VA
-51710002100,Norfolk city,51710,Virginia,51,VA
-51710002300,Norfolk city,51710,Virginia,51,VA
+51800065200,Suffolk City,51800,Virginia,51,VA
+51800065100,Suffolk City,51800,Virginia,51,VA
+51800065400,Suffolk City,51800,Virginia,51,VA
+51710001500,Norfolk City,51710,Virginia,51,VA
+51710000700,Norfolk City,51710,Virginia,51,VA
+51710001100,Norfolk City,51710,Virginia,51,VA
+51710001400,Norfolk City,51710,Virginia,51,VA
+51710003100,Norfolk City,51710,Virginia,51,VA
+51710002100,Norfolk City,51710,Virginia,51,VA
+51710002300,Norfolk City,51710,Virginia,51,VA
 51059461901,Fairfax County,51059,Virginia,51,VA
 51059461902,Fairfax County,51059,Virginia,51,VA
 51059471201,Fairfax County,51059,Virginia,51,VA
 51059471202,Fairfax County,51059,Virginia,51,VA
 51059471301,Fairfax County,51059,Virginia,51,VA
 51059471303,Fairfax County,51059,Virginia,51,VA
-51680001800,Lynchburg city,51680,Virginia,51,VA
-51680000500,Lynchburg city,51680,Virginia,51,VA
-51680000801,Lynchburg city,51680,Virginia,51,VA
-51680001000,Lynchburg city,51680,Virginia,51,VA
-51680000300,Lynchburg city,51680,Virginia,51,VA
-51680000202,Lynchburg city,51680,Virginia,51,VA
-51680001600,Lynchburg city,51680,Virginia,51,VA
-51680000700,Lynchburg city,51680,Virginia,51,VA
+51680001800,Lynchburg City,51680,Virginia,51,VA
+51680000500,Lynchburg City,51680,Virginia,51,VA
+51680000801,Lynchburg City,51680,Virginia,51,VA
+51680001000,Lynchburg City,51680,Virginia,51,VA
+51680000300,Lynchburg City,51680,Virginia,51,VA
+51680000202,Lynchburg City,51680,Virginia,51,VA
+51680001600,Lynchburg City,51680,Virginia,51,VA
+51680000700,Lynchburg City,51680,Virginia,51,VA
 51199050206,York County,51199,Virginia,51,VA
 51199050304,York County,51199,Virginia,51,VA
 51199050205,York County,51199,Virginia,51,VA
@@ -68667,29 +68667,29 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51199050303,York County,51199,Virginia,51,VA
 51199050204,York County,51199,Virginia,51,VA
 51199050401,York County,51199,Virginia,51,VA
-51810046009,Virginia Beach city,51810,Virginia,51,VA
-51810046204,Virginia Beach city,51810,Virginia,51,VA
-51810046206,Virginia Beach city,51810,Virginia,51,VA
-51810046212,Virginia Beach city,51810,Virginia,51,VA
-51810046213,Virginia Beach city,51810,Virginia,51,VA
-51810046214,Virginia Beach city,51810,Virginia,51,VA
-51810045000,Virginia Beach city,51810,Virginia,51,VA
-51810045414,Virginia Beach city,51810,Virginia,51,VA
-51810040801,Virginia Beach city,51810,Virginia,51,VA
-51810042202,Virginia Beach city,51810,Virginia,51,VA
-51810042801,Virginia Beach city,51810,Virginia,51,VA
-51810046006,Virginia Beach city,51810,Virginia,51,VA
-51810046010,Virginia Beach city,51810,Virginia,51,VA
-51810040404,Virginia Beach city,51810,Virginia,51,VA
-51810044806,Virginia Beach city,51810,Virginia,51,VA
-51810045810,Virginia Beach city,51810,Virginia,51,VA
-51810046013,Virginia Beach city,51810,Virginia,51,VA
-51810041003,Virginia Beach city,51810,Virginia,51,VA
-51810045601,Virginia Beach city,51810,Virginia,51,VA
-51810044805,Virginia Beach city,51810,Virginia,51,VA
-51810040403,Virginia Beach city,51810,Virginia,51,VA
-51810044401,Virginia Beach city,51810,Virginia,51,VA
-51810046002,Virginia Beach city,51810,Virginia,51,VA
+51810046009,Virginia Beach City,51810,Virginia,51,VA
+51810046204,Virginia Beach City,51810,Virginia,51,VA
+51810046206,Virginia Beach City,51810,Virginia,51,VA
+51810046212,Virginia Beach City,51810,Virginia,51,VA
+51810046213,Virginia Beach City,51810,Virginia,51,VA
+51810046214,Virginia Beach City,51810,Virginia,51,VA
+51810045000,Virginia Beach City,51810,Virginia,51,VA
+51810045414,Virginia Beach City,51810,Virginia,51,VA
+51810040801,Virginia Beach City,51810,Virginia,51,VA
+51810042202,Virginia Beach City,51810,Virginia,51,VA
+51810042801,Virginia Beach City,51810,Virginia,51,VA
+51810046006,Virginia Beach City,51810,Virginia,51,VA
+51810046010,Virginia Beach City,51810,Virginia,51,VA
+51810040404,Virginia Beach City,51810,Virginia,51,VA
+51810044806,Virginia Beach City,51810,Virginia,51,VA
+51810045810,Virginia Beach City,51810,Virginia,51,VA
+51810046013,Virginia Beach City,51810,Virginia,51,VA
+51810041003,Virginia Beach City,51810,Virginia,51,VA
+51810045601,Virginia Beach City,51810,Virginia,51,VA
+51810044805,Virginia Beach City,51810,Virginia,51,VA
+51810040403,Virginia Beach City,51810,Virginia,51,VA
+51810044401,Virginia Beach City,51810,Virginia,51,VA
+51810046002,Virginia Beach City,51810,Virginia,51,VA
 51005080100,Alleghany County,51005,Virginia,51,VA
 51005080302,Alleghany County,51005,Virginia,51,VA
 51005080201,Alleghany County,51005,Virginia,51,VA
@@ -68741,32 +68741,32 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51147930300,Prince Edward County,51147,Virginia,51,VA
 51149850301,Prince George County,51149,Virginia,51,VA
 51199050500,York County,51199,Virginia,51,VA
-51760040400,Richmond city,51760,Virginia,51,VA
-51760040600,Richmond city,51760,Virginia,51,VA
-51760041300,Richmond city,51760,Virginia,51,VA
-51760010200,Richmond city,51760,Virginia,51,VA
-51760010500,Richmond city,51760,Virginia,51,VA
-51760011100,Richmond city,51760,Virginia,51,VA
-51760020100,Richmond city,51760,Virginia,51,VA
-51760030100,Richmond city,51760,Virginia,51,VA
-51760040200,Richmond city,51760,Virginia,51,VA
-51760041400,Richmond city,51760,Virginia,51,VA
-51760050200,Richmond city,51760,Virginia,51,VA
-51760070300,Richmond city,51760,Virginia,51,VA
-51760070700,Richmond city,51760,Virginia,51,VA
-51760020400,Richmond city,51760,Virginia,51,VA
-51760021000,Richmond city,51760,Virginia,51,VA
-51760030200,Richmond city,51760,Virginia,51,VA
-51760040500,Richmond city,51760,Virginia,51,VA
-51760040900,Richmond city,51760,Virginia,51,VA
-51760041600,Richmond city,51760,Virginia,51,VA
-51760020500,Richmond city,51760,Virginia,51,VA
-51760020600,Richmond city,51760,Virginia,51,VA
-51760041200,Richmond city,51760,Virginia,51,VA
-51760050500,Richmond city,51760,Virginia,51,VA
-51760050100,Richmond city,51760,Virginia,51,VA
-51760050300,Richmond city,51760,Virginia,51,VA
-51760050400,Richmond city,51760,Virginia,51,VA
+51760040400,Richmond City,51760,Virginia,51,VA
+51760040600,Richmond City,51760,Virginia,51,VA
+51760041300,Richmond City,51760,Virginia,51,VA
+51760010200,Richmond City,51760,Virginia,51,VA
+51760010500,Richmond City,51760,Virginia,51,VA
+51760011100,Richmond City,51760,Virginia,51,VA
+51760020100,Richmond City,51760,Virginia,51,VA
+51760030100,Richmond City,51760,Virginia,51,VA
+51760040200,Richmond City,51760,Virginia,51,VA
+51760041400,Richmond City,51760,Virginia,51,VA
+51760050200,Richmond City,51760,Virginia,51,VA
+51760070300,Richmond City,51760,Virginia,51,VA
+51760070700,Richmond City,51760,Virginia,51,VA
+51760020400,Richmond City,51760,Virginia,51,VA
+51760021000,Richmond City,51760,Virginia,51,VA
+51760030200,Richmond City,51760,Virginia,51,VA
+51760040500,Richmond City,51760,Virginia,51,VA
+51760040900,Richmond City,51760,Virginia,51,VA
+51760041600,Richmond City,51760,Virginia,51,VA
+51760020500,Richmond City,51760,Virginia,51,VA
+51760020600,Richmond City,51760,Virginia,51,VA
+51760041200,Richmond City,51760,Virginia,51,VA
+51760050500,Richmond City,51760,Virginia,51,VA
+51760050100,Richmond City,51760,Virginia,51,VA
+51760050300,Richmond City,51760,Virginia,51,VA
+51760050400,Richmond City,51760,Virginia,51,VA
 51139030100,Page County,51139,Virginia,51,VA
 51139030400,Page County,51139,Virginia,51,VA
 51139030500,Page County,51139,Virginia,51,VA
@@ -68776,15 +68776,15 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51155210400,Pulaski County,51155,Virginia,51,VA
 51155210300,Pulaski County,51155,Virginia,51,VA
 51155210700,Pulaski County,51155,Virginia,51,VA
-51760040300,Richmond city,51760,Virginia,51,VA
-51760041000,Richmond city,51760,Virginia,51,VA
-51760060400,Richmond city,51760,Virginia,51,VA
-51760070100,Richmond city,51760,Virginia,51,VA
-51760070802,Richmond city,51760,Virginia,51,VA
-51760071001,Richmond city,51760,Virginia,51,VA
-51760060200,Richmond city,51760,Virginia,51,VA
-51760010700,Richmond city,51760,Virginia,51,VA
-51760070801,Richmond city,51760,Virginia,51,VA
+51760040300,Richmond City,51760,Virginia,51,VA
+51760041000,Richmond City,51760,Virginia,51,VA
+51760060400,Richmond City,51760,Virginia,51,VA
+51760070100,Richmond City,51760,Virginia,51,VA
+51760070802,Richmond City,51760,Virginia,51,VA
+51760071001,Richmond City,51760,Virginia,51,VA
+51760060200,Richmond City,51760,Virginia,51,VA
+51760010700,Richmond City,51760,Virginia,51,VA
+51760070801,Richmond City,51760,Virginia,51,VA
 51149850302,Prince George County,51149,Virginia,51,VA
 51149850501,Prince George County,51149,Virginia,51,VA
 51149850502,Prince George County,51149,Virginia,51,VA
@@ -68794,70 +68794,70 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51153900407,Prince William County,51153,Virginia,51,VA
 51153900408,Prince William County,51153,Virginia,51,VA
 51153900409,Prince William County,51153,Virginia,51,VA
-51760061000,Richmond city,51760,Virginia,51,VA
-51760070601,Richmond city,51760,Virginia,51,VA
-51760070602,Richmond city,51760,Virginia,51,VA
-51770000601,Roanoke city,51770,Virginia,51,VA
-51770000602,Roanoke city,51770,Virginia,51,VA
-51770002400,Roanoke city,51770,Virginia,51,VA
-51770002500,Roanoke city,51770,Virginia,51,VA
-51770002600,Roanoke city,51770,Virginia,51,VA
-51770002700,Roanoke city,51770,Virginia,51,VA
-51770002800,Roanoke city,51770,Virginia,51,VA
-51770002900,Roanoke city,51770,Virginia,51,VA
-51770003000,Roanoke city,51770,Virginia,51,VA
-51770003100,Roanoke city,51770,Virginia,51,VA
-51775010501,Salem city,51775,Virginia,51,VA
-51775010502,Salem city,51775,Virginia,51,VA
-51800075202,Suffolk city,51800,Virginia,51,VA
-51800075101,Suffolk city,51800,Virginia,51,VA
-51800075102,Suffolk city,51800,Virginia,51,VA
-51800075201,Suffolk city,51800,Virginia,51,VA
-51800075203,Suffolk city,51800,Virginia,51,VA
-51800075204,Suffolk city,51800,Virginia,51,VA
-51800075301,Suffolk city,51800,Virginia,51,VA
-51800075302,Suffolk city,51800,Virginia,51,VA
-51800075401,Suffolk city,51800,Virginia,51,VA
-51800075402,Suffolk city,51800,Virginia,51,VA
-51800075403,Suffolk city,51800,Virginia,51,VA
-51800075404,Suffolk city,51800,Virginia,51,VA
-51800075405,Suffolk city,51800,Virginia,51,VA
-51800075501,Suffolk city,51800,Virginia,51,VA
-51800075502,Suffolk city,51800,Virginia,51,VA
-51800075601,Suffolk city,51800,Virginia,51,VA
-51800075602,Suffolk city,51800,Virginia,51,VA
-51800075701,Suffolk city,51800,Virginia,51,VA
-51800075702,Suffolk city,51800,Virginia,51,VA
-51800075703,Suffolk city,51800,Virginia,51,VA
-51800075801,Suffolk city,51800,Virginia,51,VA
-51760010800,Richmond city,51760,Virginia,51,VA
-51760011000,Richmond city,51760,Virginia,51,VA
-51760020200,Richmond city,51760,Virginia,51,VA
-51760020300,Richmond city,51760,Virginia,51,VA
-51760020700,Richmond city,51760,Virginia,51,VA
-51760060700,Richmond city,51760,Virginia,51,VA
-51760071002,Richmond city,51760,Virginia,51,VA
-51760010300,Richmond city,51760,Virginia,51,VA
-51760020900,Richmond city,51760,Virginia,51,VA
-51760021200,Richmond city,51760,Virginia,51,VA
-51760030500,Richmond city,51760,Virginia,51,VA
-51760060900,Richmond city,51760,Virginia,51,VA
-51760070400,Richmond city,51760,Virginia,51,VA
-51760040700,Richmond city,51760,Virginia,51,VA
-51760070900,Richmond city,51760,Virginia,51,VA
-51760010600,Richmond city,51760,Virginia,51,VA
-51760041100,Richmond city,51760,Virginia,51,VA
-51760060800,Richmond city,51760,Virginia,51,VA
-51760060500,Richmond city,51760,Virginia,51,VA
-51760010900,Richmond city,51760,Virginia,51,VA
-51760071100,Richmond city,51760,Virginia,51,VA
-51760040800,Richmond city,51760,Virginia,51,VA
-51690000100,Martinsville city,51690,Virginia,51,VA
-51690000400,Martinsville city,51690,Virginia,51,VA
+51760061000,Richmond City,51760,Virginia,51,VA
+51760070601,Richmond City,51760,Virginia,51,VA
+51760070602,Richmond City,51760,Virginia,51,VA
+51770000601,Roanoke City,51770,Virginia,51,VA
+51770000602,Roanoke City,51770,Virginia,51,VA
+51770002400,Roanoke City,51770,Virginia,51,VA
+51770002500,Roanoke City,51770,Virginia,51,VA
+51770002600,Roanoke City,51770,Virginia,51,VA
+51770002700,Roanoke City,51770,Virginia,51,VA
+51770002800,Roanoke City,51770,Virginia,51,VA
+51770002900,Roanoke City,51770,Virginia,51,VA
+51770003000,Roanoke City,51770,Virginia,51,VA
+51770003100,Roanoke City,51770,Virginia,51,VA
+51775010501,Salem City,51775,Virginia,51,VA
+51775010502,Salem City,51775,Virginia,51,VA
+51800075202,Suffolk City,51800,Virginia,51,VA
+51800075101,Suffolk City,51800,Virginia,51,VA
+51800075102,Suffolk City,51800,Virginia,51,VA
+51800075201,Suffolk City,51800,Virginia,51,VA
+51800075203,Suffolk City,51800,Virginia,51,VA
+51800075204,Suffolk City,51800,Virginia,51,VA
+51800075301,Suffolk City,51800,Virginia,51,VA
+51800075302,Suffolk City,51800,Virginia,51,VA
+51800075401,Suffolk City,51800,Virginia,51,VA
+51800075402,Suffolk City,51800,Virginia,51,VA
+51800075403,Suffolk City,51800,Virginia,51,VA
+51800075404,Suffolk City,51800,Virginia,51,VA
+51800075405,Suffolk City,51800,Virginia,51,VA
+51800075501,Suffolk City,51800,Virginia,51,VA
+51800075502,Suffolk City,51800,Virginia,51,VA
+51800075601,Suffolk City,51800,Virginia,51,VA
+51800075602,Suffolk City,51800,Virginia,51,VA
+51800075701,Suffolk City,51800,Virginia,51,VA
+51800075702,Suffolk City,51800,Virginia,51,VA
+51800075703,Suffolk City,51800,Virginia,51,VA
+51800075801,Suffolk City,51800,Virginia,51,VA
+51760010800,Richmond City,51760,Virginia,51,VA
+51760011000,Richmond City,51760,Virginia,51,VA
+51760020200,Richmond City,51760,Virginia,51,VA
+51760020300,Richmond City,51760,Virginia,51,VA
+51760020700,Richmond City,51760,Virginia,51,VA
+51760060700,Richmond City,51760,Virginia,51,VA
+51760071002,Richmond City,51760,Virginia,51,VA
+51760010300,Richmond City,51760,Virginia,51,VA
+51760020900,Richmond City,51760,Virginia,51,VA
+51760021200,Richmond City,51760,Virginia,51,VA
+51760030500,Richmond City,51760,Virginia,51,VA
+51760060900,Richmond City,51760,Virginia,51,VA
+51760070400,Richmond City,51760,Virginia,51,VA
+51760040700,Richmond City,51760,Virginia,51,VA
+51760070900,Richmond City,51760,Virginia,51,VA
+51760010600,Richmond City,51760,Virginia,51,VA
+51760041100,Richmond City,51760,Virginia,51,VA
+51760060800,Richmond City,51760,Virginia,51,VA
+51760060500,Richmond City,51760,Virginia,51,VA
+51760010900,Richmond City,51760,Virginia,51,VA
+51760071100,Richmond City,51760,Virginia,51,VA
+51760040800,Richmond City,51760,Virginia,51,VA
+51690000100,Martinsville City,51690,Virginia,51,VA
+51690000400,Martinsville City,51690,Virginia,51,VA
 51155210500,Pulaski County,51155,Virginia,51,VA
-51690000500,Martinsville city,51690,Virginia,51,VA
-51690000300,Martinsville city,51690,Virginia,51,VA
-51690000200,Martinsville city,51690,Virginia,51,VA
+51690000500,Martinsville City,51690,Virginia,51,VA
+51690000300,Martinsville City,51690,Virginia,51,VA
+51690000200,Martinsville City,51690,Virginia,51,VA
 51155210600,Pulaski County,51155,Virginia,51,VA
 51187020700,Warren County,51187,Virginia,51,VA
 51187020100,Warren County,51187,Virginia,51,VA
@@ -68865,44 +68865,44 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51187020300,Warren County,51187,Virginia,51,VA
 51187020400,Warren County,51187,Virginia,51,VA
 51187020200,Warren County,51187,Virginia,51,VA
-51510201802,Alexandria city,51510,Virginia,51,VA
-51510200104,Alexandria city,51510,Virginia,51,VA
-51510200105,Alexandria city,51510,Virginia,51,VA
-51510200201,Alexandria city,51510,Virginia,51,VA
-51510200301,Alexandria city,51510,Virginia,51,VA
-51510201202,Alexandria city,51510,Virginia,51,VA
-51510202002,Alexandria city,51510,Virginia,51,VA
-51510200102,Alexandria city,51510,Virginia,51,VA
-51510200103,Alexandria city,51510,Virginia,51,VA
-51510201203,Alexandria city,51510,Virginia,51,VA
-51800075802,Suffolk city,51800,Virginia,51,VA
+51510201802,Alexandria City,51510,Virginia,51,VA
+51510200104,Alexandria City,51510,Virginia,51,VA
+51510200105,Alexandria City,51510,Virginia,51,VA
+51510200201,Alexandria City,51510,Virginia,51,VA
+51510200301,Alexandria City,51510,Virginia,51,VA
+51510201202,Alexandria City,51510,Virginia,51,VA
+51510202002,Alexandria City,51510,Virginia,51,VA
+51510200102,Alexandria City,51510,Virginia,51,VA
+51510200103,Alexandria City,51510,Virginia,51,VA
+51510201203,Alexandria City,51510,Virginia,51,VA
+51800075802,Suffolk City,51800,Virginia,51,VA
 51019050100,Bedford County,51019,Virginia,51,VA
-51710005000,Norfolk city,51710,Virginia,51,VA
-51710005601,Norfolk city,51710,Virginia,51,VA
-51710006603,Norfolk city,51710,Virginia,51,VA
-51710007002,Norfolk city,51710,Virginia,51,VA
-51710000500,Norfolk city,51710,Virginia,51,VA
-51710001300,Norfolk city,51710,Virginia,51,VA
-51710001700,Norfolk city,51710,Virginia,51,VA
-51710006501,Norfolk city,51710,Virginia,51,VA
-51710003800,Norfolk city,51710,Virginia,51,VA
-51710004900,Norfolk city,51710,Virginia,51,VA
-51710005100,Norfolk city,51710,Virginia,51,VA
-51710005701,Norfolk city,51710,Virginia,51,VA
-51710006602,Norfolk city,51710,Virginia,51,VA
-51710006606,Norfolk city,51710,Virginia,51,VA
-51510201500,Alexandria city,51510,Virginia,51,VA
-51510201600,Alexandria city,51510,Virginia,51,VA
-51510200500,Alexandria city,51510,Virginia,51,VA
-51510200802,Alexandria city,51510,Virginia,51,VA
-51510201900,Alexandria city,51510,Virginia,51,VA
-51510200202,Alexandria city,51510,Virginia,51,VA
-51510200600,Alexandria city,51510,Virginia,51,VA
-51510200801,Alexandria city,51510,Virginia,51,VA
-51510202001,Alexandria city,51510,Virginia,51,VA
+51710005000,Norfolk City,51710,Virginia,51,VA
+51710005601,Norfolk City,51710,Virginia,51,VA
+51710006603,Norfolk City,51710,Virginia,51,VA
+51710007002,Norfolk City,51710,Virginia,51,VA
+51710000500,Norfolk City,51710,Virginia,51,VA
+51710001300,Norfolk City,51710,Virginia,51,VA
+51710001700,Norfolk City,51710,Virginia,51,VA
+51710006501,Norfolk City,51710,Virginia,51,VA
+51710003800,Norfolk City,51710,Virginia,51,VA
+51710004900,Norfolk City,51710,Virginia,51,VA
+51710005100,Norfolk City,51710,Virginia,51,VA
+51710005701,Norfolk City,51710,Virginia,51,VA
+51710006602,Norfolk City,51710,Virginia,51,VA
+51710006606,Norfolk City,51710,Virginia,51,VA
+51510201500,Alexandria City,51510,Virginia,51,VA
+51510201600,Alexandria City,51510,Virginia,51,VA
+51510200500,Alexandria City,51510,Virginia,51,VA
+51510200802,Alexandria City,51510,Virginia,51,VA
+51510201900,Alexandria City,51510,Virginia,51,VA
+51510200202,Alexandria City,51510,Virginia,51,VA
+51510200600,Alexandria City,51510,Virginia,51,VA
+51510200801,Alexandria City,51510,Virginia,51,VA
+51510202001,Alexandria City,51510,Virginia,51,VA
 51125950100,Nelson County,51125,Virginia,51,VA
-51510200302,Alexandria city,51510,Virginia,51,VA
-51510200303,Alexandria city,51510,Virginia,51,VA
+51510200302,Alexandria City,51510,Virginia,51,VA
+51510200303,Alexandria City,51510,Virginia,51,VA
 51125950200,Nelson County,51125,Virginia,51,VA
 51125950300,Nelson County,51125,Virginia,51,VA
 51057950800,Essex County,51057,Virginia,51,VA
@@ -68920,21 +68920,21 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51143011400,Pittsylvania County,51143,Virginia,51,VA
 51143010700,Pittsylvania County,51143,Virginia,51,VA
 51143011200,Pittsylvania County,51143,Virginia,51,VA
-51510201204,Alexandria city,51510,Virginia,51,VA
-51510201801,Alexandria city,51510,Virginia,51,VA
+51510201204,Alexandria City,51510,Virginia,51,VA
+51510201801,Alexandria City,51510,Virginia,51,VA
 51183870100,Sussex County,51183,Virginia,51,VA
 51183870400,Sussex County,51183,Virginia,51,VA
 51183870300,Sussex County,51183,Virginia,51,VA
-51600300100,Fairfax city,51600,Virginia,51,VA
-51600300300,Fairfax city,51600,Virginia,51,VA
-51600300200,Fairfax city,51600,Virginia,51,VA
-51600300500,Fairfax city,51600,Virginia,51,VA
-51600300400,Fairfax city,51600,Virginia,51,VA
-51820003200,Waynesboro city,51820,Virginia,51,VA
-51820003400,Waynesboro city,51820,Virginia,51,VA
-51820003500,Waynesboro city,51820,Virginia,51,VA
-51820003100,Waynesboro city,51820,Virginia,51,VA
-51820003300,Waynesboro city,51820,Virginia,51,VA
+51600300100,Fairfax City,51600,Virginia,51,VA
+51600300300,Fairfax City,51600,Virginia,51,VA
+51600300200,Fairfax City,51600,Virginia,51,VA
+51600300500,Fairfax City,51600,Virginia,51,VA
+51600300400,Fairfax City,51600,Virginia,51,VA
+51820003200,Waynesboro City,51820,Virginia,51,VA
+51820003400,Waynesboro City,51820,Virginia,51,VA
+51820003500,Waynesboro City,51820,Virginia,51,VA
+51820003100,Waynesboro City,51820,Virginia,51,VA
+51820003300,Waynesboro City,51820,Virginia,51,VA
 51059470700,Fairfax County,51059,Virginia,51,VA
 51059471100,Fairfax County,51059,Virginia,51,VA
 51059492400,Fairfax County,51059,Virginia,51,VA
@@ -68943,11 +68943,11 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51059452600,Fairfax County,51059,Virginia,51,VA
 51059460100,Fairfax County,51059,Virginia,51,VA
 51059461500,Fairfax County,51059,Virginia,51,VA
-51678930500,Lexington city,51678,Virginia,51,VA
-51683910301,Manassas city,51683,Virginia,51,VA
-51680001900,Lynchburg city,51680,Virginia,51,VA
-51683910201,Manassas city,51683,Virginia,51,VA
-51683910202,Manassas city,51683,Virginia,51,VA
+51678930500,Lexington City,51678,Virginia,51,VA
+51683910301,Manassas City,51683,Virginia,51,VA
+51680001900,Lynchburg City,51680,Virginia,51,VA
+51683910201,Manassas City,51683,Virginia,51,VA
+51683910202,Manassas City,51683,Virginia,51,VA
 51107611024,Loudoun County,51107,Virginia,51,VA
 51107611025,Loudoun County,51107,Virginia,51,VA
 51107611206,Loudoun County,51107,Virginia,51,VA
@@ -68965,48 +68965,48 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51107611805,Loudoun County,51107,Virginia,51,VA
 51107611806,Loudoun County,51107,Virginia,51,VA
 51107611900,Loudoun County,51107,Virginia,51,VA
-51790000100,Staunton city,51790,Virginia,51,VA
-51790000200,Staunton city,51790,Virginia,51,VA
-51790000500,Staunton city,51790,Virginia,51,VA
-51790000600,Staunton city,51790,Virginia,51,VA
-51790000300,Staunton city,51790,Virginia,51,VA
-51790000400,Staunton city,51790,Virginia,51,VA
+51790000100,Staunton City,51790,Virginia,51,VA
+51790000200,Staunton City,51790,Virginia,51,VA
+51790000500,Staunton City,51790,Virginia,51,VA
+51790000600,Staunton City,51790,Virginia,51,VA
+51790000300,Staunton City,51790,Virginia,51,VA
+51790000400,Staunton City,51790,Virginia,51,VA
 51065020300,Fluvanna County,51065,Virginia,51,VA
 51065020200,Fluvanna County,51065,Virginia,51,VA
-51510200900,Alexandria city,51510,Virginia,51,VA
-51510201300,Alexandria city,51510,Virginia,51,VA
-51510201400,Alexandria city,51510,Virginia,51,VA
-51510201100,Alexandria city,51510,Virginia,51,VA
-51510201000,Alexandria city,51510,Virginia,51,VA
-51590000300,Danville city,51590,Virginia,51,VA
-51590000800,Danville city,51590,Virginia,51,VA
-51590001100,Danville city,51590,Virginia,51,VA
-51590000100,Danville city,51590,Virginia,51,VA
-51590000200,Danville city,51590,Virginia,51,VA
-51590001400,Danville city,51590,Virginia,51,VA
-51590000700,Danville city,51590,Virginia,51,VA
-51590000400,Danville city,51590,Virginia,51,VA
-51590000500,Danville city,51590,Virginia,51,VA
-51590000900,Danville city,51590,Virginia,51,VA
-51590001000,Danville city,51590,Virginia,51,VA
-51590001200,Danville city,51590,Virginia,51,VA
-51590000600,Danville city,51590,Virginia,51,VA
-51630000400,Fredericksburg city,51630,Virginia,51,VA
-51630000200,Fredericksburg city,51630,Virginia,51,VA
-51630000100,Fredericksburg city,51630,Virginia,51,VA
-51630000500,Fredericksburg city,51630,Virginia,51,VA
-51650011800,Hampton city,51650,Virginia,51,VA
-51650011500,Hampton city,51650,Virginia,51,VA
-51650010309,Hampton city,51650,Virginia,51,VA
-51650010601,Hampton city,51650,Virginia,51,VA
-51650010304,Hampton city,51650,Virginia,51,VA
-51650010502,Hampton city,51650,Virginia,51,VA
-51650010602,Hampton city,51650,Virginia,51,VA
-51650010702,Hampton city,51650,Virginia,51,VA
-51650010703,Hampton city,51650,Virginia,51,VA
-51650011000,Hampton city,51650,Virginia,51,VA
-51650011100,Hampton city,51650,Virginia,51,VA
-51750010200,Radford city,51750,Virginia,51,VA
+51510200900,Alexandria City,51510,Virginia,51,VA
+51510201300,Alexandria City,51510,Virginia,51,VA
+51510201400,Alexandria City,51510,Virginia,51,VA
+51510201100,Alexandria City,51510,Virginia,51,VA
+51510201000,Alexandria City,51510,Virginia,51,VA
+51590000300,Danville City,51590,Virginia,51,VA
+51590000800,Danville City,51590,Virginia,51,VA
+51590001100,Danville City,51590,Virginia,51,VA
+51590000100,Danville City,51590,Virginia,51,VA
+51590000200,Danville City,51590,Virginia,51,VA
+51590001400,Danville City,51590,Virginia,51,VA
+51590000700,Danville City,51590,Virginia,51,VA
+51590000400,Danville City,51590,Virginia,51,VA
+51590000500,Danville City,51590,Virginia,51,VA
+51590000900,Danville City,51590,Virginia,51,VA
+51590001000,Danville City,51590,Virginia,51,VA
+51590001200,Danville City,51590,Virginia,51,VA
+51590000600,Danville City,51590,Virginia,51,VA
+51630000400,Fredericksburg City,51630,Virginia,51,VA
+51630000200,Fredericksburg City,51630,Virginia,51,VA
+51630000100,Fredericksburg City,51630,Virginia,51,VA
+51630000500,Fredericksburg City,51630,Virginia,51,VA
+51650011800,Hampton City,51650,Virginia,51,VA
+51650011500,Hampton City,51650,Virginia,51,VA
+51650010309,Hampton City,51650,Virginia,51,VA
+51650010601,Hampton City,51650,Virginia,51,VA
+51650010304,Hampton City,51650,Virginia,51,VA
+51650010502,Hampton City,51650,Virginia,51,VA
+51650010602,Hampton City,51650,Virginia,51,VA
+51650010702,Hampton City,51650,Virginia,51,VA
+51650010703,Hampton City,51650,Virginia,51,VA
+51650011000,Hampton City,51650,Virginia,51,VA
+51650011100,Hampton City,51650,Virginia,51,VA
+51750010200,Radford City,51750,Virginia,51,VA
 51137110104,Orange County,51137,Virginia,51,VA
 51137110200,Orange County,51137,Virginia,51,VA
 51137110300,Orange County,51137,Virginia,51,VA
@@ -69109,29 +69109,29 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51179010108,Stafford County,51179,Virginia,51,VA
 51179010211,Stafford County,51179,Virginia,51,VA
 51179010212,Stafford County,51179,Virginia,51,VA
-51840000201,Winchester city,51840,Virginia,51,VA
-51840000301,Winchester city,51840,Virginia,51,VA
-51840000100,Winchester city,51840,Virginia,51,VA
-51840000202,Winchester city,51840,Virginia,51,VA
-51840000302,Winchester city,51840,Virginia,51,VA
+51840000201,Winchester City,51840,Virginia,51,VA
+51840000301,Winchester City,51840,Virginia,51,VA
+51840000100,Winchester City,51840,Virginia,51,VA
+51840000202,Winchester City,51840,Virginia,51,VA
+51840000302,Winchester City,51840,Virginia,51,VA
 51045050100,Craig County,51045,Virginia,51,VA
-51650011300,Hampton city,51650,Virginia,51,VA
-51650011900,Hampton city,51650,Virginia,51,VA
-51650010310,Hampton city,51650,Virginia,51,VA
-51650010400,Hampton city,51650,Virginia,51,VA
-51650010501,Hampton city,51650,Virginia,51,VA
-51650010900,Hampton city,51650,Virginia,51,VA
-51650012000,Hampton city,51650,Virginia,51,VA
-51650010200,Hampton city,51650,Virginia,51,VA
-51650010800,Hampton city,51650,Virginia,51,VA
-51650010306,Hampton city,51650,Virginia,51,VA
-51650010307,Hampton city,51650,Virginia,51,VA
-51650010701,Hampton city,51650,Virginia,51,VA
-51650011400,Hampton city,51650,Virginia,51,VA
-51650011600,Hampton city,51650,Virginia,51,VA
-51650010103,Hampton city,51650,Virginia,51,VA
-51650010104,Hampton city,51650,Virginia,51,VA
-51650011200,Hampton city,51650,Virginia,51,VA
+51650011300,Hampton City,51650,Virginia,51,VA
+51650011900,Hampton City,51650,Virginia,51,VA
+51650010310,Hampton City,51650,Virginia,51,VA
+51650010400,Hampton City,51650,Virginia,51,VA
+51650010501,Hampton City,51650,Virginia,51,VA
+51650010900,Hampton City,51650,Virginia,51,VA
+51650012000,Hampton City,51650,Virginia,51,VA
+51650010200,Hampton City,51650,Virginia,51,VA
+51650010800,Hampton City,51650,Virginia,51,VA
+51650010306,Hampton City,51650,Virginia,51,VA
+51650010307,Hampton City,51650,Virginia,51,VA
+51650010701,Hampton City,51650,Virginia,51,VA
+51650011400,Hampton City,51650,Virginia,51,VA
+51650011600,Hampton City,51650,Virginia,51,VA
+51650010103,Hampton City,51650,Virginia,51,VA
+51650010104,Hampton City,51650,Virginia,51,VA
+51650011200,Hampton City,51650,Virginia,51,VA
 51009010200,Amherst County,51009,Virginia,51,VA
 51009010503,Amherst County,51009,Virginia,51,VA
 51009010504,Amherst County,51009,Virginia,51,VA
@@ -69167,14 +69167,14 @@ GEOID,county_name,county_fips,state_name,state_fips,state_abbv
 51013101300,Arlington County,51013,Virginia,51,VA
 51013101900,Arlington County,51013,Virginia,51,VA
 51013103300,Arlington County,51013,Virginia,51,VA
-51670820500,Hopewell city,51670,Virginia,51,VA
+51670820500,Hopewell City,51670,Virginia,51,VA
 51013100800,Arlington County,51013,Virginia,51,VA
 51013103401,Arlington County,51013,Virginia,51,VA
-51670820600,Hopewell city,51670,Virginia,51,VA
-51670820700,Hopewell city,51670,Virginia,51,VA
-51670820300,Hopewell city,51670,Virginia,51,VA
-51670820100,Hopewell city,51670,Virginia,51,VA
-51670820400,Hopewell city,51670,Virginia,51,VA
+51670820600,Hopewell City,51670,Virginia,51,VA
+51670820700,Hopewell City,51670,Virginia,51,VA
+51670820300,Hopewell City,51670,Virginia,51,VA
+51670820100,Hopewell City,51670,Virginia,51,VA
+51670820400,Hopewell City,51670,Virginia,51,VA
 51059491303,Fairfax County,51059,Virginia,51,VA
 51059491401,Fairfax County,51059,Virginia,51,VA
 51059491402,Fairfax County,51059,Virginia,51,VA
