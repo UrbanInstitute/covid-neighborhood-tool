@@ -437,7 +437,7 @@ function numberFormatter(number) {
     else if(lastDigit === 3 && lastTwoDigits !== 13) {
         suffix = "rd";
     }
-    return number + suffix;
+    return Math.round(number) + suffix;
 }
 
 Promise.all([
