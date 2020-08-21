@@ -13,7 +13,8 @@ if (!Object.entries) {
 
 var pymChild = new pym.Child({polling: 500});
 
-var US_CENTER = [-95.5795, 37.8283];
+var COLUMBUS_LAT = 39.983334,
+    COLUMBUS_LONG = -82.983330;
 
 var map;
 var countyJson,
@@ -50,25 +51,27 @@ function getCoords() {
             var country = response.country;
             var accuracy = response.accuracy;
 
-            // what if user is from outside the US? need some default coords
+            // if user is from outside the US, map will center on Columbus, OH
             if(country != "United States") {
-                // initMap();
+                initMap(COLUMBUS_LAT, COLUMBUS_LONG);
             }
 
             initMap(lat, long);
         }
         else {
             console.log("error");
-            // also need to pick a default point to center the map on if the API fails to return a response
-            initMap(41.307802, -72.930804);
+
+            // backup location if API fails is Columbus, OH
+            initMap(COLUMBUS_LAT, COLUMBUS_LONG);
         }
     }
 
-    initMap(41.307802, -72.930804); // on Firefox, if the user has an adblocker, the API request gets blocked due to
-                                    // CORS but it doesn't throw an error that I can handle. To work around this and
-                                    // make sure a map is displayed, I have a second call to initialize the map here.
-                                    // On other browsers where the API call was successful, this will generate a second
-                                    // map which will thankfully be hidden behind the map from the first initMap() call.
+    initMap(COLUMBUS_LAT, COLUMBUS_LONG); // on Firefox and Chrome on PC, if the user has an adblocker,
+                                          // the API request gets blocked due to
+                                          // CORS but it doesn't throw an error that I can handle. To work around this and
+                                          // make sure a map is displayed, I have a second call to initialize the map here.
+                                          // On other browsers where the API call was successful, this will generate a second
+                                          // map which will thankfully be hidden behind the map from the first initMap() call.
 
     // this doesn't seem to do anything
     // if(d3.selectAll("#map .mapboxgl-canvas-container").nodes.length > 1) {
