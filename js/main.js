@@ -73,13 +73,6 @@ function getCoords() {
                                           // On other browsers where the API call was successful, this will generate a second
                                           // map which will thankfully be hidden behind the map from the first initMap() call.
 
-    // this doesn't seem to do anything
-    // if(d3.selectAll("#map .mapboxgl-canvas-container").nodes.length > 1) {
-    //     d3.select('#map .mapboxgl-canvas-container').remove();
-    //     d3.select('#map .mapboxgl-canary').remove();
-    //     d3.select('#map .mapboxgl-control-container').remove();
-    // }
-
     initLegend();
     initSearch("county");
 }
@@ -102,10 +95,6 @@ function initMap(user_lat, user_lng){
     var tractID = null; // track which tract is mousedover
 
     map.on('load', function() {
-
-        // hide the color scale with even bins since we're using the other one
-        // eventually this layer will be deleted from mapbox
-        map.setLayoutProperty("housing-data-indexid", 'visibility', 'none');
 
         // make the tract outlines in the tract-hover-strokes layer transparent
         // will modify this so that the tract the user has hovered over is outlined
@@ -134,9 +123,6 @@ function initMap(user_lat, user_lng){
         // hover behavior adapted from: https://docs.mapbox.com/help/tutorials/create-interactive-hover-effects-with-mapbox-gl-js/
         // also a good resource: https://blog.mapbox.com/going-live-with-electoral-maps-a-guide-to-feature-state-b520e91a22d
         map.on('mousemove', 'housing-data-indexid-exponential-color', function(e) { // detect mousemove on the fill layer instead of stroke layer so correct tract is highlighted
-
-            // console.log(e.features[0].properties);
-            // console.log(e.features);
 
             map.getCanvas().style.cursor = 'pointer';
 
@@ -434,7 +420,7 @@ function zoomIn(bounds) {
         {
             "padding": 20,
             "duration": 900,
-            "essential": true, // If true , then the animation is considered essential and will not be affected by prefers-reduced-motion .
+            "essential": true, // If true, then the animation is considered essential and will not be affected by prefers-reduced-motion .
         }
     );
 }

@@ -12,8 +12,6 @@
 
 
 ### MAKE TRACT-LEVEL MAPTILES
-# download geojson from S3
-# curl -O https://ui-lodes-job-change-public.s3.amazonaws.com/sum_job_loss_cbsa.geojson
 
 # remove all line breaks from the geojson so we can use ndjson-split and add id as a top level property
 cat data/housing_data_index-subset.geojson | tr '\n' ' ' > data/housing_data_index_no_linebreaks.geojson
