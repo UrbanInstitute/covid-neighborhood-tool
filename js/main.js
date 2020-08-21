@@ -1,3 +1,16 @@
+// polyfill for Object.entries() on IE
+if (!Object.entries) {
+  Object.entries = function( obj ){
+    var ownProps = Object.keys( obj ),
+        i = ownProps.length,
+        resArray = new Array(i); // preallocate the Array
+    while (i--)
+      resArray[i] = [ownProps[i], obj[ownProps[i]]];
+   
+    return resArray;
+  };
+}
+
 var pymChild = new pym.Child({polling: 500});
 
 var US_CENTER = [-95.5795, 37.8283];
@@ -440,44 +453,43 @@ function numberFormatter(number) {
     return Math.round(number) + suffix;
 }
 
-Promise.all([
-    d3.json("data/county_bboxes.json"),
-    d3.json("data/coc_bboxes.json"),
-    d3.csv("data/geos.csv"),
-]).then(function(files) {
+d3.queue()
+    .defer(d3.json, "data/county_bboxes.json")
+    .defer(d3.json, "data/coc_bboxes.json")
+    .defer(d3.csv, "data/geos.csv")
+.await(function(error, county_bboxes, coc_bboxes, geos) {
 
-    countyJson = files[0];
-    cocJson = files[1];
-    geos = files[2];
+    if(error) throw error;
 
-    geos_nested = d3.nest()
-        .key(function(d) { return d.GEOID; })
-        .rollup(function(v) { return v; })
-        .object(geos);
+    countyJson = county_bboxes;
+    cocJson = coc_bboxes;
 
-    countyNames = Object.entries(countyJson)
-        .map(function(o){
-            return {
-                "label" : o[1]["properties"]["county_name"] + ", " + o[1]["properties"]["state_abbv"],
-                "value" : o[0]
-            }
-        })
-        .sort(function(a, b) { return d3.ascending(a.label, b.label); });
+    geos_nested = d3.nest()
+        .key(function(d) { return d.GEOID; })
+        .rollup(function(v) { return v; })
+        .object(geos);
 
-    cocNames = Object.entries(cocJson)
-        .map(function(o){
-            return {
-                "label" : o[1]["properties"]["coc_name"] + " (" + o[1]["properties"]["coc_num"] + ")",
-                "value" : o[0]
-            }
-        })
-        .sort(function(a, b) { return d3.ascending(a.label, b.label); });
+    countyNames = Object.entries(countyJson)
+        .map(function(o){
+            return {
+                "label" : o[1]["properties"]["county_name"] + ", " + o[1]["properties"]["state_abbv"],
+                "value" : o[0]
+            }
+        })
+        .sort(function(a, b) { return d3.ascending(a.label, b.label); });
 
-    getCoords();
+    cocNames = Object.entries(cocJson)
+        .map(function(o){
+            return {
+                "label" : o[1]["properties"]["coc_name"] + " (" + o[1]["properties"]["coc_num"] + ")",
+                "value" : o[0]
+            }
+        })
+        .sort(function(a, b) { return d3.ascending(a.label, b.label); });
 
-}).catch(function(err) {
-    console.log(err);
-})
+    getCoords();
+
+});
 
 
 // event handlers for the two buttons
