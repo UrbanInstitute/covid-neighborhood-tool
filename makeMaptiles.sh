@@ -32,10 +32,12 @@ ndjson-reduce \
 
 # make maptiles from geojson
 tippecanoe -f -z12 -Z3 -o data/housing_data_indicators-id.mbtiles --coalesce-densest-as-needed data/housing_data_index-id.json
-
+# upload this to the tileset housing_data_indicators-5jgwry
 
 
 ### MAKE CONTINUUM OF CARE MAPTILES
+### NOTE: this only needs to be run if a bounday for a Continuum of Care has changed
 
-# make maptiles from geojson
-tippecanoe -f -z12 -Z3 -o data/coc.mbtiles --coalesce-densest-as-needed data/coc_geographies_states_split.geojson
+## make maptiles from geojson
+#tippecanoe -f -z12 -Z3 -o data/coc.mbtiles --coalesce-densest-as-needed data/coc_geographies_states_split.geojson
+# upload this to the tileset coc_geographies_9i6jy3
